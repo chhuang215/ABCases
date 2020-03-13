@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
             if(caseNum > 0){
                 zoneHtml += 
                 `<tr>
-                    <th scope="row"><h3>` + z +` Zone : </h3></th>
-                    <td><h3>` + caseNum + `</h3></td>
+                    <th scope="row"><h4>` + z +` Zone : </h4></th>
+                    <td><h4>` + caseNum + `</h4></td>
                     
                 </tr>`
                 // zoneHtml += "<div><h3>"+z+ " Zone: " +caseNum+"</h3></div>"
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             }
             
         }
-        $('#stat > .table >tbody').append(zoneHtml).append("<tr> <th><h3 style='font-weight: bold'>ALBERTA Total:</h3></th> <td><h3 style='font-weight: bold'>" + totalCases + "</h3></td></tr>");
+        $('#stat > .table >tbody').append(zoneHtml).append("<tr> <th><h4 style='font-weight: bold'>ALBERTA Total:</h3></th> <td><h3 style='font-weight: bold'>" + totalCases + "</h4></td></tr>");
 
         var report_date = data['report_date'];
         var caseInfo = data['description_per_case'];
