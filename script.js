@@ -30,14 +30,12 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
         var report_date = data['report_date'];
         var caseInfo = data['description_per_case'];
-        console.log(report_date);
         for (let d of Object.keys(report_date)) {
             $('#list_cases').prepend(
                 `<div class='card' id="`+ d +`" ></div>`
             );
             
             let cs = report_date[d];
-            console.log(cs);
             
             for (let c of cs){
                 $('#'+d).prepend(
