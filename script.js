@@ -1,12 +1,8 @@
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", (e) => { 
+    console.log("The data is at <this site>/data.json if you want them");
     $.getJSON("data.json", (json) => {
         var data = json;
-        console.log(data);
+        
         var zone_list = data['zone_list'];
         var zone_cases = [];
         var totalCases = 0;
@@ -30,13 +26,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             }
             
         }
-        $('#stat > .table >tbody').append("<tr> <th><h3>AB Total:</h3></th> <td><h3>" + totalCases + "</h3></td></tr>").append(zoneHtml);
-    
-        
-
-        console.log(totalCases);
-        console.log(zone_list);
-        console.log(zone_cases);
+        $('#stat > .table >tbody').append(zoneHtml).append("<tr> <th><h3 style='font-weight: bold'>ALBERTA Total:</h3></th> <td><h3 style='font-weight: bold'>" + totalCases + "</h3></td></tr>");
 
         var report_date = data['report_date'];
         var caseInfo = data['description_per_case'];
