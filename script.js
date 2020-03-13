@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             }
             
         }
-        $('#stat > .table >tbody').append(zoneHtml).append("<tr> <th><h4 style='font-weight: bold'>ALBERTA Total:</h3></th> <td><h3 style='font-weight: bold'>" + totalCases + "</h4></td></tr>");
+        $('#stat > .table >tbody').append(zoneHtml).append("<tr> <th><h4 style='font-weight: bold'>ALBERTA Total:</h3></th> <td><h4 style='font-weight: bold'>" + totalCases + "</h4></td></tr>");
 
         var report_date = data['report_date'];
         var caseInfo = data['description_per_case'];
