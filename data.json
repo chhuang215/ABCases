@@ -8,6 +8,8 @@
              "Calgary", "Calgary", "Edmonton",
              "Calgary", "Calgary", "Calgary",
              "Central", "Calgary", "Calgary",
+             "Calgary", "Calgary", "Edmonton",
+             "Calgary", "Calgary", "Calgary",
              "Calgary", "Calgary"
             ],
     
@@ -18,7 +20,8 @@
         "2020-03-09": [5,6,7],
         "2020-03-10": [8,9,10,11,12,13,14],
         "2020-03-11": [15,16,17,18,19],
-        "2020-03-12": [20,21,22,23]
+        "2020-03-12": [20,21,22,23],
+        "2020-03-13": [24,25,26,27, 28,29]
     },
     
     
@@ -45,6 +48,12 @@
         "Child. Two-year-old. Calgary zone. Vacation in Florida with family and developed mild symptoms once in Alberta. Attended a local daycare from March 2-6 and tested positive on March 11.",
         "Female in her thirties. Calgary zone. Travel: Jordan, Egypt, France, Germany, US.", 
         "Male in his fifties. Calgary zone. Travel: Jordan, Egypt, France, Germany, US.", 
-        "Female in her seventies. Calgary zone. Travel: Jordan, Egypt, France, Germany, US. "
+        "Female in her seventies. Calgary zone. Travel: Jordan, Egypt, France, Germany, US. ",
+        "Man. Edmonton zone. Recently attended a conference in Vancouver and was notified that a positive case had attended the same conference. After returning, the individual visited a number of dental offices.",
+        "Calgary zone. Returning traveller from Florida",
+        "Calgary zone. Household contacts of a previously confirmed case.",
+        "Calgary zone. Household contacts of a previously confirmed case.",
+        "Calgary zone. Household contacts of a previously confirmed case.",
+        "Calgary zone. Household contacts of a previously confirmed case."
     ]
 }
