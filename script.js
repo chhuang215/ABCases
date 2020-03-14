@@ -1,7 +1,10 @@
 document.addEventListener("DOMContentLoaded", (e) => { 
-    console.log("The data is at <this site>/data.json if you want them");
-    $.getJSON("data.json", (json) => {
-        var data = json;
+    console.log("The data is at https://abcase-serv.now.sh/api");
+
+    let jsonUrl = "https://abcase-serv.now.sh/api"
+
+    $.getJSON(jsonUrl, (data) => {
+        // var data = json;
         
         var zone_list = data['zone_list'];
         var zone_cases = [];
