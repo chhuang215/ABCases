@@ -72,9 +72,16 @@ document.addEventListener("DOMContentLoaded", (e) => {
                     `<div class='card' id="`+ d +`" ></div>`
                 );
                 
-                let cs = report_date[d];
-                
-                for (let c of cs){
+                let cinfos = report_date[d];
+                let cases = cinfos['cases']
+                for (let c of cases){
+                    // let c = ci['cases'];
+                    // let summ = ci['summary'];
+                    // let summElem = ""
+                    // if(summ){
+                    //     summElem = `<p class="card-text">`+summ+`</p>`
+                    // }
+
                     $('#'+d).prepend(
                         `<div class='case card-body' id='case`+c+`info'> 
                              <h5 class="card-title">Case  ` + c + ` </h5>
