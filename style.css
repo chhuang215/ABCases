@@ -5,6 +5,6 @@
 .card{
     margin:5px;
 }
-.card-body{
-    padding:.9rem;
+.card-body {
+    padding: .4rem .9rem;
 }

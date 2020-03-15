@@ -74,6 +74,15 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 
                 let cinfos = report_date[d];
                 let cases = cinfos['cases']
+                let summ = cinfos['summary'];
+                let summElem = "";
+                if(summ){
+                    summElem = 
+                        `   <div class='case card-body'> 
+                                <p class="card-text">`+summ+`</p>
+                            </div>
+                        `
+                }
                 for (let c of cases){
                     // let c = ci['cases'];
                     // let summ = ci['summary'];
@@ -90,9 +99,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
                     );
                     // $('#case'+c+'info p').prepend()
                 }
-                $('#'+d).prepend(
-                    ` <h4 class='card-header'>`+d+`</h4>`
-                );
+                $('#'+d)
+                    .prepend(summElem)
+                    .prepend(`<h4 class='card-header'>`+d+`</h4>`);
                 
             }
             
