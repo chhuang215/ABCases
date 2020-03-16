@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             await(500);
         }
     }
+    
     $.getJSON(jsonUrl, (data) => {
         zone_list = data['zone_list'];
         zone_cases = [];
@@ -43,7 +44,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             if(caseNum > 0){
                 zoneHtml += 
                 `<tr>
-                    <th scope="row"><h4>${z}Zone : </h4></th>
+                    <th scope="row"><h4>${z} Zone : </h4></th>
                     <td><h4>${caseNum}</h4></td>                        
                 </tr>`
 
@@ -98,14 +99,15 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 );
             }
 
-            let summ = cinfos['summary'];
-            if(summ){
-                $('#'+d).prepend(
-                    `   <div class='case card-body'> 
-                            <p class="card-text">${summ}</p>
-                        </div>
-                    `
-                )
+            let summary = cinfos['summary'];
+            if(summary){
+                let summs = summary.split("\n");
+                let summblock = $('#'+d).prepend(`<div class='card-body summary'></div>`).find(".summary");
+                for(let s of summs){
+                    summblock.append(`<p class="card-text">${s}</p>`);
+                }
+                
+
             }
             $('#'+d).prepend(`<h4 class='card-header'>${d}</h4>`);
         }
