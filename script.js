@@ -92,9 +92,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
             for (let c of cases){
                 $('#'+d).prepend(
                     `<div class='case card-body' id='case${c}info'> 
-                            <h5 class="card-title">Case  ${c}</h5>
-                            <p class="card-text">${caseInfo[(parseInt(c)-1)]}</p>
-                        </div>`
+                        <h5 class="card-title">Case  ${c}</h5>
+                        <p class="card-text">${caseInfo[(parseInt(c)-1)]}</p>
+                    </div>`
                 );
             }
 

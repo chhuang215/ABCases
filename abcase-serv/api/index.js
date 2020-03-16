@@ -13,7 +13,13 @@ const data = {
            "Calgary", "Calgary", "Calgary", 
            "Calgary", "Calgary", "Calgary", 
            "Calgary", "Calgary", "Edmonton",
-           "Edmonton","Edmonton","Edmonton"
+           "Edmonton","Edmonton","Edmonton",
+           "Edmonton","Edmonton","Edmonton",
+           "Calgary", "Calgary", "Calgary",
+           "Calgary", "Calgary", "Calgary", 
+           "Calgary", "Calgary", "Calgary", 
+           "Calgary","Calgary", "Calgary",
+           "Calgary", "Calgary",
           ],
   
   "report_date" : {
@@ -24,10 +30,14 @@ const data = {
       "2020-03-10": {cases:[8,9,10,11,12,13,14]},
       "2020-03-11": {cases:[15,16,17,18,19]},
       "2020-03-12": {cases:[20,21,22,23]},
-      "2020-03-13": {cases:[24,25,26,27,28,29]},
+      "2020-03-13": {cases:[24,25,"26~29"]},
       "2020-03-14": {
-          cases:[30,31,32,33,34,35,36,37,38,39], 
+          cases:["30~35","36~39"], 
           summary: "Two of the new cases, one in Edmonton Zone and the other in Calgary Zone, have been admitted into intensive care.\nEight new cases confirmed to be related to international travel or to a previously confirmed case. Investigations are ongoing on the remaining two cases."
+      },
+      "2020-03-15":{
+        cases:["40~42","43~56"], 
+        summary: "17 additional cases confirmed in Alberta, total of 56 cases in province.\nThree of the new cases are in Edmonton zone and 14 are in Calgary zone."
       }
   },
   
@@ -71,7 +81,9 @@ const data = {
       "Edmonton zone. ",
       "Edmonton zone. ",
       "Edmonton zone. ",
-      "Edmonton zone. "
+      "Edmonton zone. ",
+      "Edmonton zone.","","",
+      "Calgary zone. ","","","","","","","","","","","","",
   ]
 }
 
