@@ -2,31 +2,29 @@
 
 document.addEventListener("DOMContentLoaded", (e) => { 
     
-    
-
     let jsonUrl = "https://abcase-serv.now.sh/"
 
     console.log("The data is at " + jsonUrl);
-
-    // $("#mapobj")[0].onload = (ev)=>{
-    //     // console.log($(this.contentDocument).find('#mapNorth'));
-    //     // $(e.target.contentDocument).find('#map'+z).attr({'fill': 'rgba(129, 104, 170,1)'});
-    //     map = ev.target.contentDocument;
-    //     start();
-    // }
 
     let zone_list;
     let zone_cases;
     let totalCases;
 
-    async function updateMapData(){
-        // await(1000);
-        console.log($("#mapobj")[0]);
+    async function updateMapData(zcases){
+        let tries = 10;
         while(!$("#mapobj")[0]){
-            console.log($("#mapobj")[0]);
+            tries --;
             console.log('notloaded');
-            await(500);
+            await sleep(500);
+            if(tries < 0){ return };
         }
+
+        let map = $("#mapobj")[0].contentDocument
+        for (let zone of Object.keys(zcases)) {
+            let txtlbl = `#lbl${zone}`
+            $(map).find(txtlbl).text(zcases[zone]);
+        }
+
     }
     
     $.getJSON(jsonUrl, (data) => {
@@ -35,7 +33,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         totalCases = 0;
 
         let zoneHtml = ""
-
+        let allzonecases ={};
         for (let z of zone_list ) {
             caseNum = data.zone.filter(zc => zc === z).length;
             totalCases += caseNum;
@@ -50,25 +48,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
             }
 
-            // let region = $(map).find('#map'+z);
-
-            // $(map).find('#map'+z).attr({'fill': 'rgba(129, 104, 170,1)'})
             
-            
+            allzonecases[z] = caseNum;            
         }
-        // updateMapData();
-        // let msvg = $(map).find('#svgmap')
-        // var lbl = document.createElementNS("http://www.w3.org/2000/svg","text");
-        // lbl.setAttributeNS(null,"x",236);     
-        // lbl.setAttributeNS(null,"y",300); 
-        // lbl.setAttributeNS(null,"fill",'black'); 
-        // lbl.setAttributeNS(null,"font-size","30px");
-    
-        // var textNode = document.createTextNode(123);
-        // lbl.appendChild(textNode);
-        // map.getElementById("svgmap").appendChild(lbl);
-
-        // $(map).find('#svgmap').prepend(`<text x="0" y="15" fill="red">very label heh</text>`)
+        updateMapData(allzonecases);
+        
 
         $('#tblstat tbody').append(zoneHtml).append(
             `<tr> 
