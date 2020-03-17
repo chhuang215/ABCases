@@ -20,6 +20,14 @@ const data = {
            "Calgary", "Calgary", "Calgary", 
            "Calgary","Calgary", "Calgary",
            "Calgary", "Calgary",
+           //20200316
+           "Calgary", "Calgary", "Calgary",
+           "Calgary", "Calgary", "Calgary", 
+           "Calgary", "Calgary", "Calgary", 
+           "Calgary","Calgary", "Calgary",
+           "Edmonton","Edmonton","Edmonton",
+           "Central", "South", "North"
+           //
           ],
   
   "report_date" : {
@@ -38,6 +46,11 @@ const data = {
       "2020-03-15":{
         cases:["40~42","43~56"], 
         summary: "17 additional cases confirmed in Alberta, total of 56 cases in province.\nThree of the new cases are in Edmonton zone and 14 are in Calgary zone."
+      },
+      "2020-03-16":{
+        cases:["57~74"], 
+        summary: "18 additional cases of COVID-19 have been confirmed in Alberta.\n"+
+              "One Edmonton zone and one Calgary zone case have been confirmed to be the result of community transmission."
       }
   },
   
@@ -83,7 +96,8 @@ const data = {
       "Edmonton zone. ",
       "Edmonton zone. ",
       "Edmonton zone.","","",
-      "Calgary zone. ","","","","","","","","","","","","",
+      "Calgary zone. ","","","","","","","","","","","", "" ,"",
+      "+12 Calgary zone, +3 Edmonton zone, +1 Central zone, +1 South zone, +1 North zone","","","","","","","","","","","","","","","","",""
   ]
 }
 
