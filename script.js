@@ -6,35 +6,35 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
     console.log("The data is at " + jsonUrl);
 
-    let totalCases;
 
-    async function updateMapData(zcases){
-        let tries = 10;
-        while(!$("#mapobj")[0]){
-            tries --;
-            console.log('notloaded');
-            await sleep(500);
-            if(tries < 0){ return };
-        }
+    // async function updateMapData(zcases){
+    //     let tries = 10;
+    //     while(!$("#mapobj")[0]){
+    //         tries --;
+    //         console.log('notloaded');
+    //         await sleep(500);
+    //         if(tries < 0){ return };
+    //     }
 
-        let map = $("#mapobj")[0].contentDocument
-        for (let zone of Object.keys(zcases)) {
-            let txtlbl = `#lbl${zone}`
-            $(map).find(txtlbl).text(zcases[zone]);
-        }
+    //     let map = $("#mapobj")[0].contentDocument
+    //     for (let zone of Object.keys(zcases)) {
+    //         let txtlbl = `#lbl${zone}`
+    //         $(map).find(txtlbl).text(zcases[zone]);
+    //     }
 
-    }
+    // }
     
     $.getJSON(jsonUrl, (data) => {
-        totalCases = 0;
 
+        $('#svgmap').html(data.svgmap);
+
+        let totalCases = 0;
         let zoneHtml = ""
         let zones_total = data['zones_total']
         for (let aZone of Object.keys(zones_total)) {
             
             caseNum = zones_total[aZone];
             totalCases += caseNum;
-            // zone_cases.push(caseNum);
 
             if(caseNum > 0){
                 zoneHtml += 
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             }
    
         }
-        updateMapData(zones_total);
+        // updateMapData(zones_total);
         
 
         $('#tblstat tbody').append(zoneHtml).append(
