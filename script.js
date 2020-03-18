@@ -65,25 +65,27 @@ document.addEventListener("DOMContentLoaded", (e) => {
             </tr>`
         );
 
-        var report_date = data['report_date'];
-        var caseInfo = data['description_per_case'];
-        for (let d of Object.keys(report_date)) {
+        var reports = data['reports'];
+        // var caseInfo = data['description_per_case'];
+        for (let aReport of reports) {
+            let d = aReport['date'];
             $('#list_cases').prepend(
                 `<div class='card' id="${d}" ></div>`
             );
             
-            let cinfos = report_date[d];
-            let cases = cinfos['cases']
+            let cases = aReport['cases'];
+
             for (let c of cases){
+                let cnum = c['case'];
                 $('#'+d).prepend(
-                    `<div class='case card-body' id='case${c}info'> 
-                        <h5 class="card-title">Case  ${c}</h5>
-                        <p class="card-text">${caseInfo[(parseInt(c)-1)]}</p>
+                    `<div class='case card-body' id='case${cnum}info'> 
+                        <h5 class="card-title">Case  ${cnum}</h5>
+                        <p class="card-text">${c['description']}</p>
                     </div>`
                 );
             }
 
-            let summary = cinfos['summary'];
+            let summary = aReport['summary']
             if(summary){
                 let summs = summary.split("\n");
                 let summblock = $('#'+d).prepend(`<div class='card-body summary'></div>`).find(".summary");
