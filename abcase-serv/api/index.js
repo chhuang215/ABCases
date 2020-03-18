@@ -211,7 +211,7 @@ const reports = [
   }
 ]
 
-zone_list=["Calgary", "Edmonton", "North", "Central","South"]
+const zone_list=["Calgary", "Edmonton", "North", "Central","South"];
 let zones_total = {};
 for (let z of zone_list){
   zones_total[z] = reports.map(i => i.zones[z]).filter(i=>i).map(i=>i.confirmed_cases).reduce((x,y)=>x+y,0);;
