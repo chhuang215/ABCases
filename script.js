@@ -6,8 +6,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
     console.log("The data is at " + jsonUrl);
 
-    let zone_list;
-    let zone_cases;
     let totalCases;
 
     async function updateMapData(zcases){
@@ -28,8 +26,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }
     
     $.getJSON(jsonUrl, (data) => {
-        zone_list = data['zone_list'];
-        zone_cases = [];
         totalCases = 0;
 
         let zoneHtml = ""
@@ -38,7 +34,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             
             caseNum = zones_total[aZone];
             totalCases += caseNum;
-            zone_cases.push(caseNum);
+            // zone_cases.push(caseNum);
 
             if(caseNum > 0){
                 zoneHtml += 

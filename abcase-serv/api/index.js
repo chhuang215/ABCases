@@ -1,58 +1,5 @@
 let data = {
-  "zone_list":["Calgary", "Edmonton", "North", "Central","South"],
-  "zone": [
-           "Calgary", 
-
-           "Edmonton", 
-
-           "Edmonton", "Calgary", 
-
-           "Edmonton", "Calgary", "Calgary", 
-
-           "Edmonton", "Edmonton", "Edmonton", 
-           "Calgary", "Calgary",   "Calgary", 
-           "Calgary", 
-           
-           "Edmonton", "Calgary", "Calgary", 
-           "Calgary",  "Central", 
-           
-           "Calgary", "Calgary",
-           "Calgary", "Calgary", 
-           
-           "Edmonton", "Calgary", "Calgary", 
-           "Calgary",  "Calgary", "Calgary", 
-           
-           "Calgary", "Calgary", "Calgary", 
-           "Calgary",  "Calgary", "Calgary", 
-           "Edmonton", "Edmonton","Edmonton",
-           "Edmonton",
-
-           "Edmonton","Edmonton","Edmonton",
-           "Calgary", "Calgary", "Calgary",
-           "Calgary", "Calgary", "Calgary", 
-           "Calgary", "Calgary", "Calgary", 
-           "Calgary","Calgary", "Calgary",
-           "Calgary", "Calgary",
-
-           //20200316
-           "Calgary", "Calgary", "Calgary",
-           "Calgary", "Calgary", "Calgary", 
-           "Calgary", "Calgary", "Calgary", 
-           "Calgary","Calgary", "Calgary",
-           "Edmonton","Edmonton","Edmonton",
-           "Central", "South", "North",
-           //
-           //20200317
-           "Calgary", "Calgary", "Calgary",
-           "Calgary", "Calgary", "Calgary", 
-           "Calgary", "Calgary", "Calgary", 
-           "Calgary","Calgary", "Calgary",
-           "Calgary","Calgary", "Calgary",
-           "Calgary","Calgary", "Calgary",
-           "Edmonton","Edmonton",
-           "Central", "North",  "North"
-           //
-  ],
+  "zone_list":["Calgary", "Edmonton", "North", "Central","South"]
 }
 
 const reports = [
