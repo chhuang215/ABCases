@@ -33,25 +33,24 @@ document.addEventListener("DOMContentLoaded", (e) => {
         totalCases = 0;
 
         let zoneHtml = ""
-        let allzonecases ={};
-        for (let z of zone_list ) {
-            caseNum = data.zone.filter(zc => zc === z).length;
+        let zones_total = data['zones_total']
+        for (let aZone of Object.keys(zones_total)) {
+            
+            caseNum = zones_total[aZone];
             totalCases += caseNum;
             zone_cases.push(caseNum);
 
             if(caseNum > 0){
                 zoneHtml += 
                 `<tr>
-                    <th scope="row"><h4>${z} Zone : </h4></th>
+                    <th scope="row"><h4>${aZone} Zone : </h4></th>
                     <td><h4>${caseNum}</h4></td>                        
                 </tr>`
 
             }
-
-            
-            allzonecases[z] = caseNum;            
+   
         }
-        updateMapData(allzonecases);
+        updateMapData(zones_total);
         
 
         $('#tblstat tbody').append(zoneHtml).append(
@@ -66,7 +65,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         );
 
         var reports = data['reports'];
-        // var caseInfo = data['description_per_case'];
+        
         for (let aReport of reports) {
             let d = aReport['date'];
             $('#list_cases').prepend(
