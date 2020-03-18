@@ -61,13 +61,13 @@ const reports = [
   {
     date:"2020-03-10",
     cases:[
-      {case:8, description:"Male in his seventies. Edmonton zone. Travel-related", },
+      {case:8, description:"Male in his seventies. Edmonton zone.", },
       {case:9, description: "Female in her sixties. Edmonton zone. Travelled together with Case 8", },
       {case:10, description:"Female in her thirties. Edmonton zone. Recently travelled outside Canada.",},
-      {case:11, description:"Male in his fifties. Calgary zone. Travel-related", },
-      {case:12, description:"Female in their thirties. Calgary zone. Travel-related",},
-      {case:13, description:"Female in their thirties. Calgary zone. Travel-related",},
-      {case:14, description:"Female in her forties. Calgary zone. Travel-related",},
+      {case:11, description:"Male in his fifties. Calgary zone.", },
+      {case:12, description:"Female in their thirties. Calgary zone.",},
+      {case:13, description:"Female in their thirties. Calgary zone.",},
+      {case:14, description:"Female in her forties. Calgary zone.",},
     ],
     zones:{
       Calgary:{
@@ -76,16 +76,17 @@ const reports = [
       Edmonton:{
         confirmed_cases:3
       }
-    }
+    },
+    summary:"14 confirmed cases in Alberta. All travel-related. Returned from visiting a range of countries, including France, the Netherlands, Egypt, Iran, Taiwan, Germany, Malaysia, Trinidad and Tobago, Panama, the Philippines and the United States.\nSeveral cases visited more than one country.\nOne individual was also on the same MS Braemar cruise ship in the Caribbean as a case announced March 9."
   },
   {
     date:"2020-03-11",
     cases:[
       {case:15, description:"Male in his thirties. Edmonton. Recently returned from international travel and started experiencing symptoms a number of days after returning. Received previously scheduled, unrelated treatment at Misericordia Hospital on March 6 and 7, before testing positive for COVID-19 on March 9.",},
-      {case:16, description: "Male in his twenties. Calgary zone. Travel-related. Iran, Egypt, Spain, Mexico and the United States.",},
-      {case:17, description:"Female in their thirties. Calgary zone. Travel-related: Iran, Egypt, Spain, Mexico, US.",},
-      {case:18, description:"Female in their thirties. Calgary zone. Travel-related: Iran, Egypt, Spain, Mexico, US.",},
-      {case:19, description:"Female in her thirties. Central zone. Travel-related: Iran, Egypt, Spain, Mexico, US.",},
+      {case:16, description: "Male in his twenties. Calgary zone. ",},
+      {case:17, description:"Female in their thirties. Calgary zone. ",},
+      {case:18, description:"Female in their thirties. Calgary zone. ",},
+      {case:19, description:"Female in her thirties. Central zone. ",},
     ],
     zones:{
       Calgary:{
@@ -97,21 +98,24 @@ const reports = [
       Central:{
         confirmed_cases:1
       }
-    }
+    },
+    summary:"19 confirmed cases in Alberta. Travel-related. One patient continues to recover in hospital, while others are in isolation at home.\nThe five newly confirmed cases had returned from visiting a range of countries: Iran, Egypt, Spain, Mexico, United States."
+
   },
   {
     date:"2020-03-12",
     cases:[
       {case:20, description:"Child. Two-year-old. Calgary zone. Vacation in Florida with family and developed mild symptoms once in Alberta. Attended a local daycare from March 2-6 and tested positive on March 11.",},
-      {case:21, description:"Female in her thirties. Calgary zone. Travel: Jordan, Egypt, France, Germany, US.", },
-      {case:22, description:"Male in his fifties. Calgary zone. Travel: Jordan, Egypt, France, Germany, US.", },
-      {case:23, description:"Female in her seventies. Calgary zone. Travel: Jordan, Egypt, France, Germany, US. ",},
+      {case:21, description:"Female in her thirties. Calgary zone. ", },
+      {case:22, description:"Male in his fifties. Calgary zone. ", },
+      {case:23, description:"Female in her seventies. Calgary zone.",},
     ],
     zones:{
       Calgary:{
         confirmed_cases:4
       },
-    }
+    },
+    summary:"Four new cases have now been confirmed.\nThe travellers returned from travelling in Jordan, Egypt, France, Germany, United States, specifically Florida."
   },
   {
     date:"2020-03-13",
@@ -127,13 +131,13 @@ const reports = [
       Edmonton:{
         confirmed_cases:1
       },
-    }
+    },
+    summary:"Six additional cases. All travel-related."
   },
   {
     date:"2020-03-14",
     cases:[
-      {case:"30~35", description:"Calgary zone."},
-      {case:"36~39", description:"Edmonton zone."},
+      {case:"30~39", description:"+6 Calgary zone. +4 Edmonton zone."},
     ],
     zones:{
       Calgary:{
@@ -148,8 +152,7 @@ const reports = [
   {
     date:"2020-03-15",
     cases:[
-      {case:"40~42", description:"Edmonton zone."},
-      {case:"43~56", description:"Calgary zone."},
+      {case:"40~56", description:"+14 Calgary zone. +3 Edmonton zone."},
     ],
     zones:{
       Calgary:{
