@@ -211,6 +211,28 @@ const reports = [
       },
     },
     summary: "23 cases of COVID-19 have been confirmed in Alberta. Total number of cases in the province: 97. Cases have now been identified in all zones across the province."
+  },
+  {
+    date:"2020-03-18",
+    cases:[
+      {case:"98~119", description:"+13 Calgary zone, +7 Edmonton zone, +1 South zone, +2 North zone"},
+      
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases:13
+      },
+      Edmonton:{
+        confirmed_cases:7
+      },
+      South:{
+        confirmed_cases:1
+      },
+      North:{
+        confirmed_cases:1
+      },
+    },
+    summary: "22 additional cases have been confirmed, bringing the total number of cases in the province to 119.\nsix are currently hospitalized, with three admitted to intensive care units (ICU).\nMultiple cases of COVID-19 have been reported from attendees at the Pacific Dental Conference held in Vancouver March 5 to 7."
   }
 ]
 
