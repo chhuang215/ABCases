@@ -237,7 +237,7 @@ const reports = [
   {
     date:"2020-03-19",
     cases:[
-      {case:"120~146", description:"+18 Calgary zone, +2 Edmonton zone, +1 South zone, +6 North zone\n.Male in his 60’s who had been admitted to ICU in the Edmonton zone on March 12 and had pre-existing conditions. This is the first confirmed COVID-19 related death in the province."},
+      {case:"120~146", description:"+18 Calgary zone, +2 Edmonton zone, +1 South zone, +6 North zone."},
       
     ],
     zones:{
@@ -255,7 +255,7 @@ const reports = [
         confirmed_cases:6
       },
     },
-    summary: "One Albertan has died as a result of the virus, the first COVID-19 related death in the province"
+    summary: "One Albertan has died as a result of the virus, the first COVID-19 related death in the province.\nMale in his 60’s who had been admitted to ICU in the Edmonton zone on March 12 and had pre-existing conditions. This is the first confirmed COVID-19 related death in the province."
   }
 ]
 
