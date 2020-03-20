@@ -233,13 +233,58 @@ const reports = [
       },
     },
     summary: "22 additional cases have been confirmed, bringing the total number of cases in the province to 119.\nsix are currently hospitalized, with three admitted to intensive care units (ICU).\nMultiple cases of COVID-19 have been reported from attendees at the Pacific Dental Conference held in Vancouver March 5 to 7."
+  },
+  {
+    date:"2020-03-19",
+    cases:[
+      {case:"120~146", description:"+18 Calgary zone, +2 Edmonton zone, +1 South zone, +6 North zone\n.Male in his 60’s who had been admitted to ICU in the Edmonton zone on March 12 and had pre-existing conditions. This is the first confirmed COVID-19 related death in the province."},
+      
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases:18
+      },
+      Edmonton:{
+        confirmed_cases:2,
+        death:1,
+      },
+      South:{
+        confirmed_cases:1
+      },
+      North:{
+        confirmed_cases:6
+      },
+    },
+    summary: "One Albertan has died as a result of the virus, the first COVID-19 related death in the province"
   }
 ]
 
 const zone_list=["Calgary", "Edmonton", "North", "Central","South"];
 let zones_total = {};
 for (let z of zone_list){
-  zones_total[z] = reports.map(i => i.zones[z]).filter(i=>i).map(i=>i.confirmed_cases).reduce((x,y)=>x+y,0);;
+  let f = reports.map(i => i.zones[z]).filter(i=>i);
+
+  let cc = f.map(i=>i.confirmed_cases).reduce((x,y)=>x+y,0);
+
+  let cd = f.map(i=>i.death).reduce(
+    (x,y) => {
+        if(x && y){
+            return x + y
+        }
+        else if (x && !y){
+            return x
+        }
+        else if (!x && y){
+            return y
+        }
+        else return 0
+    },0);
+
+  zones_total[z] = {
+    confirmed: cc,
+    death: cd
+  }
+  // zones_total[z]['death'] = reports.map(i => i.zones[z]).filter(i=>i).map(i=>i.death).reduce((x,y)=>x+y,0);;
 }
 
 //SVG generate
@@ -683,15 +728,19 @@ let svgmap =
              561.55,792.00 559.00,760.00 559.00,760.00
              559.00,760.00 540.00,761.00 540.00,761.00 Z" 
   />
-  <text id="lblNorth" x="290" y="325" alignment-baseline="middle" text-anchor="middle" >${zones_total.North}</text>
+  <text id="lblNorth" x="290" y="325" alignment-baseline="middle" text-anchor="middle" >${zones_total.North.confirmed}</text>
 
-  <text id="lblEdmonton" x="330" y="625" alignment-baseline="middle" text-anchor="middle" >${zones_total.Edmonton}</text>
+  <text id="lblEdmonton" x="327" y="625" alignment-baseline="middle" text-anchor="middle" >
+    <tspan alignment-baseline="middle" text-anchor="middle" > ${zones_total.Edmonton.confirmed} \n</tspan>
+   
+    <tspan alignment-baseline="middle" text-anchor="middle" style="fill:red"> ${zones_total.Edmonton.death}</tspan>
+  </text>
+  
+  <text id="lblCentral" x="390" y="715" alignment-baseline="middle" text-anchor="middle" >${zones_total.Central.confirmed}</text>
 
-  <text id="lblCentral" x="390" y="715" alignment-baseline="middle" text-anchor="middle" >${zones_total.Central}</text>
+  <text id="lblCalgary" x="335" y="840" alignment-baseline="middle" text-anchor="middle" >${zones_total.Calgary.confirmed}</text>
 
-  <text id="lblCalgary" x="335" y="840" alignment-baseline="middle" text-anchor="middle" >${zones_total.Calgary}</text>
-
-  <text id="lblSouth" x="490" y="930" alignment-baseline="middle" text-anchor="middle" >${zones_total.South}</text>
+  <text id="lblSouth" x="490" y="930" alignment-baseline="middle" text-anchor="middle" >${zones_total.South.confirmed}</text>
   
 </svg>
 

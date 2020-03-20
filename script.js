@@ -2,7 +2,8 @@
 
 document.addEventListener("DOMContentLoaded", (e) => { 
     
-    let jsonUrl = "https://abcase-serv.now.sh/"
+    // let jsonUrl = "https://abcase-serv.now.sh/"
+    let jsonUrl = "https://abcase-serv.chhuang215.now.sh/"
 
     console.log("The data is at " + jsonUrl);
 
@@ -33,14 +34,17 @@ document.addEventListener("DOMContentLoaded", (e) => {
         let zones_total = data['zones_total']
         for (let aZone of Object.keys(zones_total)) {
             
-            caseNum = zones_total[aZone];
+            let caseData = zones_total[aZone];
+            let caseNum = caseData['confirmed'];
+            let caseDeath = caseData['death'];
             totalCases += caseNum;
 
             if(caseNum > 0){
                 zoneHtml += 
                 `<tr>
                     <th scope="row"><h4>${aZone} Zone : </h4></th>
-                    <td><h4>${caseNum}</h4></td>                        
+                    <td><h4>${caseNum}</h4></td>
+                    <td><h4>${caseDeath}</h4></td>           
                 </tr>`
 
             }
