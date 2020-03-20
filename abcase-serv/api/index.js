@@ -265,26 +265,25 @@ for (let z of zone_list){
   let f = reports.map(i => i.zones[z]).filter(i=>i);
 
   let cc = f.map(i=>i.confirmed_cases).reduce((x,y)=>x+y,0);
-
-  let cd = f.map(i=>i.death).reduce(
-    (x,y) => {
-        if(x && y){
-            return x + y
-        }
-        else if (x && !y){
-            return x
-        }
-        else if (!x && y){
-            return y
-        }
-        else return 0
-    },0);
+  let cd = f.map(i=>i.death).filter(i=>i).reduce((x,y)=>x+y,0);
+  // let cd = f.map(i=>i.death).filter(i=>i).reduce(
+  //   (x,y) => {
+  //       if(x && y){
+  //           return x + y
+  //       }
+  //       else if (x && !y){
+  //           return x
+  //       }
+  //       else if (!x && y){
+  //           return y
+  //       }
+  //       else return 0
+  //   },0);
 
   zones_total[z] = {
     confirmed: cc,
     death: cd
   }
-  // zones_total[z]['death'] = reports.map(i => i.zones[z]).filter(i=>i).map(i=>i.death).reduce((x,y)=>x+y,0);;
 }
 
 //SVG generate

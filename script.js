@@ -6,24 +6,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 
     console.log("The data is at " + jsonUrl);
-
-
-    // async function updateMapData(zcases){
-    //     let tries = 10;
-    //     while(!$("#mapobj")[0]){
-    //         tries --;
-    //         console.log('notloaded');
-    //         await sleep(500);
-    //         if(tries < 0){ return };
-    //     }
-
-    //     let map = $("#mapobj")[0].contentDocument
-    //     for (let zone of Object.keys(zcases)) {
-    //         let txtlbl = `#lbl${zone}`
-    //         $(map).find(txtlbl).text(zcases[zone]);
-    //     }
-
-    // }
     
     $.getJSON(jsonUrl, (data) => {
 
@@ -50,8 +32,16 @@ document.addEventListener("DOMContentLoaded", (e) => {
             }
    
         }
-        // updateMapData(zones_total);
-        
+
+        $('#tblstat thead').append(
+            `
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Cases</th>
+                <th scope="col">Death</th>
+            </tr>
+            `
+        );
 
         $('#tblstat tbody').append(zoneHtml).append(
             `<tr> 
