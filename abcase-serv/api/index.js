@@ -256,6 +256,31 @@ const reports = [
       },
     },
     summary: "One Albertan has died as a result of the virus, the first COVID-19 related death in the province.\nMale in his 60’s who had been admitted to ICU in the Edmonton zone on March 12 and had pre-existing conditions. This is the first confirmed COVID-19 related death in the province."
+  },
+  {
+    date:"2020-03-20",
+    cases:[
+      {case:"147~195", description:"+25 Calgary zone, +14 Edmonton zone, +2 South zone, +7 North zone. +1 Central zone."},
+      
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases:25
+      },
+      Edmonton:{
+        confirmed_cases:14,
+      },
+      South:{
+        confirmed_cases:2
+      },
+      North:{
+        confirmed_cases:7
+      },
+      Central:{
+        confirmed_cases:1
+      },
+    },
+    summary: "40 additional cases of COVID-19 have been confirmed. 10 are currently hospitalized, five have been admitted to ICU."
   }
 ]
 
