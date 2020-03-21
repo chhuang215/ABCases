@@ -280,34 +280,20 @@ const reports = [
         confirmed_cases:1
       },
     },
-    summary: "40 additional cases of COVID-19 have been confirmed. 10 are currently hospitalized, five have been admitted to ICU."
+    summary: "49 additional cases of COVID-19 have been confirmed. 10 are currently hospitalized, five have been admitted to ICU."
   }
 ]
 
 const zone_list=["Calgary", "Edmonton", "North", "Central","South"];
 let zones_total = {};
 for (let z of zone_list){
-  let f = reports.map(i => i.zones[z]).filter(i=>i);
+  let zone_cases = reports.map(report => report.zones[z]).filter(zcase=>zcase);
 
-  let cc = f.map(i=>i.confirmed_cases).reduce((x,y)=>x+y,0);
-  let cd = f.map(i=>i.death).filter(i=>i).reduce((x,y)=>x+y,0);
-  // let cd = f.map(i=>i.death).filter(i=>i).reduce(
-  //   (x,y) => {
-  //       if(x && y){
-  //           return x + y
-  //       }
-  //       else if (x && !y){
-  //           return x
-  //       }
-  //       else if (!x && y){
-  //           return y
-  //       }
-  //       else return 0
-  //   },0);
-
+  let ccases = zone_cases.map(cases_report=>cases_report.confirmed_cases).filter(ccase=>ccase).reduce((x,y)=>x+y,0);
+  let dcases = zone_cases.map(cases_report=>cases_report.death).filter(deathcase=>deathcase).reduce((x,y)=>x+y,0);
   zones_total[z] = {
-    confirmed: cc,
-    death: cd
+    confirmed: ccases,
+    death: dcases
   }
 }
 
@@ -754,7 +740,7 @@ let svgmap =
   />
   <text id="lblNorth" x="290" y="325" alignment-baseline="middle" text-anchor="middle" >${zones_total.North.confirmed}</text>
 
-  <text id="lblEdmonton" x="327" y="625" alignment-baseline="middle" text-anchor="middle" >
+  <text id="lblEdmonton" x="327" y="620" alignment-baseline="middle" text-anchor="middle" >
     <tspan alignment-baseline="middle" text-anchor="middle" > ${zones_total.Edmonton.confirmed} \n</tspan>
    
     <tspan alignment-baseline="middle" text-anchor="middle" style="fill:red"> ${zones_total.Edmonton.death}</tspan>
