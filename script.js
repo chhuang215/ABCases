@@ -22,9 +22,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
             totalCases += caseNum;
 
             if(caseNum > 0){
+
+                let th = aZone;
+
+                if (aZone.indexOf("Not ") == -1)  th += " Zone ";
+
                 zoneHtml += 
                 `<tr>
-                    <th scope="row"><h4>${aZone} Zone : </h4></th>
+                    <th scope="row"><h4>${aZone} : </h4></th>
                     <td><h4>${caseNum}</h4></td>
                     <td><h4>${caseDeath}</h4></td>           
                 </tr>`

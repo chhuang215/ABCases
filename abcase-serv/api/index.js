@@ -281,10 +281,38 @@ const reports = [
       },
     },
     summary: "49 additional cases of COVID-19 have been confirmed. 10 are currently hospitalized, five have been admitted to ICU."
+  },
+  {
+    date:"2020-03-21",
+    cases:[
+      {case:"196~226", description:""},
+      
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases:13
+      },
+      Edmonton:{
+        confirmed_cases:14,
+      },
+      South:{
+        confirmed_cases:1
+      },
+      North:{
+        confirmed_cases:-1
+      },
+      Central:{
+        confirmed_cases:3
+      },
+      "Not yet identified":{
+        confirmed_cases:1
+      },
+    },
+    summary: "Thirty-one additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 226."
   }
 ]
 
-const zone_list=["Calgary", "Edmonton", "North", "Central","South"];
+const zone_list=["Calgary", "Edmonton", "North", "Central","South",  "Not yet identified"];
 let zones_total = {};
 for (let z of zone_list){
   let zone_cases = reports.map(report => report.zones[z]).filter(zcase=>zcase);
