@@ -25,11 +25,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
                 let th = aZone;
 
-                if (aZone.indexOf("Not ") == -1)  th += " Zone ";
+                if (aZone.indexOf("Not ") == -1) { th += " Zone "};
 
                 zoneHtml += 
                 `<tr>
-                    <th scope="row"><h4>${aZone} : </h4></th>
+                    <th scope="row"><h4>${th} : </h4></th>
                     <td><h4>${caseNum}</h4></td>
                     <td><h4>${caseDeath}</h4></td>           
                 </tr>`
