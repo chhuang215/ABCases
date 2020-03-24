@@ -91,5 +91,64 @@ document.addEventListener("DOMContentLoaded", (e) => {
             }
             $('#'+d).prepend(`<h4 class='card-header'>${d}</h4>`);
         }
+
+        generateChart();
     });
+
+
+    function generateChart(){
+        var chartTotal = new Chart(document.getElementById('chartTotal').getContext('2d') , {
+            type: 'bar',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                datasets: [{
+                    label: 'Cases',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [0, 10, 5, 2, 20, 30, 45]
+                }]
+            },
+            // Configuration options go here
+            options: {
+                aspectRatio:1.2,
+            }
+        });
+
+        var chartZoneTotal = new Chart(document.getElementById('chartZoneTotal').getContext('2d') , {
+            type: 'bar',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                datasets: [{
+                    label: 'Cases',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [0, 10, 5, 2, 20, 30, 45]
+                }]
+            },
+            options: {
+                aspectRatio:1.2,
+            }
+        });
+
+        var chartZoneCount = new Chart(document.getElementById('chartZoneCount').getContext('2d') , {
+            type: 'bar',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                datasets: [{
+                    label: 'Cases',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [0, 10, 5, 2, 20, 30, 45]
+                }]
+            },
+
+            // Configuration options go here
+            options: {
+                aspectRatio:1.2,
+            }
+        });
+
+    }
+
+    
 });
