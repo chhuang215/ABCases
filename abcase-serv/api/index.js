@@ -395,6 +395,35 @@ const reports = [
     },
     summary: "A second Albertan has died and 57 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 358."
   }
+  ,
+  {
+    date:"2020-03-25",
+    cases:[
+      {case:"359~419", description:"Up to 33 of the 419 cases may be due to community transmission."},
+      
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 36,
+      },
+      Edmonton:{
+        confirmed_cases:14,
+      },
+      North:{
+        confirmed_cases:3
+      },
+      Central:{
+        confirmed_cases:7
+      },
+      South:{
+        confirmed_cases:2
+      },
+      "Not yet identified":{
+        confirmed_cases:-1
+      },
+    },
+    summary: "Sixty-one additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 419."
+  }
 ]
 
 const zone_list=["Calgary", "Edmonton", "North", "Central","South",  "Not yet identified"];
