@@ -450,7 +450,7 @@ const reports = [
         confirmed_cases:-1
       },
     },
-    summary: "67 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 486."
+    summary: "67 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 486.\nThere are 24 new confirmed recovered cases, bringing the total to 27."
   }
 ]
 
