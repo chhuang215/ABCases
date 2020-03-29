@@ -479,6 +479,34 @@ const reports = [
       },
     },
     summary: "56 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 542."
+  },
+  {
+    date:"2020-03-28",
+    cases:[
+      {case:"543~621", description:""},
+      
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 41,
+      },
+      Edmonton:{
+        confirmed_cases:19,
+      },
+      North:{
+        confirmed_cases:13
+      },
+      Central:{
+        confirmed_cases:5
+      },
+      South:{
+        confirmed_cases:0
+      },
+      "Not yet identified":{
+        confirmed_cases:1
+      },
+    },
+    summary: "79 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 621"
   }
 ]
 
