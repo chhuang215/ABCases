@@ -535,10 +535,10 @@ const reports = [
         confirmed_cases:0
       },
     },
-    summary: "A third Albertan has died and 40 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 661.\nTotal 73 confirmed recovered cases."
+    summary: "40 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 661.\nA third Albertan has died\nTotal 73 confirmed recovered cases."
   },
   {
-    date:"2020-03-29",
+    date:"2020-03-30",
     cases:[
       {case:"662~690", description:""},
       
@@ -566,7 +566,7 @@ const reports = [
         confirmed_cases:0
       },
     },
-    summary: "+29 cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 690.\nFive more Albertans have died from COVID-19 since March 29, bringing the total to 8 deaths in the province."
+    summary: "+29 cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 690.\nFive more Albertans have died from COVID-19 since March 29, bringing the total to 8 deaths in the province.\nTotal 94 confirmed recovered cases."
   }
 ]
 
@@ -1024,7 +1024,10 @@ let svgmap =
              561.55,792.00 559.00,760.00 559.00,760.00
              559.00,760.00 540.00,761.00 540.00,761.00 Z" 
   />
-  <text id="lblNorth" x="290" y="325" alignment-baseline="middle" text-anchor="middle" >${zones_total.North.confirmed}</text>
+  <text id="lblNorth" x="290" y="325" alignment-baseline="middle" text-anchor="middle" >
+    <tspan alignment-baseline="middle" text-anchor="middle" > ${zones_total.North.confirmed} \n</tspan>
+    <tspan alignment-baseline="middle" text-anchor="middle" style="fill:red"> ${zones_total.North.death}</tspan>
+  </text>
 
   <text id="lblEdmonton" x="327" y="620" alignment-baseline="middle" text-anchor="middle" >
     <tspan alignment-baseline="middle" text-anchor="middle" > ${zones_total.Edmonton.confirmed} \n</tspan>
