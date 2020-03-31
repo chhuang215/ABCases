@@ -536,6 +536,37 @@ const reports = [
       },
     },
     summary: "A third Albertan has died and 40 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 661.\nTotal 73 confirmed recovered cases."
+  },
+  {
+    date:"2020-03-29",
+    cases:[
+      {case:"662~690", description:""},
+      
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 14,
+        death:2
+      },
+      Edmonton:{
+        confirmed_cases:15,
+        death:2
+      },
+      North:{
+        confirmed_cases:0,
+        death:1
+      },
+      Central:{
+        confirmed_cases:0
+      },
+      South:{
+        confirmed_cases:0
+      },
+      "Not yet identified":{
+        confirmed_cases:0
+      },
+    },
+    summary: "+29 cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 690.\nFive more Albertans have died from COVID-19 since March 29, bringing the total to 8 deaths in the province."
   }
 ]
 

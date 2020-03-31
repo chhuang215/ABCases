@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         $('#svgmap').html(data.svgmap);
 
         let totalCases = 0;
+        let totalDeath = 0;
         let zoneHtml = ""
         let zones_total = data['zones_total']
         for (let aZone of Object.keys(zones_total)) {
@@ -20,8 +21,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
             let caseNum = caseData['confirmed'];
             let caseDeath = caseData['death'];
             totalCases += caseNum;
+            totalDeath += caseDeath;
 
-            if(caseNum > 0){
+            if(caseNum > 0 || caseDeath > 0){
 
                 let th = aZone;
 
@@ -55,6 +57,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 </th> 
                 <td>
                     <h4 style='font-weight: bold'>${totalCases}</h4>
+                </td>
+                <td>
+                    <h4 style='font-weight: bold'>${totalDeath}</h4>
                 </td>
             </tr>`
         );
