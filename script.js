@@ -13,31 +13,52 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
         let totalCases = 0;
         let totalDeath = 0;
+        let totalLastAdditional = 0;
+        let totalLastDeath = 0;
         let zoneHtml = ""
+
         let zones_total = data['zones_total']
+        let reports = data['reports'];
+
+        let lastUpdatedZones = reports[reports.length - 1].zones;
+
         for (let aZone of Object.keys(zones_total)) {
-            
+
             let caseData = zones_total[aZone];
             let caseNum = caseData['confirmed'];
             let caseDeath = caseData['death'];
             totalCases += caseNum;
             totalDeath += caseDeath;
 
-            if(caseNum > 0 || caseDeath > 0){
+            let lastAdditionalConfirmed = lastUpdatedZones[aZone]['confirmed_cases'] ? lastUpdatedZones[aZone]['confirmed_cases'] : 0;
+            let lastAdditionalDeath = lastUpdatedZones[aZone]['death'] ? lastUpdatedZones[aZone]['death'] : 0;
 
-                let th = aZone;
+            totalLastAdditional += lastAdditionalConfirmed;
+            totalLastDeath += lastAdditionalDeath;
 
-                if (aZone.indexOf("Not ") == -1) { th += " Zone "};
+            // if(caseNum > 0 || caseDeath > 0){
 
-                zoneHtml += 
-                `<tr>
-                    <th scope="row"><h4>${th} : </h4></th>
-                    <td><h4>${caseNum}</h4></td>
-                    <td><h4>${caseDeath}</h4></td>
-                    <td style="text-align:left; padding-left:0; font-size:.8rem">(${(caseDeath/caseNum * 100).toFixed(1)}%)</td>
-                </tr>`
+            let th = aZone;
 
-            }
+            if (aZone.indexOf("Not ") == -1) { th += " Zone "};
+
+            zoneHtml += 
+            `<tr>
+                <th scope="row"><h4>${th} : </h4></th>
+                <td>
+                    <h4>${caseNum} 
+                    <span class="diffnum ${(lastAdditionalConfirmed != 0 ? 'hasdiff' : "")}" >(${(lastAdditionalConfirmed > 0 ? '+' : "") + lastAdditionalConfirmed})</span>
+                    </h4>
+                </td>
+                <td>
+                    <h4>${caseDeath} 
+                    <span class="diffnum ${(lastAdditionalDeath != 0 ? 'hasdiff' : "")}" >(${(lastAdditionalDeath > 0 ? '+' : "") + lastAdditionalDeath})</span>
+                    </h4>
+                </td>
+                <td class="percentage">(${(caseDeath/caseNum * 100).toFixed(1)}%)</td>
+            </tr>`
+
+            // }
    
         }
 
@@ -57,18 +78,24 @@ document.addEventListener("DOMContentLoaded", (e) => {
                     <h4 style='font-weight: bold'>ALBERTA Total:</h4>
                 </th> 
                 <td>
-                    <h4 style='font-weight: bold'>${totalCases}</h4>
+                    <h4 style='font-weight: bold'>${totalCases}
+                    <span class="diffnum ${(totalLastAdditional != 0 ? 'hasdiff' : "")}" >(${(totalLastAdditional > 0 ? '+' : "") + totalLastAdditional})</span>
+                    </h4>
                 </td>
+               
                 <td>
-                    <h4 style='font-weight: bold'>${totalDeath}</h4>
+                    <h4 style='font-weight: bold'>${totalDeath}
+                    <span class="diffnum ${(totalLastDeath != 0 ? 'hasdiff' : "")}">(${(totalLastDeath > 0 ? '+' : "") + totalLastDeath})</span>
+                    </h4>
                 </td>
-                <td style="text-align:left; padding-left:0; font-size:.8rem">
+               
+                <td class="percentage">
                     (${(totalDeath/totalCases * 100).toFixed(1)}%)
                 </td>
             </tr>`
         );
 
-        var reports = data['reports'];
+        
         
         for (let aReport of reports) {
             let d = aReport['date'];

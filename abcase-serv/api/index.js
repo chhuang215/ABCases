@@ -1085,6 +1085,7 @@ let data = {}
 data['reports'] = reports;
 data['zones_total'] = zones_total;
 data['svgmap'] = svgmap;
+data['zone_list'] = zone_list;
 module.exports = (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Credentials", "true");
