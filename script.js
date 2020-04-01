@@ -33,7 +33,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 `<tr>
                     <th scope="row"><h4>${th} : </h4></th>
                     <td><h4>${caseNum}</h4></td>
-                    <td><h4>${caseDeath}</h4></td>           
+                    <td><h4>${caseDeath}</h4></td>
+                    <td style="text-align:left; padding-left:0; font-size:.8rem">(${(caseDeath/caseNum * 100).toFixed(1)}%)</td>
                 </tr>`
 
             }
@@ -60,6 +61,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 </td>
                 <td>
                     <h4 style='font-weight: bold'>${totalDeath}</h4>
+                </td>
+                <td style="text-align:left; padding-left:0; font-size:.8rem">
+                    (${(totalDeath/totalCases * 100).toFixed(1)}%)
                 </td>
             </tr>`
         );
