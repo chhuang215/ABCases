@@ -22,7 +22,7 @@ td h4{
 }
 
 .diffnum{
-    font-size:.9rem;
+    font-size:.85rem;
     color: mediumspringgreen;
 }
 
@@ -32,7 +32,7 @@ td h4{
 
 .percentage{
     text-align:left; 
+    font-size:.78rem; 
     padding-left:0!important; 
-    font-size:.8rem; 
-    vertical-align: inherit !important; 
+    vertical-align: inherit !important;   
 }

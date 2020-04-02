@@ -598,6 +598,37 @@ const reports = [
     },
     summary: "64 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 754.\nThere is one additional death in the Calgary zone.\nThere are now a total of 120 confirmed recovered cases."
   }
+  ,
+  {
+    date:"2020-04-01",
+    cases:[
+      {case:"755~871", description:""},
+      
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 74,
+        death:1
+      },
+      Edmonton:{
+        confirmed_cases:32,
+      },
+      North:{
+        confirmed_cases:1,
+        death:1
+      },
+      Central:{
+        confirmed_cases:6
+      },
+      South:{
+        confirmed_cases:0
+      },
+      "Not yet identified":{
+        confirmed_cases:4
+      },
+    },
+    summary: "Since March 31, an additional 117 cases of COVID-19 have been confirmed in Alberta, bringing the total number of cases in the province to 871.\nThere are a total of 11 deaths in Alberta – six in the Calgary zone, three in the Edmonton zone, and two in the North zone.\nThere are now a total of 142 confirmed recovered cases."
+  }
 ]
 
 const zone_list=["Calgary", "Edmonton", "North", "Central","South",  "Not yet identified"];
@@ -624,7 +655,7 @@ let svgmap =
     <style>
       text{
         font-family:"Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        font-size:3.6rem;
+        font-size:3.54rem;
         paint-order: stroke;
         stroke: #000000;
         stroke-width: 3px;

@@ -46,16 +46,20 @@ document.addEventListener("DOMContentLoaded", (e) => {
             `<tr>
                 <th scope="row"><h4>${th} : </h4></th>
                 <td>
-                    <h4>${caseNum} 
-                    <span class="diffnum ${(lastAdditionalConfirmed != 0 ? 'hasdiff' : "")}" >(${(lastAdditionalConfirmed > 0 ? '+' : "") + lastAdditionalConfirmed})</span>
+                    <h4>
+                        ${caseNum} 
+                        <span class="diffnum ${(lastAdditionalConfirmed != 0 ? 'hasdiff' : "")}" >(${(lastAdditionalConfirmed > 0 ? '+' : "") + lastAdditionalConfirmed})</span>
                     </h4>
+                    
                 </td>
                 <td>
-                    <h4>${caseDeath} 
-                    <span class="diffnum ${(lastAdditionalDeath != 0 ? 'hasdiff' : "")}" >(${(lastAdditionalDeath > 0 ? '+' : "") + lastAdditionalDeath})</span>
+                    <h4>
+                        ${caseDeath}
+                        <span class="diffnum ${(lastAdditionalDeath != 0 ? 'hasdiff' : "")}" >(${(lastAdditionalDeath > 0 ? '+' : "") + lastAdditionalDeath})</span>
                     </h4>
+                    
                 </td>
-                <td class="percentage">(${(caseDeath/caseNum * 100).toFixed(1)}%)</td>
+                <td class="percentage"> (${(caseDeath/caseNum * 100).toFixed(1)}%)</td>
             </tr>`
 
             // }
