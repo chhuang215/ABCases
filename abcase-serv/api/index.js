@@ -627,7 +627,36 @@ const reports = [
         confirmed_cases:4
       },
     },
-    summary: "Since March 31, an additional 117 cases of COVID-19 have been confirmed in Alberta, bringing the total number of cases in the province to 871.\nThere are a total of 11 deaths in Alberta – six in the Calgary zone, three in the Edmonton zone, and two in the North zone.\nThere are now a total of 142 confirmed recovered cases."
+    summary: "Since March 31, an additional 117 cases of COVID-19 have been confirmed in Alberta, bringing the total number of cases in the province to 871.\nThere are a total of 11 deaths in Alberta – six in the Calgary zone, three in the Edmonton zone, and two in the North zone.\nTotal 142 confirmed recovered cases."
+  },
+  {
+    date:"2020-04-02",
+    cases:[
+      {case:"872~968", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 62,
+        death:1
+      },
+      Edmonton:{
+        confirmed_cases:28,
+      },
+      North:{
+        confirmed_cases:4,
+        death:1
+      },
+      Central:{
+        confirmed_cases:2
+      },
+      South:{
+        confirmed_cases:2
+      },
+      "Not yet identified":{
+        confirmed_cases:-1
+      },
+    },
+    summary: "Additional 97 cases of COVID-19 have been confirmed in Alberta since the last report, bringing the total number of cases in the province to 968.\nThere have been two additional deaths, one in the Calgary zone and the other in the North zone.\nTotal 174 confirmed recovered cases."
   }
 ]
 
