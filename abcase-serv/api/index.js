@@ -718,6 +718,37 @@ const reports = [
       },
     },
     summary: "106 new cases of COVID-19 have been confirmed, bringing the total number in Alberta to 1,181.\n2 additional deaths reported in the Calgary zone for a total of 20 deaths in Alberta.\nTotal 240 confirmed recovered cases."
+  },
+  {
+    date:"2020-04-05",
+    cases:[
+      {case:"1182~1250", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 40,
+        death:1
+      },
+      Edmonton:{
+        confirmed_cases:19,
+        
+      },
+      North:{
+        confirmed_cases:9,
+        death:1
+      },
+      Central:{
+        confirmed_cases:1,
+        death:1
+      },
+      South:{
+        confirmed_cases:2
+      },
+      "Not yet identified":{
+        confirmed_cases:-2
+      },
+    },
+    summary: "69 new cases of COVID-19 have been reported, bringing the total number of cases in Alberta to 1,250.\n3 Albertans have died since the last report, bringing the total in the province to 23 deaths.\nTotal 279 confirmed recovered cases."
   }
 ]
 
@@ -1186,7 +1217,10 @@ let svgmap =
     <tspan alignment-baseline="middle" text-anchor="middle" style="fill:red"> ${zones_total.Edmonton.death}</tspan>
   </text>
   
-  <text id="lblCentral" x="390" y="715" alignment-baseline="middle" text-anchor="middle" >${zones_total.Central.confirmed}</text>
+  <text id="lblCentral" x="390" y="715" alignment-baseline="middle" text-anchor="middle" >
+    <tspan alignment-baseline="middle" text-anchor="middle" > ${zones_total.Central.confirmed} \n</tspan>
+    <tspan alignment-baseline="middle" text-anchor="middle" style="fill:red"> ${zones_total.Central.death}</tspan>
+  </text>
 
   <text id="lblCalgary" x="335" y="840" alignment-baseline="middle" text-anchor="middle" >
     
