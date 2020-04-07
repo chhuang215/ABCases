@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             prevCases = data['zones_accumulate']['all']['confirmed_cases'][i];
         }
 
-        generateChart();
+        generateChart(data);
         $('#tblstat tbody').append(
             `<tr> 
                 <th>
@@ -168,57 +168,59 @@ document.addEventListener("DOMContentLoaded", (e) => {
     });
 
 
-    function generateChart(){
+    function generateChart(data){
+        let zones_accumulate = data['zones_accumulate'];
+        let labels = data['reports'].map(r => r.date);
         var chartTotal = new Chart(document.getElementById('chartTotal').getContext('2d') , {
             type: 'bar',
             data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                labels: labels,
                 datasets: [{
                     label: 'Cases',
                     backgroundColor: 'rgb(255, 99, 132)',
                     borderColor: 'rgb(255, 99, 132)',
-                    data: [0, 10, 5, 2, 20, 30, 45]
+                    data: zones_accumulate['all']['confirmed_cases']
                 }]
             },
             // Configuration options go here
             options: {
-                aspectRatio:1.2,
+                aspectRatio:2,
             }
         });
 
-        var chartZoneTotal = new Chart(document.getElementById('chartZoneTotal').getContext('2d') , {
-            type: 'bar',
-            data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-                datasets: [{
-                    label: 'Cases',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: [0, 10, 5, 2, 20, 30, 45]
-                }]
-            },
-            options: {
-                aspectRatio:1.2,
-            }
-        });
+        // var chartZoneTotal = new Chart(document.getElementById('chartZoneTotal').getContext('2d') , {
+        //     type: 'bar',
+        //     data: {
+        //         labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        //         datasets: [{
+        //             label: 'Cases',
+        //             backgroundColor: 'rgb(255, 99, 132)',
+        //             borderColor: 'rgb(255, 99, 132)',
+        //             data: [0, 10, 5, 2, 20, 30, 45]
+        //         }]
+        //     },
+        //     options: {
+        //         aspectRatio:1.2,
+        //     }
+        // });
 
-        var chartZoneCount = new Chart(document.getElementById('chartZoneCount').getContext('2d') , {
-            type: 'bar',
-            data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-                datasets: [{
-                    label: 'Cases',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: [0, 10, 5, 2, 20, 30, 45]
-                }]
-            },
+        // var chartZoneCount = new Chart(document.getElementById('chartZoneCount').getContext('2d') , {
+        //     type: 'bar',
+        //     data: {
+        //         labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        //         datasets: [{
+        //             label: 'Cases',
+        //             backgroundColor: 'rgb(255, 99, 132)',
+        //             borderColor: 'rgb(255, 99, 132)',
+        //             data: [0, 10, 5, 2, 20, 30, 45]
+        //         }]
+        //     },
 
-            // Configuration options go here
-            options: {
-                aspectRatio:1.2,
-            }
-        });
+        //     // Configuration options go here
+        //     options: {
+        //         aspectRatio:1.2,
+        //     }
+        // });
 
     }
 
