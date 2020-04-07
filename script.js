@@ -4,13 +4,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
     
     let jsonUrl = "https://abcase-serv.now.sh/"
 
-
     console.log("The data is at " + jsonUrl);
     
     $.getJSON(jsonUrl, (data) => {
-
-
-       
 
         $('#svgmap').html(data.svgmap);
 
@@ -20,7 +16,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
         let totalLastDeath = 0;
         let zoneHtml = ""
 
-        let zones_total = data['zones_total']
+        let zones_total = data['zones_total'];
+        let zones_accumulate = data['zones_accumulate']
         let reports = data['reports'];
 
         // console.log(reports.map(r => r.recovered).filter(r=>r).reduce((x,y)=>x+y,0));
@@ -107,7 +104,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 
         let totalRecov = 0;
-        for (let aReport of reports) {
+        let prevCases = 0;
+        for (const [i, aReport] of reports.entries()) {
             
             let d = aReport['date'];
             var recov = aReport['recovered'] ? aReport['recovered'] : 0;
@@ -143,7 +141,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
                     summblock.append(`<p class="card-text"> +${recov} recovered. Total ${totalRecov} confirmed recovered cases.</p>`);
                 }
             }
-            $('#'+d).prepend(`<h4 class='card-header'>${d}</h4>`);
+  
+            $('#'+d).prepend(`<h4 class='card-header'>${d}</h4>
+                              <h5 class='card-header'>
+                                Case ${prevCases+1} ~ ${zones_accumulate['all']['confirmed_cases'][i]}
+                              </h5>
+                            `);
+
+            prevCases = data['zones_accumulate']['all']['confirmed_cases'][i];
         }
 
         $('#tblstat tbody').append(

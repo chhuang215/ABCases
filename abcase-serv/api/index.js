@@ -137,7 +137,7 @@ const reports = [
   {
     date:"2020-03-14",
     cases:[
-      {case:"30~39", description:"+6 Calgary zone. +4 Edmonton zone."},
+      // {case:"", description:"+6 Calgary zone. +4 Edmonton zone."},
     ],
     zones:{
       Calgary:{
@@ -152,7 +152,7 @@ const reports = [
   {
     date:"2020-03-15",
     cases:[
-      {case:"40~56", description:"+14 Calgary zone. +3 Edmonton zone."},
+      // {case:"", description:"+14 Calgary zone. +3 Edmonton zone."},
     ],
     zones:{
       Calgary:{
@@ -167,8 +167,7 @@ const reports = [
   {
     date:"2020-03-16",
     cases:[
-      {case:"57~74", description:"+12 Calgary zone, +3 Edmonton zone, +1 Central zone, +1 South zone, +1 North zone"},
-      
+      // {case:"", description:"+12 Calgary zone, +3 Edmonton zone, +1 Central zone, +1 South zone, +1 North zone"},
     ],
     zones:{
       Calgary:{
@@ -193,7 +192,7 @@ const reports = [
   {
     date:"2020-03-17",
     cases:[
-      {case:"75~97", description:"+18 Calgary zone, +2 Edmonton zone, +1 Central zone, +2 North zone"},
+      {case:"", description:"+18 Calgary zone, +2 Edmonton zone, +1 Central zone, +2 North zone"},
       
     ],
     zones:{
@@ -215,8 +214,7 @@ const reports = [
   {
     date:"2020-03-18",
     cases:[
-      {case:"98~119", description:"+13 Calgary zone, +7 Edmonton zone, +1 South zone, +2 North zone"},
-      
+      // {case:"", description:"+13 Calgary zone, +7 Edmonton zone, +1 South zone, +2 North zone"},
     ],
     zones:{
       Calgary:{
@@ -237,8 +235,7 @@ const reports = [
   {
     date:"2020-03-19",
     cases:[
-      {case:"120~146", description:"+18 Calgary zone, +2 Edmonton zone, +1 South zone, +6 North zone."},
-      
+      // {case:"", description:"+18 Calgary zone, +2 Edmonton zone, +1 South zone, +6 North zone."},
     ],
     zones:{
       Calgary:{
@@ -260,8 +257,7 @@ const reports = [
   {
     date:"2020-03-20",
     cases:[
-      {case:"147~195", description:"+25 Calgary zone, +14 Edmonton zone, +2 South zone, +7 North zone. +1 Central zone."},
-      
+      // {case:"", description:"+25 Calgary zone, +14 Edmonton zone, +2 South zone, +7 North zone. +1 Central zone."},
     ],
     zones:{
       Calgary:{
@@ -286,8 +282,7 @@ const reports = [
   {
     date:"2020-03-21",
     cases:[
-      {case:"196~226", description:"+13 Calgary. +14 Edmonton, +1 South, +3 Central, +1 Unidentified"},
-      
+      // {case:"", description:"+13 Calgary. +14 Edmonton, +1 South, +3 Central, +1 Unidentified"},
     ],
     zones:{
       Calgary:{
@@ -314,8 +309,7 @@ const reports = [
   {
     date:"2020-03-22",
     cases:[
-      {case:"227~259", description:"+25 Calgary zone, +3 Edmonton zone, +1 South zone, +2 North zone, +3 Central zone."},
-      
+      // {case:"", description:"+25 Calgary zone, +3 Edmonton zone, +1 South zone, +2 North zone, +3 Central zone."},
     ],
     zones:{
       Calgary:{
@@ -342,8 +336,7 @@ const reports = [
   {
     date:"2020-03-23",
     cases:[
-      {case:"260~301", description:""},
-      
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -370,8 +363,7 @@ const reports = [
   {
     date:"2020-03-24",
     cases:[
-      {case:"302~358", description:""},
-      
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -400,8 +392,7 @@ const reports = [
   {
     date:"2020-03-25",
     cases:[
-      {case:"359~419", description:"Up to 33 of the 419 cases may be due to community transmission."},
-      
+      // {case:"", description:"Up to 33 of the 419 cases may be due to community transmission."},
     ],
     zones:{
       Calgary:{
@@ -428,8 +419,7 @@ const reports = [
   {
     date:"2020-03-26",
     cases:[
-      {case:"420~486", description:""},
-      
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -457,8 +447,7 @@ const reports = [
   {
     date:"2020-03-27",
     cases:[
-      {case:"487~542", description:""},
-      
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -486,8 +475,7 @@ const reports = [
   {
     date:"2020-03-28",
     cases:[
-      {case:"543~621", description:""},
-      
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -515,8 +503,7 @@ const reports = [
   {
     date:"2020-03-29",
     cases:[
-      {case:"622~661", description:""},
-      
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -545,8 +532,7 @@ const reports = [
   {
     date:"2020-03-30",
     cases:[
-      {case:"662~690", description:""},
-      
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -578,8 +564,7 @@ const reports = [
   {
     date:"2020-03-31",
     cases:[
-      {case:"691~754", description:""},
-      
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -609,8 +594,7 @@ const reports = [
   {
     date:"2020-04-01",
     cases:[
-      {case:"755~871", description:""},
-      
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -640,7 +624,7 @@ const reports = [
   {
     date:"2020-04-02",
     cases:[
-      {case:"872~968", description:""},
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -671,7 +655,7 @@ const reports = [
   {
     date:"2020-04-03",
     cases:[
-      {case:"969~1075", description:""},
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -702,7 +686,7 @@ const reports = [
   {
     date:"2020-04-04",
     cases:[
-      {case:"1076~1181", description:""},
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -733,7 +717,7 @@ const reports = [
   {
     date:"2020-04-05",
     cases:[
-      {case:"1182~1250", description:""},
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -766,7 +750,7 @@ const reports = [
   {
     date:"2020-04-06",
     cases:[
-      {case:"1251~1348", description:""},
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -799,16 +783,51 @@ const reports = [
 
 const zone_list=["Calgary", "Edmonton", "North", "Central","South",  "Not yet identified"];
 let zones_total = {};
-for (let z of zone_list){
-  let zone_cases = reports.map(report => report.zones[z]).filter(zcase=>zcase);
+let zones_accumulate = {
+  'all':{
+    'confirmed_cases':[],
+    'death':[]
+  }
+};
 
-  let ccases = zone_cases.map(cases_report=>cases_report.confirmed_cases).filter(ccase=>ccase).reduce((x,y)=>x+y,0);
-  let dcases = zone_cases.map(cases_report=>cases_report.death).filter(deathcase=>deathcase).reduce((x,y)=>x+y,0);
+for (let z of zone_list){
+  zones_accumulate[z] = {
+    'confirmed_cases':[],
+    'death':[],
+  };
+
+  let zone_cases = reports.map(report => report.zones[z]);
+  
+  let ccases = zone_cases.map(cases_report => cases_report ? cases_report.confirmed_cases : 0);
+  let sum_ccases = 0;
+  zones_accumulate[z]['confirmed_cases'] = ccases.map(a => sum_ccases = (sum_ccases || 0) + a);
+
+  if (zones_accumulate['all']['confirmed_cases'].length == 0){
+    zones_accumulate['all']['confirmed_cases'] = zones_accumulate[z]['confirmed_cases'];
+  }else{
+    zones_accumulate['all']['confirmed_cases'] = 
+      zones_accumulate['all']['confirmed_cases'].map((val, i) => val + zones_accumulate[z]['confirmed_cases'][i]);
+  }
+
+  let dcases = zone_cases.map(cases_report=>cases_report ? cases_report.death ? cases_report.death : 0 : 0);
+  let sum_dcases = 0;
+  zones_accumulate[z]['death'] = dcases.map(a => sum_dcases = (sum_dcases || 0) + a);
+  
+  if (zones_accumulate['all']['death'].length == 0){
+    zones_accumulate['all']['death'] = zones_accumulate[z]['death'];
+  }else{
+    zones_accumulate['all']['death'] = 
+      zones_accumulate['all']['death'].map((val, i) => val + zones_accumulate[z]['death'][i]);
+  }
+
   zones_total[z] = {
-    confirmed: ccases,
-    death: dcases
+    confirmed: sum_ccases,
+    death: sum_dcases
   }
 }
+
+
+
 
 //SVG generate
 let svgmap = 
@@ -1281,11 +1300,13 @@ let svgmap =
 
 `
 //~~~~~~~~~~~~~~~~~~~
+
 let data = {}
 data['reports'] = reports;
 data['zones_total'] = zones_total;
 data['svgmap'] = svgmap;
-data['zone_list'] = zone_list;
+data['zones_accumulate'] = zones_accumulate;
+// data['zone_list'] = zone_list;
 module.exports = (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Credentials", "true");
