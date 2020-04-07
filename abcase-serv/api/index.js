@@ -137,7 +137,7 @@ const reports = [
   {
     date:"2020-03-14",
     cases:[
-      {case:"30~39", description:"+6 Calgary zone. +4 Edmonton zone."},
+      // {case:"", description:"+6 Calgary zone. +4 Edmonton zone."},
     ],
     zones:{
       Calgary:{
@@ -152,7 +152,7 @@ const reports = [
   {
     date:"2020-03-15",
     cases:[
-      {case:"40~56", description:"+14 Calgary zone. +3 Edmonton zone."},
+      // {case:"", description:"+14 Calgary zone. +3 Edmonton zone."},
     ],
     zones:{
       Calgary:{
@@ -167,8 +167,7 @@ const reports = [
   {
     date:"2020-03-16",
     cases:[
-      {case:"57~74", description:"+12 Calgary zone, +3 Edmonton zone, +1 Central zone, +1 South zone, +1 North zone"},
-      
+      // {case:"", description:"+12 Calgary zone, +3 Edmonton zone, +1 Central zone, +1 South zone, +1 North zone"},
     ],
     zones:{
       Calgary:{
@@ -193,7 +192,7 @@ const reports = [
   {
     date:"2020-03-17",
     cases:[
-      {case:"75~97", description:"+18 Calgary zone, +2 Edmonton zone, +1 Central zone, +2 North zone"},
+      {case:"", description:"+18 Calgary zone, +2 Edmonton zone, +1 Central zone, +2 North zone"},
       
     ],
     zones:{
@@ -215,8 +214,7 @@ const reports = [
   {
     date:"2020-03-18",
     cases:[
-      {case:"98~119", description:"+13 Calgary zone, +7 Edmonton zone, +1 South zone, +2 North zone"},
-      
+      // {case:"", description:"+13 Calgary zone, +7 Edmonton zone, +1 South zone, +2 North zone"},
     ],
     zones:{
       Calgary:{
@@ -237,8 +235,7 @@ const reports = [
   {
     date:"2020-03-19",
     cases:[
-      {case:"120~146", description:"+18 Calgary zone, +2 Edmonton zone, +1 South zone, +6 North zone."},
-      
+      // {case:"", description:"+18 Calgary zone, +2 Edmonton zone, +1 South zone, +6 North zone."},
     ],
     zones:{
       Calgary:{
@@ -260,8 +257,7 @@ const reports = [
   {
     date:"2020-03-20",
     cases:[
-      {case:"147~195", description:"+25 Calgary zone, +14 Edmonton zone, +2 South zone, +7 North zone. +1 Central zone."},
-      
+      // {case:"", description:"+25 Calgary zone, +14 Edmonton zone, +2 South zone, +7 North zone. +1 Central zone."},
     ],
     zones:{
       Calgary:{
@@ -280,13 +276,13 @@ const reports = [
         confirmed_cases:1
       },
     },
-    summary: "49 additional cases of COVID-19 have been confirmed. 10 are currently hospitalized, five have been admitted to ICU."
+    recovered: 3,
+    summary: "49 additional cases of COVID-19 have been confirmed."
   },
   {
     date:"2020-03-21",
     cases:[
-      {case:"196~226", description:"+13 Calgary. +14 Edmonton, +1 South, +3 Central, +1 Unidentified"},
-      
+      // {case:"", description:"+13 Calgary. +14 Edmonton, +1 South, +3 Central, +1 Unidentified"},
     ],
     zones:{
       Calgary:{
@@ -313,8 +309,7 @@ const reports = [
   {
     date:"2020-03-22",
     cases:[
-      {case:"227~259", description:"+25 Calgary zone, +3 Edmonton zone, +1 South zone, +2 North zone, +3 Central zone."},
-      
+      // {case:"", description:"+25 Calgary zone, +3 Edmonton zone, +1 South zone, +2 North zone, +3 Central zone."},
     ],
     zones:{
       Calgary:{
@@ -341,8 +336,7 @@ const reports = [
   {
     date:"2020-03-23",
     cases:[
-      {case:"260~301", description:""},
-      
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -369,8 +363,7 @@ const reports = [
   {
     date:"2020-03-24",
     cases:[
-      {case:"302~358", description:""},
-      
+      // {case:"", description:""},
     ],
     zones:{
       Calgary:{
@@ -399,8 +392,7 @@ const reports = [
   {
     date:"2020-03-25",
     cases:[
-      {case:"359~419", description:"Up to 33 of the 419 cases may be due to community transmission."},
-      
+      // {case:"", description:"Up to 33 of the 419 cases may be due to community transmission."},
     ],
     zones:{
       Calgary:{
@@ -423,21 +415,419 @@ const reports = [
       },
     },
     summary: "Sixty-one additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 419."
+  },
+  {
+    date:"2020-03-26",
+    cases:[
+      // {case:"", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 50,
+      },
+      Edmonton:{
+        confirmed_cases:11,
+      },
+      North:{
+        confirmed_cases:3
+      },
+      Central:{
+        confirmed_cases:2
+      },
+      South:{
+        confirmed_cases:2
+      },
+      "Not yet identified":{
+        confirmed_cases:-1
+      },
+    },
+    recovered: 24,
+    summary: "67 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 486."
+  },
+  {
+    date:"2020-03-27",
+    cases:[
+      // {case:"", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 37,
+      },
+      Edmonton:{
+        confirmed_cases:9,
+      },
+      North:{
+        confirmed_cases:4
+      },
+      Central:{
+        confirmed_cases:6
+      },
+      South:{
+        confirmed_cases:0
+      },
+      "Not yet identified":{
+        confirmed_cases:0
+      },
+    },
+    recovered: 6,
+    summary: "56 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 542."
+  },
+  {
+    date:"2020-03-28",
+    cases:[
+      // {case:"", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 41,
+      },
+      Edmonton:{
+        confirmed_cases:19,
+      },
+      North:{
+        confirmed_cases:13
+      },
+      Central:{
+        confirmed_cases:5
+      },
+      South:{
+        confirmed_cases:0
+      },
+      "Not yet identified":{
+        confirmed_cases:1
+      },
+    },
+    recovered: 20,
+    summary: "79 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 621."
+  },
+  {
+    date:"2020-03-29",
+    cases:[
+      // {case:"", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 30,
+        death:1
+      },
+      Edmonton:{
+        confirmed_cases:10,
+      },
+      North:{
+        confirmed_cases:2
+      },
+      Central:{
+        confirmed_cases:-2
+      },
+      South:{
+        confirmed_cases:0
+      },
+      "Not yet identified":{
+        confirmed_cases:0
+      },
+    },
+    recovered: 20,
+    summary: "40 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 661.\nA third Albertan has died."
+  },
+  {
+    date:"2020-03-30",
+    cases:[
+      // {case:"", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 14,
+        death:2
+      },
+      Edmonton:{
+        confirmed_cases:15,
+        death:2
+      },
+      North:{
+        confirmed_cases:0,
+        death:1
+      },
+      Central:{
+        confirmed_cases:0
+      },
+      South:{
+        confirmed_cases:0
+      },
+      "Not yet identified":{
+        confirmed_cases:0
+      },
+    },
+    recovered: 21,
+    summary: "+29 cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 690.\nFive more Albertans have died from COVID-19 since March 29, bringing the total to 8 deaths in the province."
+  }
+  ,
+  {
+    date:"2020-03-31",
+    cases:[
+      // {case:"", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 31,
+        death:1
+      },
+      Edmonton:{
+        confirmed_cases:23,
+      },
+      North:{
+        confirmed_cases:5,
+      },
+      Central:{
+        confirmed_cases:5
+      },
+      South:{
+        confirmed_cases:0
+      },
+      "Not yet identified":{
+        confirmed_cases:0
+      },
+    },
+    recovered: 26,
+    summary: "64 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 754.\nThere is one additional death in the Calgary zone."
+  }
+  ,
+  {
+    date:"2020-04-01",
+    cases:[
+      // {case:"", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 74,
+        death:1
+      },
+      Edmonton:{
+        confirmed_cases:32,
+      },
+      North:{
+        confirmed_cases:1,
+        death:1
+      },
+      Central:{
+        confirmed_cases:6
+      },
+      South:{
+        confirmed_cases:0
+      },
+      "Not yet identified":{
+        confirmed_cases:4
+      },
+    },
+    recovered: 22,
+    summary: "Since March 31, an additional 117 cases of COVID-19 have been confirmed in Alberta, bringing the total number of cases in the province to 871.\nThere are a total of 11 deaths in Alberta – six in the Calgary zone, three in the Edmonton zone, and two in the North zone."
+  },
+  {
+    date:"2020-04-02",
+    cases:[
+      // {case:"", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 62,
+        death:1
+      },
+      Edmonton:{
+        confirmed_cases:28,
+      },
+      North:{
+        confirmed_cases:4,
+        death:1
+      },
+      Central:{
+        confirmed_cases:2
+      },
+      South:{
+        confirmed_cases:2
+      },
+      "Not yet identified":{
+        confirmed_cases:-1
+      },
+    },
+    recovered: 32,
+    summary: "Additional 97 cases of COVID-19 have been confirmed in Alberta since the last report, bringing the total number of cases in the province to 968.\nThere have been two additional deaths, one in the Calgary zone and the other in the North zone."
+  }
+  ,
+  {
+    date:"2020-04-03",
+    cases:[
+      // {case:"", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 82,
+        death:4
+      },
+      Edmonton:{
+        confirmed_cases:16,
+        death:1
+      },
+      North:{
+        confirmed_cases:2,
+        
+      },
+      Central:{
+        confirmed_cases:3
+      },
+      South:{
+        confirmed_cases:2
+      },
+      "Not yet identified":{
+        confirmed_cases:2
+      },
+    },
+    recovered: 22,
+    summary: "107 new cases of COVID-19 have been confirmed, bringing the total number of cases in Alberta to 1,075.\nAnother 5 Albertans have died since the last report, bringing the total number of COVID-19 related deaths in the province to 18."
+  },
+  {
+    date:"2020-04-04",
+    cases:[
+      // {case:"", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 63,
+        death:2
+      },
+      Edmonton:{
+        confirmed_cases:27,
+        
+      },
+      North:{
+        confirmed_cases:11,
+        
+      },
+      Central:{
+        confirmed_cases:4
+      },
+      South:{
+        confirmed_cases:2
+      },
+      "Not yet identified":{
+        confirmed_cases:-1
+      },
+    },
+    recovered: 44,
+    summary: "106 new cases of COVID-19 have been confirmed, bringing the total number in Alberta to 1,181.\n2 additional deaths reported in the Calgary zone for a total of 20 deaths in Alberta."
+  },
+  {
+    date:"2020-04-05",
+    cases:[
+      // {case:"", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 40,
+        death:1
+      },
+      Edmonton:{
+        confirmed_cases:19,
+        
+      },
+      North:{
+        confirmed_cases:9,
+        death:1
+      },
+      Central:{
+        confirmed_cases:1,
+        death:1
+      },
+      South:{
+        confirmed_cases:2
+      },
+      "Not yet identified":{
+        confirmed_cases:-2
+      },
+    },
+    recovered: 39,
+    summary: "69 new cases of COVID-19 have been reported, bringing the total number of cases in Alberta to 1,250.\n3 Albertans have died since the last report, bringing the total in the province to 23 deaths."
+  }
+  ,
+  {
+    date:"2020-04-06",
+    cases:[
+      // {case:"", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 43,
+        death:1
+      },
+      Edmonton:{
+        confirmed_cases:42,
+        
+      },
+      North:{
+        confirmed_cases:12,
+        death:0
+      },
+      Central:{
+        confirmed_cases:-1,
+        death:0
+      },
+      South:{
+        confirmed_cases:2
+      },
+      "Not yet identified":{
+        confirmed_cases:0
+      },
+    },
+    recovered: 82,
+    summary: "98 new cases of COVID-19 have been reported, bringing the total number of cases in Alberta to 1,348.\nOne additional death has been reported in the Calgary zone., bringing the total deaths in the province to 24."
   }
 ]
 
 const zone_list=["Calgary", "Edmonton", "North", "Central","South",  "Not yet identified"];
 let zones_total = {};
-for (let z of zone_list){
-  let zone_cases = reports.map(report => report.zones[z]).filter(zcase=>zcase);
+let zones_accumulate = {
+  'all':{
+    'confirmed_cases':[],
+    'death':[]
+  }
+};
 
-  let ccases = zone_cases.map(cases_report=>cases_report.confirmed_cases).filter(ccase=>ccase).reduce((x,y)=>x+y,0);
-  let dcases = zone_cases.map(cases_report=>cases_report.death).filter(deathcase=>deathcase).reduce((x,y)=>x+y,0);
+for (let z of zone_list){
+  zones_accumulate[z] = {
+    'confirmed_cases':[],
+    'death':[],
+  };
+
+  let zone_cases = reports.map(report => report.zones[z]);
+  
+  let ccases = zone_cases.map(cases_report => cases_report ? cases_report.confirmed_cases : 0);
+  let sum_ccases = 0;
+  zones_accumulate[z]['confirmed_cases'] = ccases.map(a => sum_ccases = (sum_ccases || 0) + a);
+
+  if (zones_accumulate['all']['confirmed_cases'].length == 0){
+    zones_accumulate['all']['confirmed_cases'] = zones_accumulate[z]['confirmed_cases'];
+  }else{
+    zones_accumulate['all']['confirmed_cases'] = 
+      zones_accumulate['all']['confirmed_cases'].map((val, i) => val + zones_accumulate[z]['confirmed_cases'][i]);
+  }
+
+  let dcases = zone_cases.map(cases_report=>cases_report ? cases_report.death ? cases_report.death : 0 : 0);
+  let sum_dcases = 0;
+  zones_accumulate[z]['death'] = dcases.map(a => sum_dcases = (sum_dcases || 0) + a);
+  
+  if (zones_accumulate['all']['death'].length == 0){
+    zones_accumulate['all']['death'] = zones_accumulate[z]['death'];
+  }else{
+    zones_accumulate['all']['death'] = 
+      zones_accumulate['all']['death'].map((val, i) => val + zones_accumulate[z]['death'][i]);
+  }
+
   zones_total[z] = {
-    confirmed: ccases,
-    death: dcases
+    confirmed: sum_ccases,
+    death: sum_dcases
   }
 }
+
+
+
 
 //SVG generate
 let svgmap = 
@@ -450,7 +840,7 @@ let svgmap =
     <style>
       text{
         font-family:"Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        font-size:3.6rem;
+        font-size:3.54rem;
         paint-order: stroke;
         stroke: #000000;
         stroke-width: 3px;
@@ -880,7 +1270,10 @@ let svgmap =
              561.55,792.00 559.00,760.00 559.00,760.00
              559.00,760.00 540.00,761.00 540.00,761.00 Z" 
   />
-  <text id="lblNorth" x="290" y="325" alignment-baseline="middle" text-anchor="middle" >${zones_total.North.confirmed}</text>
+  <text id="lblNorth" x="290" y="325" alignment-baseline="middle" text-anchor="middle" >
+    <tspan alignment-baseline="middle" text-anchor="middle" > ${zones_total.North.confirmed} \n</tspan>
+    <tspan alignment-baseline="middle" text-anchor="middle" style="fill:red"> ${zones_total.North.death}</tspan>
+  </text>
 
   <text id="lblEdmonton" x="327" y="620" alignment-baseline="middle" text-anchor="middle" >
     <tspan alignment-baseline="middle" text-anchor="middle" > ${zones_total.Edmonton.confirmed} \n</tspan>
@@ -888,7 +1281,10 @@ let svgmap =
     <tspan alignment-baseline="middle" text-anchor="middle" style="fill:red"> ${zones_total.Edmonton.death}</tspan>
   </text>
   
-  <text id="lblCentral" x="390" y="715" alignment-baseline="middle" text-anchor="middle" >${zones_total.Central.confirmed}</text>
+  <text id="lblCentral" x="390" y="715" alignment-baseline="middle" text-anchor="middle" >
+    <tspan alignment-baseline="middle" text-anchor="middle" > ${zones_total.Central.confirmed} \n</tspan>
+    <tspan alignment-baseline="middle" text-anchor="middle" style="fill:red"> ${zones_total.Central.death}</tspan>
+  </text>
 
   <text id="lblCalgary" x="335" y="840" alignment-baseline="middle" text-anchor="middle" >
     
@@ -904,10 +1300,13 @@ let svgmap =
 
 `
 //~~~~~~~~~~~~~~~~~~~
+
 let data = {}
 data['reports'] = reports;
 data['zones_total'] = zones_total;
 data['svgmap'] = svgmap;
+data['zones_accumulate'] = zones_accumulate;
+// data['zone_list'] = zone_list;
 module.exports = (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Credentials", "true");

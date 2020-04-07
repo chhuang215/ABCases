@@ -20,3 +20,19 @@ td h4{
 .card-body {
     padding: .4rem .9rem;
 }
+
+.diffnum{
+    font-size:.85rem;
+    color: mediumspringgreen;
+}
+
+.hasdiff{
+    color: tomato;
+}
+
+.percentage{
+    text-align:left; 
+    font-size:.78rem; 
+    padding-left:0!important; 
+    vertical-align: inherit !important;   
+}
