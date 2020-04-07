@@ -280,7 +280,8 @@ const reports = [
         confirmed_cases:1
       },
     },
-    summary: "49 additional cases of COVID-19 have been confirmed.\nAt this time, 3 have recovered.\n10 are currently hospitalized, five have been admitted to ICU."
+    recovered: 3,
+    summary: "49 additional cases of COVID-19 have been confirmed."
   },
   {
     date:"2020-03-21",
@@ -450,7 +451,8 @@ const reports = [
         confirmed_cases:-1
       },
     },
-    summary: "67 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 486.\n+24 new recovered cases, total to 27 recovered."
+    recovered: 24,
+    summary: "67 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 486."
   },
   {
     date:"2020-03-27",
@@ -478,7 +480,8 @@ const reports = [
         confirmed_cases:0
       },
     },
-    summary: "56 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 542.\n+6 new recovered cases, total 33 recovered."
+    recovered: 6,
+    summary: "56 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 542."
   },
   {
     date:"2020-03-28",
@@ -506,7 +509,8 @@ const reports = [
         confirmed_cases:1
       },
     },
-    summary: "79 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 621.\nTotal 53 confirmed recovered cases."
+    recovered: 20,
+    summary: "79 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 621."
   },
   {
     date:"2020-03-29",
@@ -535,7 +539,8 @@ const reports = [
         confirmed_cases:0
       },
     },
-    summary: "40 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 661.\nA third Albertan has died\nTotal 73 confirmed recovered cases."
+    recovered: 20,
+    summary: "40 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 661.\nA third Albertan has died."
   },
   {
     date:"2020-03-30",
@@ -566,7 +571,8 @@ const reports = [
         confirmed_cases:0
       },
     },
-    summary: "+29 cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 690.\nFive more Albertans have died from COVID-19 since March 29, bringing the total to 8 deaths in the province.\nTotal 94 confirmed recovered cases."
+    recovered: 21,
+    summary: "+29 cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 690.\nFive more Albertans have died from COVID-19 since March 29, bringing the total to 8 deaths in the province."
   }
   ,
   {
@@ -596,7 +602,8 @@ const reports = [
         confirmed_cases:0
       },
     },
-    summary: "64 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 754.\nThere is one additional death in the Calgary zone.\nThere are now a total of 120 confirmed recovered cases."
+    recovered: 26,
+    summary: "64 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 754.\nThere is one additional death in the Calgary zone."
   }
   ,
   {
@@ -627,7 +634,8 @@ const reports = [
         confirmed_cases:4
       },
     },
-    summary: "Since March 31, an additional 117 cases of COVID-19 have been confirmed in Alberta, bringing the total number of cases in the province to 871.\nThere are a total of 11 deaths in Alberta – six in the Calgary zone, three in the Edmonton zone, and two in the North zone.\nTotal 142 confirmed recovered cases."
+    recovered: 22,
+    summary: "Since March 31, an additional 117 cases of COVID-19 have been confirmed in Alberta, bringing the total number of cases in the province to 871.\nThere are a total of 11 deaths in Alberta – six in the Calgary zone, three in the Edmonton zone, and two in the North zone."
   },
   {
     date:"2020-04-02",
@@ -656,7 +664,8 @@ const reports = [
         confirmed_cases:-1
       },
     },
-    summary: "Additional 97 cases of COVID-19 have been confirmed in Alberta since the last report, bringing the total number of cases in the province to 968.\nThere have been two additional deaths, one in the Calgary zone and the other in the North zone.\nTotal 174 confirmed recovered cases."
+    recovered: 32,
+    summary: "Additional 97 cases of COVID-19 have been confirmed in Alberta since the last report, bringing the total number of cases in the province to 968.\nThere have been two additional deaths, one in the Calgary zone and the other in the North zone."
   }
   ,
   {
@@ -687,7 +696,8 @@ const reports = [
         confirmed_cases:2
       },
     },
-    summary: "107 new cases of COVID-19 have been confirmed, bringing the total number of cases in Alberta to 1,075.\nAnother 5 Albertans have died since the last report, bringing the total number of COVID-19 related deaths in the province to 18.\nTotal of 196 confirmed recovered cases."
+    recovered: 22,
+    summary: "107 new cases of COVID-19 have been confirmed, bringing the total number of cases in Alberta to 1,075.\nAnother 5 Albertans have died since the last report, bringing the total number of COVID-19 related deaths in the province to 18."
   },
   {
     date:"2020-04-04",
@@ -717,7 +727,8 @@ const reports = [
         confirmed_cases:-1
       },
     },
-    summary: "106 new cases of COVID-19 have been confirmed, bringing the total number in Alberta to 1,181.\n2 additional deaths reported in the Calgary zone for a total of 20 deaths in Alberta.\nTotal 240 confirmed recovered cases."
+    recovered: 44,
+    summary: "106 new cases of COVID-19 have been confirmed, bringing the total number in Alberta to 1,181.\n2 additional deaths reported in the Calgary zone for a total of 20 deaths in Alberta."
   },
   {
     date:"2020-04-05",
@@ -748,7 +759,41 @@ const reports = [
         confirmed_cases:-2
       },
     },
-    summary: "69 new cases of COVID-19 have been reported, bringing the total number of cases in Alberta to 1,250.\n3 Albertans have died since the last report, bringing the total in the province to 23 deaths.\nTotal 279 confirmed recovered cases."
+    recovered: 39,
+    summary: "69 new cases of COVID-19 have been reported, bringing the total number of cases in Alberta to 1,250.\n3 Albertans have died since the last report, bringing the total in the province to 23 deaths."
+  }
+  ,
+  {
+    date:"2020-04-06",
+    cases:[
+      {case:"1251~1348", description:""},
+    ],
+    zones:{
+      Calgary:{
+        confirmed_cases: 43,
+        death:1
+      },
+      Edmonton:{
+        confirmed_cases:42,
+        
+      },
+      North:{
+        confirmed_cases:12,
+        death:0
+      },
+      Central:{
+        confirmed_cases:-1,
+        death:0
+      },
+      South:{
+        confirmed_cases:2
+      },
+      "Not yet identified":{
+        confirmed_cases:0
+      },
+    },
+    recovered: 82,
+    summary: "98 new cases of COVID-19 have been reported, bringing the total number of cases in Alberta to 1,348.\nOne additional death has been reported in the Calgary zone., bringing the total deaths in the province to 24."
   }
 ]
 

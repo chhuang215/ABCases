@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
     
     $.getJSON(jsonUrl, (data) => {
 
+
+       
+
         $('#svgmap').html(data.svgmap);
 
         let totalCases = 0;
@@ -19,6 +22,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
         let zones_total = data['zones_total']
         let reports = data['reports'];
+
+        // console.log(reports.map(r => r.recovered).filter(r=>r).reduce((x,y)=>x+y,0));
+
 
         let lastUpdatedZones = reports[reports.length - 1].zones;
 
@@ -99,10 +105,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
             </tr>`
         );
 
-        
-        
+
+        let totalRecov = 0;
         for (let aReport of reports) {
+            
             let d = aReport['date'];
+            var recov = aReport['recovered'] ? aReport['recovered'] : 0;
+            totalRecov += recov;
+
             $('#list_cases').prepend(
                 `<div class='card' id="${d}" ></div>`
             );
@@ -124,12 +134,30 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 let summs = summary.split("\n");
                 let summblock = $('#'+d).prepend(`<div class='card-body summary'></div>`).find(".summary");
                 for(let s of summs){
+                    
+                   
                     summblock.append(`<p class="card-text">${s}</p>`);
                 }
-                
 
+                if (recov){
+                    summblock.append(`<p class="card-text"> +${recov} recovered. Total ${totalRecov} confirmed recovered cases.</p>`);
+                }
             }
             $('#'+d).prepend(`<h4 class='card-header'>${d}</h4>`);
         }
+
+        $('#tblstat tbody').append(
+            `<tr> 
+                <th>
+                    <h4 style='font-weight: bold'>Recovered:</h4>
+                </th> 
+                <td>
+                    <h4 style='font-weight: bold'>${totalRecov}
+                    <span class="diffnum" >(${(recov > 0 ? '+' : "") + recov})</span>
+                    </h4>
+                </td>
+            </tr>`
+        );
+
     });
 });
