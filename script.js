@@ -150,15 +150,15 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
     function generateChart(data){
         let zones_accumulate = data['zones_accumulate'];
-        let labels = data['reports'].map(r => r.date);
+        let labels = data['reports'].map(r => r.date.replace("2020-", "").replace('-','/'));
         var chartTotal = new Chart(document.getElementById('chartTotal').getContext('2d') , {
             type: 'bar',
             data: {
                 labels: labels,
                 datasets: [{
                     label: 'Cases',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 132)',
+                    backgroundColor: 'rgb(255, 120, 132)',
+                    // borderColor: 'rgb(255, 99, 132)',
                     data: zones_accumulate['all']['confirmed_cases']
                 }]
             },
