@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             `
         );
 
+        let recov = zAccumAll['recovered_per_day'][zAccumAll['recovered_per_day'].length-1]
         $('#tblstat tbody').append(zoneHtml).append(
             `<tr> 
                 <th>
@@ -91,25 +92,21 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 <td class="percentage">
                     (${(totalDeath/totalCases * 100).toFixed(1)}%)
                 </td>
-            </tr>`
-        );
-
-        let totalRecov = zones_accumulate['all']['recovered'][zones_accumulate['all']['recovered'].length-1];
-        let recov = zones_accumulate['all']['recovered_per_day'][zones_accumulate['all']['recovered_per_day'].length-1]
-        $('#tblstat tbody').append(
-            `<tr> 
+            </tr>
+            <tr> 
                 <th>
                     <h4 style='font-weight: bold'>Recovered:</h4>
                 </th> 
                 <td>
-                    <h4 style='font-weight: bold'>${totalRecov}
+                    <h4 style='font-weight: bold'>${zAccumAll['recovered'][zAccumAll['recovered'].length-1]}
                     <span class="diffnum" >(${(recov > 0 ? '+' : "") + recov})</span>
                     </h4>
                 </td>
-            </tr>`
+            </tr>
+            
+            `
         );
 
-        let prevCases = 0;
         for (const [i, aReport] of reports.entries()) {
             
             let d = aReport['date'];
@@ -142,11 +139,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
   
             $('#'+d).prepend(`<h4 class='card-header'>${d}</h4>
                               <h5 class='card-header'>
-                                Case ${prevCases+1} ~ ${zones_accumulate['all']['confirmed_cases'][i]}
+                                Case ${(i > 0 ? zAccumAll['confirmed_cases'][i-1] : 0 ) + 1 } ~ ${zAccumAll['confirmed_cases'][i]}
                               </h5>
                             `);
-
-            prevCases = data['zones_accumulate']['all']['confirmed_cases'][i];
         }
 
         

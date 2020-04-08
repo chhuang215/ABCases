@@ -1405,7 +1405,6 @@ for (const [i, aReport] of reports.entries()) {
 
 let data = {}
 data['reports'] = reports;
-data['zones_total'] = zones_total;
 data['svgmap'] = svgmap.replace(/(\r\n|\n|\r)/gm,"");;
 data['zones_accumulate'] = zones_accumulate;
 data['zone_list'] = zone_list;
