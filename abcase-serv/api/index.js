@@ -77,7 +77,7 @@ const reports = [
         confirmed_cases:3
       }
     },
-    summary:"14 confirmed cases in Alberta. All travel-related. Returned from visiting a range of countries, including France, the Netherlands, Egypt, Iran, Taiwan, Germany, Malaysia, Trinidad and Tobago, Panama, the Philippines and the United States.\nSeveral cases visited more than one country.\nOne individual was also on the same MS Braemar cruise ship in the Caribbean as a case announced March 9."
+    summary:"All travel-related. Returned from visiting a range of countries, including France, the Netherlands, Egypt, Iran, Taiwan, Germany, Malaysia, Trinidad and Tobago, Panama, the Philippines and the United States.\nSeveral cases visited more than one country.\nOne individual was also on the same MS Braemar cruise ship in the Caribbean as a case announced March 9."
   },
   {
     date:"2020-03-11",
@@ -99,7 +99,7 @@ const reports = [
         confirmed_cases:1
       }
     },
-    summary:"19 confirmed cases in Alberta. Travel-related. One patient continues to recover in hospital, while others are in isolation at home.\nThe five newly confirmed cases had returned from visiting a range of countries: Iran, Egypt, Spain, Mexico, United States."
+    summary:"Travel-related. One patient continues to recover in hospital, while others are in isolation at home.\nThe five newly confirmed cases had returned from visiting a range of countries: Iran, Egypt, Spain, Mexico, United States."
 
   },
   {
@@ -115,7 +115,7 @@ const reports = [
         confirmed_cases:4
       },
     },
-    summary:"Four new cases have now been confirmed.\nThe travellers returned from travelling in Jordan, Egypt, France, Germany, United States, specifically Florida."
+    summary:"The travellers returned from travelling in Jordan, Egypt, France, Germany, United States, specifically Florida."
   },
   {
     date:"2020-03-13",
@@ -132,7 +132,7 @@ const reports = [
         confirmed_cases:1
       },
     },
-    summary:"Six additional cases. All travel-related."
+    summary:"All travel-related."
   },
   {
     date:"2020-03-14",
@@ -162,7 +162,7 @@ const reports = [
         confirmed_cases:3
       },
     },
-    summary: "17 additional cases confirmed in Alberta, total of 56 cases in province.\nThree of the new cases are in Edmonton zone and 14 are in Calgary zone."
+    summary: ""
   },
   {
     date:"2020-03-16",
@@ -186,15 +186,11 @@ const reports = [
         confirmed_cases:1
       },
     },
-    summary: "18 additional cases of COVID-19 have been confirmed in Alberta.\n"+
-    "One Edmonton zone and one Calgary zone case have been confirmed to be the result of community transmission."
+    summary: "One Edmonton zone and one Calgary zone case have been confirmed to be the result of community transmission."
   },
   {
     date:"2020-03-17",
-    cases:[
-      {case:"", description:"+18 Calgary zone, +2 Edmonton zone, +1 Central zone, +2 North zone"},
-      
-    ],
+    cases:[],
     zones:{
       Calgary:{
         confirmed_cases:18
@@ -209,7 +205,7 @@ const reports = [
         confirmed_cases:2
       },
     },
-    summary: "23 cases of COVID-19 have been confirmed in Alberta. Total number of cases in the province: 97. Cases have now been identified in all zones across the province."
+    summary: ""
   },
   {
     date:"2020-03-18",
@@ -230,7 +226,7 @@ const reports = [
         confirmed_cases:1
       },
     },
-    summary: "22 additional cases have been confirmed, bringing the total number of cases in the province to 119.\nsix are currently hospitalized, with three admitted to intensive care units (ICU).\nMultiple cases of COVID-19 have been reported from attendees at the Pacific Dental Conference held in Vancouver March 5 to 7."
+    summary: "Multiple cases of COVID-19 have been reported from attendees at the Pacific Dental Conference held in Vancouver March 5 to 7."
   },
   {
     date:"2020-03-19",
@@ -252,7 +248,7 @@ const reports = [
         confirmed_cases:6
       },
     },
-    summary: "One Albertan has died as a result of the virus, the first COVID-19 related death in the province.\nMale in his 60’s who had been admitted to ICU in the Edmonton zone on March 12 and had pre-existing conditions. This is the first confirmed COVID-19 related death in the province."
+    summary: "The first COVID-19 related death in the province.\nMale in his 60’s who had been admitted to ICU in the Edmonton zone on March 12 and had pre-existing conditions."
   },
   {
     date:"2020-03-20",
@@ -277,7 +273,7 @@ const reports = [
       },
     },
     recovered: 3,
-    summary: "49 additional cases of COVID-19 have been confirmed."
+    summary: ""
   },
   {
     date:"2020-03-21",
@@ -304,7 +300,7 @@ const reports = [
         confirmed_cases:1
       },
     },
-    summary: "31 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 226."
+    summary: ""
   },
   {
     date:"2020-03-22",
@@ -331,7 +327,7 @@ const reports = [
         confirmed_cases:-1
       },
     },
-    summary: "33 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 259."
+    summary: ""
   },
   {
     date:"2020-03-23",
@@ -358,7 +354,7 @@ const reports = [
         confirmed_cases:1
       },
     },
-    summary: "Forty-two additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 301."
+    summary: ""
   },
   {
     date:"2020-03-24",
@@ -386,7 +382,7 @@ const reports = [
         confirmed_cases:1
       },
     },
-    summary: "A second Albertan has died and 57 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 358."
+    summary: ""
   }
   ,
   {
@@ -414,7 +410,7 @@ const reports = [
         confirmed_cases:-1
       },
     },
-    summary: "Sixty-one additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 419."
+    summary: ""
   },
   {
     date:"2020-03-26",
@@ -442,7 +438,7 @@ const reports = [
       },
     },
     recovered: 24,
-    summary: "67 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 486."
+    summary: ""
   },
   {
     date:"2020-03-27",
@@ -470,7 +466,7 @@ const reports = [
       },
     },
     recovered: 6,
-    summary: "56 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 542."
+    summary: ""
   },
   {
     date:"2020-03-28",
@@ -498,7 +494,7 @@ const reports = [
       },
     },
     recovered: 20,
-    summary: "79 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 621."
+    summary: ""
   },
   {
     date:"2020-03-29",
@@ -527,7 +523,7 @@ const reports = [
       },
     },
     recovered: 20,
-    summary: "40 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 661.\nA third Albertan has died."
+    summary: ""
   },
   {
     date:"2020-03-30",
@@ -558,7 +554,7 @@ const reports = [
       },
     },
     recovered: 21,
-    summary: "+29 cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 690.\nFive more Albertans have died from COVID-19 since March 29, bringing the total to 8 deaths in the province."
+    summary: ""
   }
   ,
   {
@@ -588,7 +584,7 @@ const reports = [
       },
     },
     recovered: 26,
-    summary: "64 additional cases of COVID-19 have been confirmed, bringing the total number of cases in the province to 754.\nThere is one additional death in the Calgary zone."
+    summary: ""
   }
   ,
   {
@@ -619,7 +615,7 @@ const reports = [
       },
     },
     recovered: 22,
-    summary: "Since March 31, an additional 117 cases of COVID-19 have been confirmed in Alberta, bringing the total number of cases in the province to 871.\nThere are a total of 11 deaths in Alberta – six in the Calgary zone, three in the Edmonton zone, and two in the North zone."
+    summary: ""
   },
   {
     date:"2020-04-02",
@@ -649,7 +645,7 @@ const reports = [
       },
     },
     recovered: 32,
-    summary: "Additional 97 cases of COVID-19 have been confirmed in Alberta since the last report, bringing the total number of cases in the province to 968.\nThere have been two additional deaths, one in the Calgary zone and the other in the North zone."
+    summary: ""
   }
   ,
   {
@@ -681,7 +677,7 @@ const reports = [
       },
     },
     recovered: 22,
-    summary: "107 new cases of COVID-19 have been confirmed, bringing the total number of cases in Alberta to 1,075.\nAnother 5 Albertans have died since the last report, bringing the total number of COVID-19 related deaths in the province to 18."
+    summary: ""
   },
   {
     date:"2020-04-04",
@@ -712,7 +708,7 @@ const reports = [
       },
     },
     recovered: 44,
-    summary: "106 new cases of COVID-19 have been confirmed, bringing the total number in Alberta to 1,181.\n2 additional deaths reported in the Calgary zone for a total of 20 deaths in Alberta."
+    summary: ""
   },
   {
     date:"2020-04-05",
@@ -744,7 +740,7 @@ const reports = [
       },
     },
     recovered: 39,
-    summary: "69 new cases of COVID-19 have been reported, bringing the total number of cases in Alberta to 1,250.\n3 Albertans have died since the last report, bringing the total in the province to 23 deaths."
+    summary: ""
   }
   ,
   {
@@ -777,47 +773,111 @@ const reports = [
       },
     },
     recovered: 82,
-    summary: "98 new cases of COVID-19 have been reported, bringing the total number of cases in Alberta to 1,348.\nOne additional death has been reported in the Calgary zone., bringing the total deaths in the province to 24."
+    summary: ""
+  }
+  ,
+  {
+    date:"2020-04-07",
+    cases:[],
+    zones:{
+      Calgary:{
+        confirmed_cases: 18,
+        death:2
+      },
+      Edmonton:{
+        confirmed_cases:7,
+        
+      },
+      North:{
+        confirmed_cases:1,
+        death:0
+      },
+      Central:{
+        confirmed_cases:0,
+        death:0
+      },
+      South:{
+        confirmed_cases:0
+      },
+      "Not yet identified":{
+        confirmed_cases:-1
+      },
+    },
+    recovered: 86,
+    summary: ""
   }
 ]
 
 const zone_list=["Calgary", "Edmonton", "North", "Central","South",  "Not yet identified"];
+
 let zones_total = {};
+
 let zones_accumulate = {
   'all':{
     'confirmed_cases':[],
-    'death':[]
+    'death':[],
+    'recovered':[],
+    'cases_per_day':[],
+    'death_per_day':[],
+    'recovered_per_day':[],
+    
   }
 };
+
+zones_accumulate['all']['recovered_per_day'] = reports.map(r => r.recovered ? r.recovered : 0);
+let _sum_recov = 0
+zones_accumulate['all']['recovered'] = zones_accumulate['all']['recovered_per_day'].map(a => _sum_recov = (_sum_recov || 0) + a);
 
 for (let z of zone_list){
   zones_accumulate[z] = {
     'confirmed_cases':[],
     'death':[],
+    'cases_per_day':[],
+    'death_per_day':[],
   };
+
+  zAccum = zones_accumulate[z];
 
   let zone_cases = reports.map(report => report.zones[z]);
   
   let ccases = zone_cases.map(cases_report => cases_report ? cases_report.confirmed_cases : 0);
-  let sum_ccases = 0;
-  zones_accumulate[z]['confirmed_cases'] = ccases.map(a => sum_ccases = (sum_ccases || 0) + a);
+  zAccum['cases_per_day'] = ccases;
 
-  if (zones_accumulate['all']['confirmed_cases'].length == 0){
-    zones_accumulate['all']['confirmed_cases'] = zones_accumulate[z]['confirmed_cases'];
-  }else{
-    zones_accumulate['all']['confirmed_cases'] = 
-      zones_accumulate['all']['confirmed_cases'].map((val, i) => val + zones_accumulate[z]['confirmed_cases'][i]);
-  }
+  let sum_ccases = 0;
+  zAccum['confirmed_cases'] = ccases.map(a => sum_ccases = (sum_ccases || 0) + a);
 
   let dcases = zone_cases.map(cases_report=>cases_report ? cases_report.death ? cases_report.death : 0 : 0);
+  zAccum['death_per_day'] = dcases;
+
   let sum_dcases = 0;
-  zones_accumulate[z]['death'] = dcases.map(a => sum_dcases = (sum_dcases || 0) + a);
+  zAccum['death'] = dcases.map(a => sum_dcases = (sum_dcases || 0) + a);
+
+  if (zones_accumulate['all']['confirmed_cases'].length == 0){
+    zones_accumulate['all']['confirmed_cases'] = zAccum['confirmed_cases'];
+  }else{
+    zones_accumulate['all']['confirmed_cases'] = 
+      zones_accumulate['all']['confirmed_cases'].map((val, i) => val + zAccum['confirmed_cases'][i]);
+  }
   
   if (zones_accumulate['all']['death'].length == 0){
-    zones_accumulate['all']['death'] = zones_accumulate[z]['death'];
+    zones_accumulate['all']['death'] = zAccum['death'];
   }else{
     zones_accumulate['all']['death'] = 
-      zones_accumulate['all']['death'].map((val, i) => val + zones_accumulate[z]['death'][i]);
+      zones_accumulate['all']['death'].map((val, i) => val + zAccum['death'][i]);
+  }
+
+  if (zones_accumulate['all']['cases_per_day'].length == 0){
+    zones_accumulate['all']['cases_per_day'] = zAccum['cases_per_day'];
+  }else{
+    zones_accumulate['all']['cases_per_day'] = 
+      zones_accumulate['all']['cases_per_day'].map((val, i) => val + zAccum['cases_per_day'][i]);
+  }
+
+  if (zones_accumulate['all']['death_per_day'].length == 0){
+    zones_accumulate['all']['death_per_day'] = zAccum['death_per_day'];
+  }else{
+    zones_accumulate['all']['death_per_day'] = 
+      zones_accumulate['all']['death_per_day'].map((val, i) => val + zAccum['death_per_day'][i]);
   }
 
   zones_total[z] = {
@@ -825,9 +885,6 @@ for (let z of zone_list){
     death: sum_dcases
   }
 }
-
-
-
 
 //SVG generate
 let svgmap = 
@@ -1301,12 +1358,56 @@ let svgmap =
 `
 //~~~~~~~~~~~~~~~~~~~
 
+for (const [i, aReport] of reports.entries()) {
+    // let summary = aReport['summary'] ? aReport['summary'] : "";
+    let cases_that_day = zones_accumulate['all']['cases_per_day'][i];
+    let total_upto_cases = zones_accumulate['all']['confirmed_cases'][i];
+    let death_that_day = zones_accumulate['all']['death_per_day'][i];
+    let total_upto_death = zones_accumulate['all']['death'][i];
+    let recov_that_day =  zones_accumulate['all']['recovered_per_day'][i];
+    let total_upto_recov =  zones_accumulate['all']['recovered'][i];
+    let summary = "";
+    let summary_new_cases = "";
+    let summary_new_deaths =  death_that_day != 0 ? "Additional " : "";
+    let summary_recovered = recov_that_day > 0 ? `+${recov_that_day} recovered. Total ${total_upto_recov} confirmed recovered cases.` : "";
+      
+    for (let z of Object.keys(aReport['zones'])){
+
+      let c = aReport['zones'][z].confirmed_cases;
+      let d  = aReport['zones'][z].death;
+      if (c != 0) {
+        summary_new_cases += c + (c > 1 ? " new cases " : c < -1 ? " cases " : c == 1 ? " new case" : " case ");
+
+        if (z.indexOf("Not") == -1){
+          summary_new_cases += " in " + z + " Zone. ";
+        } else{
+          summary_new_cases += " unidentified. ";
+        }
+      }
+
+      if (d && d != 0){
+        summary_new_deaths += d + (d > 1 ? " deaths " : " death ");
+        if (z.indexOf("Not") == -1){
+          summary_new_deaths += " from " + z + " zone, ";
+        } else{
+          summary_new_deaths += " unidentified, ";
+        }
+      }
+    }
+    summary_new_cases += `\nTotal ${cases_that_day} new cases of COVID-19 have been reported, bringing total number of cases in the province to ${total_upto_cases}.\n`;
+    summary_new_deaths += 
+      death_that_day != 0 ? ` bringing the total deaths in the province to ${total_upto_death}.\n` : "";
+
+    summary += summary_new_cases + '\n' + summary_new_deaths;
+    aReport['summary'] = summary +"\n" + (aReport['summary'] ? aReport['summary'] : "") + summary_recovered;
+};
+
+
 let data = {}
 data['reports'] = reports;
-data['zones_total'] = zones_total;
-data['svgmap'] = svgmap;
+data['svgmap'] = svgmap.replace(/(\r\n|\n|\r)/gm,"");;
 data['zones_accumulate'] = zones_accumulate;
-// data['zone_list'] = zone_list;
+data['zone_list'] = zone_list;
 module.exports = (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Credentials", "true");

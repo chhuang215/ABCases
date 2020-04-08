@@ -10,34 +10,26 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
         $('#svgmap').html(data.svgmap);
 
-        let totalCases = 0;
-        let totalDeath = 0;
-        let totalLastAdditional = 0;
-        let totalLastDeath = 0;
         let zoneHtml = ""
 
-        let zones_total = data['zones_total'];
+        let zone_list = data['zone_list'];
         let zones_accumulate = data['zones_accumulate']
         let reports = data['reports'];
 
-        // console.log(reports.map(r => r.recovered).filter(r=>r).reduce((x,y)=>x+y,0));
+        let zAccumAll = zones_accumulate['all'];
+        let totalCases = zAccumAll['confirmed_cases'][zAccumAll['confirmed_cases'].length-1];
+        let totalDeath = zAccumAll['death'][zAccumAll['death'].length-1];
+        let totalLastAdditional = zAccumAll['cases_per_day'][zAccumAll['cases_per_day'].length-1];
+        let totalLastDeath = zAccumAll['death_per_day'][zAccumAll['death_per_day'].length-1];
 
+        for (let aZone of zone_list) {
 
-        let lastUpdatedZones = reports[reports.length - 1].zones;
+            let caseData = zones_accumulate[aZone];
+            let caseNum = caseData['confirmed_cases'][caseData['confirmed_cases'].length - 1];
+            let caseDeath = caseData['death'][caseData['death'].length - 1];
 
-        for (let aZone of Object.keys(zones_total)) {
-
-            let caseData = zones_total[aZone];
-            let caseNum = caseData['confirmed'];
-            let caseDeath = caseData['death'];
-            totalCases += caseNum;
-            totalDeath += caseDeath;
-
-            let lastAdditionalConfirmed = lastUpdatedZones[aZone]['confirmed_cases'] ? lastUpdatedZones[aZone]['confirmed_cases'] : 0;
-            let lastAdditionalDeath = lastUpdatedZones[aZone]['death'] ? lastUpdatedZones[aZone]['death'] : 0;
-
-            totalLastAdditional += lastAdditionalConfirmed;
-            totalLastDeath += lastAdditionalDeath;
+            let lastAdditionalConfirmed = caseData['cases_per_day'][caseData['cases_per_day'].length - 1];
+            let lastAdditionalDeath = caseData['death_per_day'][caseData['death_per_day'].length - 1];
 
             // if(caseNum > 0 || caseDeath > 0){
 
@@ -79,6 +71,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             `
         );
 
+        let recov = zAccumAll['recovered_per_day'][zAccumAll['recovered_per_day'].length-1]
         $('#tblstat tbody').append(zoneHtml).append(
             `<tr> 
                 <th>
@@ -99,17 +92,24 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 <td class="percentage">
                     (${(totalDeath/totalCases * 100).toFixed(1)}%)
                 </td>
-            </tr>`
+            </tr>
+            <tr> 
+                <th>
+                    <h4 style='font-weight: bold'>Recovered:</h4>
+                </th> 
+                <td>
+                    <h4 style='font-weight: bold'>${zAccumAll['recovered'][zAccumAll['recovered'].length-1]}
+                    <span class="diffnum" >(${(recov > 0 ? '+' : "") + recov})</span>
+                    </h4>
+                </td>
+            </tr>
+            
+            `
         );
 
-
-        let totalRecov = 0;
-        let prevCases = 0;
         for (const [i, aReport] of reports.entries()) {
             
             let d = aReport['date'];
-            var recov = aReport['recovered'] ? aReport['recovered'] : 0;
-            totalRecov += recov;
 
             $('#list_cases').prepend(
                 `<div class='card' id="${d}" ></div>`
@@ -132,38 +132,18 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 let summs = summary.split("\n");
                 let summblock = $('#'+d).prepend(`<div class='card-body summary'></div>`).find(".summary");
                 for(let s of summs){
-                    
-                   
-                    summblock.append(`<p class="card-text">${s}</p>`);
-                }
-
-                if (recov){
-                    summblock.append(`<p class="card-text"> +${recov} recovered. Total ${totalRecov} confirmed recovered cases.</p>`);
+                    if(s)
+                        summblock.append(`<p class="card-text">${s}</p>`);
                 }
             }
   
             $('#'+d).prepend(`<h4 class='card-header'>${d}</h4>
                               <h5 class='card-header'>
-                                Case ${prevCases+1} ~ ${zones_accumulate['all']['confirmed_cases'][i]}
+                                Case ${(i > 0 ? zAccumAll['confirmed_cases'][i-1] : 0 ) + 1 } ~ ${zAccumAll['confirmed_cases'][i]}
                               </h5>
                             `);
-
-            prevCases = data['zones_accumulate']['all']['confirmed_cases'][i];
         }
-
         generateChart(data);
-        $('#tblstat tbody').append(
-            `<tr> 
-                <th>
-                    <h4 style='font-weight: bold'>Recovered:</h4>
-                </th> 
-                <td>
-                    <h4 style='font-weight: bold'>${totalRecov}
-                    <span class="diffnum" >(${(recov > 0 ? '+' : "") + recov})</span>
-                    </h4>
-                </td>
-            </tr>`
-        );
 
     });
 
