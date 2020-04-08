@@ -155,54 +155,71 @@ document.addEventListener("DOMContentLoaded", (e) => {
             type: 'bar',
             data: {
                 labels: labels,
-                datasets: [{
-                    label: 'Cases',
-                    backgroundColor: 'rgb(255, 120, 132)',
-                    // borderColor: 'rgb(255, 99, 132)',
-                    data: zones_accumulate['all']['confirmed_cases']
-                }]
+                datasets: [
+                    {
+                        label: 'Calgary',
+                        backgroundColor: 'rgb(240, 13, 13)',
+                        data: zones_accumulate['Calgary']['confirmed_cases']
+                    },
+                    {
+                        label: 'Edmonton',
+                        backgroundColor: 'rgb(13, 180, 13)',
+                        data: zones_accumulate['Edmonton']['confirmed_cases']
+                    }
+                    ,
+                    {
+                        label: 'North',
+                        backgroundColor: 'rgb(13, 180, 180)',
+                        data: zones_accumulate['North']['confirmed_cases']
+                    }
+                    ,
+                    {
+                        label: 'Central',
+                        backgroundColor: 'rgb(180, 180, 13)',
+                        data: zones_accumulate['Central']['confirmed_cases']
+                    }
+                    ,
+                    {
+                        label: 'South',
+                        backgroundColor: 'rgb(180, 180, 180)',
+                        data: zones_accumulate['South']['confirmed_cases']
+                    }
+                    ,
+                    {
+                        label: 'Unidentified',
+                        backgroundColor: 'rgb(255, 180, 13)',
+                        data: zones_accumulate['Not yet identified']['confirmed_cases']
+                    }
+                ]
             },
             // Configuration options go here
             options: {
-                aspectRatio:2,
+                maintainAspectRatio: false,
+                scales: {
+                    xAxes: [{
+                      //stacked: true,
+                      stacked: true,
+                      ticks: {
+                        // beginAtZero: true,
+                        fontColor: "white",
+                        maxRotation: 90,
+                        minRotation: 90 
+                      }
+                    }],
+                    yAxes: [{
+                      stacked: true,
+                      ticks: {
+                        fontColor: "white",
+                      }
+                    }]
+                },
+                legend: {
+                    labels: {
+                        fontColor: "white",
+                          // fontSize: 18
+                    }
+                },
             }
         });
-
-        // var chartZoneTotal = new Chart(document.getElementById('chartZoneTotal').getContext('2d') , {
-        //     type: 'bar',
-        //     data: {
-        //         labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-        //         datasets: [{
-        //             label: 'Cases',
-        //             backgroundColor: 'rgb(255, 99, 132)',
-        //             borderColor: 'rgb(255, 99, 132)',
-        //             data: [0, 10, 5, 2, 20, 30, 45]
-        //         }]
-        //     },
-        //     options: {
-        //         aspectRatio:1.2,
-        //     }
-        // });
-
-        // var chartZoneCount = new Chart(document.getElementById('chartZoneCount').getContext('2d') , {
-        //     type: 'bar',
-        //     data: {
-        //         labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-        //         datasets: [{
-        //             label: 'Cases',
-        //             backgroundColor: 'rgb(255, 99, 132)',
-        //             borderColor: 'rgb(255, 99, 132)',
-        //             data: [0, 10, 5, 2, 20, 30, 45]
-        //         }]
-        //     },
-
-        //     // Configuration options go here
-        //     options: {
-        //         aspectRatio:1.2,
-        //     }
-        // });
-
     }
-
-    
 });
