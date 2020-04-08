@@ -20,9 +20,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
         let zones_accumulate = data['zones_accumulate']
         let reports = data['reports'];
 
-        // console.log(reports.map(r => r.recovered).filter(r=>r).reduce((x,y)=>x+y,0));
-
-
         let lastUpdatedZones = reports[reports.length - 1].zones;
 
         for (let aZone of Object.keys(zones_total)) {
@@ -102,14 +99,25 @@ document.addEventListener("DOMContentLoaded", (e) => {
             </tr>`
         );
 
+        let totalRecov = zones_accumulate['all']['recovered'][zones_accumulate['all']['recovered'].length-1];
+        let recov = zones_accumulate['all']['recovered_per_day'][zones_accumulate['all']['recovered_per_day'].length-1]
+        $('#tblstat tbody').append(
+            `<tr> 
+                <th>
+                    <h4 style='font-weight: bold'>Recovered:</h4>
+                </th> 
+                <td>
+                    <h4 style='font-weight: bold'>${totalRecov}
+                    <span class="diffnum" >(${(recov > 0 ? '+' : "") + recov})</span>
+                    </h4>
+                </td>
+            </tr>`
+        );
 
-        let totalRecov = 0;
         let prevCases = 0;
         for (const [i, aReport] of reports.entries()) {
             
             let d = aReport['date'];
-            var recov = aReport['recovered'] ? aReport['recovered'] : 0;
-            totalRecov += recov;
 
             $('#list_cases').prepend(
                 `<div class='card' id="${d}" ></div>`
@@ -136,10 +144,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
                    
                     summblock.append(`<p class="card-text">${s}</p>`);
                 }
-
-                if (recov){
-                    summblock.append(`<p class="card-text"> +${recov} recovered. Total ${totalRecov} confirmed recovered cases.</p>`);
-                }
             }
   
             $('#'+d).prepend(`<h4 class='card-header'>${d}</h4>
@@ -151,18 +155,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             prevCases = data['zones_accumulate']['all']['confirmed_cases'][i];
         }
 
-        $('#tblstat tbody').append(
-            `<tr> 
-                <th>
-                    <h4 style='font-weight: bold'>Recovered:</h4>
-                </th> 
-                <td>
-                    <h4 style='font-weight: bold'>${totalRecov}
-                    <span class="diffnum" >(${(recov > 0 ? '+' : "") + recov})</span>
-                    </h4>
-                </td>
-            </tr>`
-        );
+        
 
     });
 });
