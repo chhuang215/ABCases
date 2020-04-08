@@ -1394,9 +1394,6 @@ for (const [i, aReport] of reports.entries()) {
         }
       }
     }
-    
-
-
     summary_new_cases += `\nTotal ${cases_that_day} new cases of COVID-19 have been reported, bringing total number of cases in the province to ${total_upto_cases}.\n`;
     summary_new_deaths += 
       death_that_day != 0 ? ` bringing the total deaths in the province to ${total_upto_death}.\n` : "";
@@ -1411,7 +1408,7 @@ data['reports'] = reports;
 data['zones_total'] = zones_total;
 data['svgmap'] = svgmap.replace(/(\r\n|\n|\r)/gm,"");;
 data['zones_accumulate'] = zones_accumulate;
-// data['zone_list'] = zone_list;
+data['zone_list'] = zone_list;
 module.exports = (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Credentials", "true");

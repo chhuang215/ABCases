@@ -10,31 +10,26 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
         $('#svgmap').html(data.svgmap);
 
-        let totalCases = 0;
-        let totalDeath = 0;
-        let totalLastAdditional = 0;
-        let totalLastDeath = 0;
         let zoneHtml = ""
 
-        let zones_total = data['zones_total'];
+        let zone_list = data['zone_list'];
         let zones_accumulate = data['zones_accumulate']
         let reports = data['reports'];
 
-        let lastUpdatedZones = reports[reports.length - 1].zones;
+        let zAccumAll = zones_accumulate['all'];
+        let totalCases = zAccumAll['confirmed_cases'][zAccumAll['confirmed_cases'].length-1];
+        let totalDeath = zAccumAll['death'][zAccumAll['death'].length-1];
+        let totalLastAdditional = zAccumAll['cases_per_day'][zAccumAll['cases_per_day'].length-1];
+        let totalLastDeath = zAccumAll['death_per_day'][zAccumAll['death_per_day'].length-1];
 
-        for (let aZone of Object.keys(zones_total)) {
+        for (let aZone of zone_list) {
 
-            let caseData = zones_total[aZone];
-            let caseNum = caseData['confirmed'];
-            let caseDeath = caseData['death'];
-            totalCases += caseNum;
-            totalDeath += caseDeath;
+            let caseData = zones_accumulate[aZone];
+            let caseNum = caseData['confirmed_cases'][caseData['confirmed_cases'].length - 1];
+            let caseDeath = caseData['death'][caseData['death'].length - 1];
 
-            let lastAdditionalConfirmed = lastUpdatedZones[aZone]['confirmed_cases'] ? lastUpdatedZones[aZone]['confirmed_cases'] : 0;
-            let lastAdditionalDeath = lastUpdatedZones[aZone]['death'] ? lastUpdatedZones[aZone]['death'] : 0;
-
-            totalLastAdditional += lastAdditionalConfirmed;
-            totalLastDeath += lastAdditionalDeath;
+            let lastAdditionalConfirmed = caseData['cases_per_day'][caseData['cases_per_day'].length - 1];
+            let lastAdditionalDeath = caseData['death_per_day'][caseData['death_per_day'].length - 1];
 
             // if(caseNum > 0 || caseDeath > 0){
 
@@ -140,9 +135,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 let summs = summary.split("\n");
                 let summblock = $('#'+d).prepend(`<div class='card-body summary'></div>`).find(".summary");
                 for(let s of summs){
-                    
-                   
-                    summblock.append(`<p class="card-text">${s}</p>`);
+                    if(s)
+                        summblock.append(`<p class="card-text">${s}</p>`);
                 }
             }
   
