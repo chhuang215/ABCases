@@ -119,12 +119,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
             for (let c of cases){
                 let cnum = c['case'];
-                $('#'+d).prepend(
-                    `<div class='case card-body' id='case${cnum}info'> 
-                        <h5 class="card-title">Case  ${cnum}</h5>
-                        <p class="card-text">${c['description']}</p>
-                    </div>`
-                );
+                if (cnum){
+                    $('#'+d).prepend(
+                        `<div class='case card-body' id='case${cnum}info'> 
+                            <h5 class="card-title">Case  ${cnum}</h5>
+                            <p class="card-text">${c['description']}</p>
+                        </div>`
+                    );
+                }
             }
 
             let summary = aReport['summary']
