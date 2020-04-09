@@ -805,6 +805,36 @@ const reports = [
     },
     recovered: 86,
     summary: ""
+  },
+  {
+    date:"2020-04-08",
+    cases:[],
+    zones:{
+      Calgary:{
+        confirmed_cases: 25,
+        death:3
+      },
+      Edmonton:{
+        confirmed_cases:10,
+        
+      },
+      North:{
+        confirmed_cases:5,
+        death:0
+      },
+      Central:{
+        confirmed_cases:6,
+        death:0
+      },
+      South:{
+        confirmed_cases:4
+      },
+      "Not yet identified":{
+        confirmed_cases:0
+      },
+    },
+    recovered: 71,
+    summary: ""
   }
 ]
 
