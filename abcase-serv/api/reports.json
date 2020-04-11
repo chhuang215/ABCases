@@ -954,5 +954,35 @@
      },
      "recovered":74,
      "summary":""
+  },
+  {
+     "date":"2020-04-10",
+     "cases":[],
+     "zones":{
+        "Calgary":{
+           "confirmed_cases":39,
+           "death":5
+        },
+        "Edmonton":{
+           "confirmed_cases":10,
+           "death":2
+        },
+        "North":{
+           "confirmed_cases":0,
+           "death":0
+        },
+        "Central":{
+           "confirmed_cases":0,
+           "death":0
+        },
+        "South":{
+           "confirmed_cases":0
+        },
+        "Not yet identified":{
+           "confirmed_cases":0
+        }
+     },
+     "recovered":121,
+     "summary":""
   }
 ]

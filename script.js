@@ -196,6 +196,12 @@ document.addEventListener("DOMContentLoaded", (e) => {
             },
             // Configuration options go here
             options: {
+                title: {
+                    display: true,
+                    text: 'Total Confirmed Cases',
+                    fontColor: 'white',
+                    fontSize: 20
+                },
                 maintainAspectRatio: false,
                 scales: {
                     xAxes: [{
@@ -212,6 +218,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
                       stacked: true,
                       ticks: {
                         fontColor: "white",
+                        maxTicksLimit: 100
                       }
                     }]
                 },
@@ -223,5 +230,85 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 },
             }
         });
+
+
+        var chartPerday = new Chart(document.getElementById('chartPerday').getContext('2d') , {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'Calgary',
+                        backgroundColor: 'rgb(240, 13, 13)',
+                        data: zones_accumulate['Calgary']['cases_per_day']
+                    },
+                    {
+                        label: 'Edmonton',
+                        backgroundColor: 'rgb(13, 180, 13)',
+                        data: zones_accumulate['Edmonton']['cases_per_day']
+                    }
+                    ,
+                    {
+                        label: 'North',
+                        backgroundColor: 'rgb(13, 180, 180)',
+                        data: zones_accumulate['North']['cases_per_day']
+                    }
+                    ,
+                    {
+                        label: 'Central',
+                        backgroundColor: 'rgb(180, 180, 13)',
+                        data: zones_accumulate['Central']['cases_per_day']
+                    }
+                    ,
+                    {
+                        label: 'South',
+                        backgroundColor: 'rgb(180, 180, 180)',
+                        data: zones_accumulate['South']['cases_per_day']
+                    }
+                    ,
+                    {
+                        label: 'Unidentified',
+                        backgroundColor: 'rgb(255, 180, 13)',
+                        data: zones_accumulate['Not yet identified']['cases_per_day']
+                    }
+                ]
+            },
+            // Configuration options go here
+            options: {
+                title: {
+                    display: true,
+                    text: 'New Cases per day',
+                    fontColor: 'white',
+                    fontSize: '20'
+                },
+                maintainAspectRatio: false,
+                scales: {
+                    xAxes: [{
+                      //stacked: true,
+                      stacked: true,
+                      ticks: {
+                        // beginAtZero: true,
+                        fontColor: "white",
+                        maxRotation: 90,
+                        minRotation: 90 
+                      }
+                    }],
+                    yAxes: [{
+                      stacked: true,
+                      ticks: {
+                        fontColor: "white",
+                        min: -5
+                      }
+                    }]
+                },
+                legend: {
+                    labels: {
+                        fontColor: "white",
+                          // fontSize: 18
+                    }
+                },
+            }
+        });
+
     }
 });
