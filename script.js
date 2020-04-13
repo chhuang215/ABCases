@@ -158,6 +158,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
             data: {
                 labels: labels,
                 datasets: [
+                    // {
+                    //     type:'line',
+                    //     label: 'Recovered',
+                    //     borderColor:'rgba(255, 180, 180, 1)',
+                    //     data: zones_accumulate['all']['recovered'],
+                    //     fill: false
+                        
+                    // },
                     {
                         label: 'Calgary',
                         backgroundColor: 'rgb(240, 13, 13)',
@@ -192,6 +200,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
                         backgroundColor: 'rgb(255, 180, 13)',
                         data: zones_accumulate['Not yet identified']['confirmed_cases']
                     }
+                    
                 ]
             },
             // Configuration options go here
@@ -217,6 +226,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
                     yAxes: [{
                       stacked: true,
                       ticks: {
+                        beginAtZero: false,
                         fontColor: "white",
                         maxTicksLimit: 100
                       }
