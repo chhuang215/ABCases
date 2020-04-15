@@ -158,14 +158,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
             data: {
                 labels: labels,
                 datasets: [
-                    // {
-                    //     type:'line',
-                    //     label: 'Recovered',
-                    //     borderColor:'rgba(255, 180, 180, 1)',
-                    //     data: zones_accumulate['all']['recovered'],
-                    //     fill: false
+                    {
+                        type:'line',
+                        label: 'Recovered',
+                        borderColor:'rgba(230, 200, 200, 1)',
+                        data: zones_accumulate['all']['recovered'].map(v => v == 0 ? 'NaN' : v),
+                        fill: false
                         
-                    // },
+                    },
                     {
                         label: 'Calgary',
                         backgroundColor: 'rgb(240, 13, 13)',
