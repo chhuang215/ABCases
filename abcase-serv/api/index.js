@@ -550,6 +550,7 @@ let svgmap =
 `
 //~~~~~~~~~~~~~~~~~~~
 
+let html_daily_cases = ""
 for (const [i, aReport] of reports.entries()) {
     let cases_that_day = zones_accumulate['all']['cases_per_day'][i];
     let total_upto_cases = zones_accumulate['all']['confirmed_cases'][i];
@@ -560,7 +561,8 @@ for (const [i, aReport] of reports.entries()) {
     let summary_new_cases = "";
     let summary_new_deaths =  death_that_day != 0 ? "Additional " : "";
     let summary_recovered = recov_that_day > 0 ? `+${recov_that_day} recovered. Total ${total_upto_recov} confirmed recovered cases.` : "";
-      
+
+
     for (let z of Object.keys(aReport['zones'])){
 
       let c = aReport['zones'][z].confirmed_cases;
@@ -592,6 +594,39 @@ for (const [i, aReport] of reports.entries()) {
                     summary_new_deaths + 
                     (aReport['summary'] ? aReport['summary'] : "") + 
                     summary_recovered;
+
+
+    let html_one_case_report = `<div class='card' id="${aReport['date']}" >`
+
+    html_one_case_report += 
+      `<h4 class='card-header'>${aReport['date']}</h4>
+        <h5 class='card-header'>
+          Case ${(i > 0 ? zones_accumulate['all']['confirmed_cases'][i-1] : 0 ) + 1 } ~ ${total_upto_cases}
+        </h5>
+      `
+    let summs = aReport['summary'].split("\n");
+    html_one_case_report += `<div class='card-body summary'>`;
+    for(let s of summs){
+        if(s)
+        html_one_case_report += `<p class="card-text">${s}</p>`;
+    }
+
+    html_one_case_report += "</div>";
+
+    
+
+    for (let c of aReport['cases'].reverse()){
+      let cnum = c['case'];
+      if (cnum){
+        html_one_case_report +=
+              `<div class='case card-body' id='case${cnum}info'> 
+                  <h5 class="card-title">Case  ${cnum}</h5>
+                  <p class="card-text">${c['description']}</p>
+              </div>`
+      }
+    }
+    html_one_case_report += "</div>";
+    html_daily_cases = html_one_case_report + html_daily_cases;
 };
 
 
@@ -600,6 +635,7 @@ data['reports'] = reports;
 data['svgmap'] = svgmap.replace(/\s\s+/g, ' ');
 data['zones_accumulate'] = zones_accumulate;
 data['zone_list'] = zone_list;
+data['html_daily_cases'] = html_daily_cases;
 module.exports = (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Credentials", "true");

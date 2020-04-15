@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
         let zone_list = data['zone_list'];
         let zones_accumulate = data['zones_accumulate']
-        let reports = data['reports'];
 
         let zAccumAll = zones_accumulate['all'];
         let totalCases = zAccumAll['confirmed_cases'][zAccumAll['confirmed_cases'].length-1];
@@ -107,44 +106,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
             `
         );
 
-        for (const [i, aReport] of reports.entries()) {
-            
-            let d = aReport['date'];
+        $('#list_cases').append( data['html_daily_cases']);
 
-            $('#list_cases').prepend(
-                `<div class='card' id="${d}" ></div>`
-            );
-            
-            let cases = aReport['cases'];
-
-            for (let c of cases){
-                let cnum = c['case'];
-                if (cnum){
-                    $('#'+d).prepend(
-                        `<div class='case card-body' id='case${cnum}info'> 
-                            <h5 class="card-title">Case  ${cnum}</h5>
-                            <p class="card-text">${c['description']}</p>
-                        </div>`
-                    );
-                }
-            }
-
-            let summary = aReport['summary']
-            if(summary){
-                let summs = summary.split("\n");
-                let summblock = $('#'+d).prepend(`<div class='card-body summary'></div>`).find(".summary");
-                for(let s of summs){
-                    if(s)
-                        summblock.append(`<p class="card-text">${s}</p>`);
-                }
-            }
-  
-            $('#'+d).prepend(`<h4 class='card-header'>${d}</h4>
-                              <h5 class='card-header'>
-                                Case ${(i > 0 ? zAccumAll['confirmed_cases'][i-1] : 0 ) + 1 } ~ ${zAccumAll['confirmed_cases'][i]}
-                              </h5>
-                            `);
-        }
+        
         generateChart(data);
 
     });
