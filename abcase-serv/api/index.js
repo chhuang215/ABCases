@@ -1,11 +1,9 @@
 const https = require('https');
 // const fs = require('fs');
 // const { join } = require('path');
-
 // let reports = JSON.parse(fs.readFileSync(join(__dirname, 'reports.json')));
-let reports = {};
-
 const zone_list=["Calgary", "Edmonton", "North", "Central","South",  "Not yet identified"];
+let reports = [];
 let zones_total = {};
 let zones_accumulate = {
   'all':{
@@ -35,6 +33,7 @@ function get_json_data(){
   const jsonapireq = https.request(options, res => {
     // console.log(`statusCode: ${res.statusCode}`)
     let dd = []
+    reports = [];
     res.on('data', d => {
       dd.push(d);
     }).on('end', () => {
@@ -52,7 +51,27 @@ function get_json_data(){
   jsonapireq.end()
 }
 
+
+
 function generate(){
+  
+  //Initialized var
+  zones_total = {};
+  zones_accumulate = {
+    'all':{
+      'confirmed_cases':[],
+      'death':[],
+      'recovered':[],
+      'cases_per_day':[],
+      'death_per_day':[],
+      'recovered_per_day':[],
+      
+    }
+  };
+  svgmap = "";
+  html_daily_cases = ""
+
+
   zones_accumulate['all']['recovered_per_day'] = reports.map(r => r.recovered ? r.recovered : 0);
   let _sum_recov = 0
   zones_accumulate['all']['recovered'] = zones_accumulate['all']['recovered_per_day'].map(a => _sum_recov = (_sum_recov || 0) + a);
@@ -663,10 +682,6 @@ function generate(){
       html_one_case_report += "</div>";
       html_daily_cases = html_one_case_report + html_daily_cases;
   };
-  
-
-
-
 }
 
 get_json_data();
@@ -679,11 +694,11 @@ module.exports = (req, res) => {
   }
   else{
     let data = {
-      'reports' : reports,
       'svgmap' : svgmap.replace(/\s\s+/g, ' '),
-      'zones_accumulate' : zones_accumulate,
       'zone_list' : zone_list,
-      'html_daily_cases' : html_daily_cases,
+      'dates' : reports.map(r => r.date),
+      'zones_accumulate' : zones_accumulate,
+      'html_daily_cases' : html_daily_cases.replace(/\s\s+/g, ' '),
     }
   
     res.setHeader("Access-Control-Allow-Origin", "*");
