@@ -271,8 +271,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
                       stacked: true,
                       ticks: {
                         fontColor: "white",
-                        suggestedMin:0,
-                        min:-5
+                        // suggestedMin:0,
+                        min:-20
                         // stepSize: 5
                       }
                     }]
