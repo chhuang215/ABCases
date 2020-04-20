@@ -116,7 +116,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
     function generateChart(data){
         let zones_accumulate = data['zones_accumulate'];
-        let labels = data['dates'].map(d => d.replace("2020-", "").replace('-','/'));
+        // let labels = data['dates'].map(d => d.replace("2020-", "").replace('-','/'));
+        let labels = data['dates'].map(d => d.substr(5,10).replace('-','/'));
         var chartTotal = new Chart(document.getElementById('chartTotal').getContext('2d') , {
             type: 'bar',
             data: {
