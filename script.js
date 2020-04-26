@@ -273,7 +273,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
                       ticks: {
                         fontColor: "white",
                         // suggestedMin:0,
-                        min:-20
+                        // min:-20
                         // stepSize: 5
                       }
                     }]
