@@ -36,3 +36,42 @@ td h4{
     padding-left:0!important; 
     vertical-align: inherit !important;   
 }
+
+.btn-github{
+    color:#fff;
+    background-color:#444;
+    border-color:rgba(0,0,0,0.2);
+    
+
+}
+.btn-linkedin{
+    color: #fff;
+    background-color: #007bb6;
+    border-color: rgba(0,0,0,0.2);
+}
+
+.btn-social-icon{
+    position: relative;
+    padding-left: 44px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 34px;
+    width: 34px;
+    padding: 0;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn-social-icon>:first-child{
+    position: absolute;
+    border: none;
+    text-align: center;
+    width: 100% !important;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    line-height: 34px;
+    font-size: 1.6em;
+}
