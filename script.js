@@ -3,8 +3,6 @@
 document.addEventListener("DOMContentLoaded", (e) => { 
     
     let jsonUrl = "https://abcase-serv.now.sh/"
-
-    console.log("The data is at " + jsonUrl);
     
     $.getJSON(jsonUrl, (data) => {
 
