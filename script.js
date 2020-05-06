@@ -42,6 +42,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 return
             }
 
+            $("#loading").remove();
+
             tries = 0;
 
             $('#svgmap').html(data.svgmap);
