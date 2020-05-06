@@ -1,115 +1,140 @@
 
 
+let tries = 0;
+
 document.addEventListener("DOMContentLoaded", (e) => { 
     
-    let jsonUrl = "https://abcase-serv.now.sh/"
+    let jsonUrl = "https://abcase-serv.now.sh/";
+
     
-    $.getJSON(jsonUrl, (data) => {
+    fetchData();
 
-        $('#svgmap').html(data.svgmap);
+    function fetchData(){
+        $.getJSON(jsonUrl, (data) => {
 
-        let zoneHtml = ""
+            let zoneHtml = ""
 
-        let zone_list = data['zone_list'];
-        let zones_accumulate = data['zones_accumulate']
+            let zone_list = data['zone_list'];
+            let zones_accumulate = data['zones_accumulate']
 
-        let zAccumAll = zones_accumulate['all'];
-        let totalCases = zAccumAll['confirmed_cases'][zAccumAll['confirmed_cases'].length-1];
-        let totalDeath = zAccumAll['death'][zAccumAll['death'].length-1];
-        let totalLastAdditional = zAccumAll['cases_per_day'][zAccumAll['cases_per_day'].length-1];
-        let totalLastDeath = zAccumAll['death_per_day'][zAccumAll['death_per_day'].length-1];
+            let zAccumAll = zones_accumulate['all'];
+            let totalCases = zAccumAll['confirmed_cases'][zAccumAll['confirmed_cases'].length-1];
+            let totalDeath = zAccumAll['death'][zAccumAll['death'].length-1];
+            let totalLastAdditional = zAccumAll['cases_per_day'][zAccumAll['cases_per_day'].length-1];
+            let totalLastDeath = zAccumAll['death_per_day'][zAccumAll['death_per_day'].length-1];
 
-        for (let aZone of zone_list) {
+            if (totalCases <= -2){
+                console.log("retry..." + tries);
+                if (tries >= 4){    
+                    let request = new XMLHttpRequest();
+                    request.open('GET', "https://abcase-serv.now.sh/update")
+                    request.send();
+                    request.onload = () =>{
+                        if (request.status != 200){
+                            alert("Failed to retrieve data");
+                        }
+                    }
+                }
+                else{
+                    setTimeout(fetchData, 1000);     
+                }
+                tries += 1;
+                return
+            }
 
-            let caseData = zones_accumulate[aZone];
-            let caseNum = caseData['confirmed_cases'][caseData['confirmed_cases'].length - 1];
-            let caseDeath = caseData['death'][caseData['death'].length - 1];
+            tries = 0;
 
-            let lastAdditionalConfirmed = caseData['cases_per_day'][caseData['cases_per_day'].length - 1];
-            let lastAdditionalDeath = caseData['death_per_day'][caseData['death_per_day'].length - 1];
+            $('#svgmap').html(data.svgmap);
 
-            // if(caseNum > 0 || caseDeath > 0){
+            for (let aZone of zone_list) {
 
-            let th = aZone;
+                let caseData = zones_accumulate[aZone];
+                let caseNum = caseData['confirmed_cases'][caseData['confirmed_cases'].length - 1];
+                let caseDeath = caseData['death'][caseData['death'].length - 1];
 
-            if (aZone.indexOf("Not ") == -1) { th += " Zone "};
+                let lastAdditionalConfirmed = caseData['cases_per_day'][caseData['cases_per_day'].length - 1];
+                let lastAdditionalDeath = caseData['death_per_day'][caseData['death_per_day'].length - 1];
 
-            zoneHtml += 
-            `<tr>
-                <th scope="row"><h4>${th} : </h4></th>
-                <td>
-                    <h4>
-                        ${caseNum} 
-                        <span class="diffnum ${(lastAdditionalConfirmed != 0 ? 'hasdiff' : "")}" >(${(lastAdditionalConfirmed > 0 ? '+' : "") + lastAdditionalConfirmed})</span>
-                    </h4>
-                    
-                </td>
-                <td>
-                    <h4>
-                        ${caseDeath}
-                        <span class="diffnum ${(lastAdditionalDeath != 0 ? 'hasdiff' : "")}" >(${(lastAdditionalDeath > 0 ? '+' : "") + lastAdditionalDeath})</span>
-                    </h4>
-                    
-                </td>
-                <td class="percentage"> (${(caseDeath/caseNum * 100).toFixed(1)}%)</td>
-            </tr>`
+                // if(caseNum > 0 || caseDeath > 0){
 
-            // }
-   
-        }
+                let th = aZone;
 
-        $('#tblstat thead').append(
-            `
-            <tr>
-                <th scope="col"></th>
-                <th scope="col">Cases</th>
-                <th scope="col">Death</th>
-            </tr>
-            `
-        );
+                if (aZone.indexOf("Not ") == -1) { th += " Zone "};
 
-        let recov = zAccumAll['recovered_per_day'][zAccumAll['recovered_per_day'].length-1]
-        $('#tblstat tbody').append(zoneHtml).append(
-            `<tr> 
-                <th>
-                    <h4 style='font-weight: bold'>ALBERTA Total:</h4>
-                </th> 
-                <td>
-                    <h4 style='font-weight: bold'>${totalCases}
-                    <span class="diffnum ${(totalLastAdditional != 0 ? 'hasdiff' : "")}" >(${(totalLastAdditional > 0 ? '+' : "") + totalLastAdditional})</span>
-                    </h4>
-                </td>
-               
-                <td>
-                    <h4 style='font-weight: bold'>${totalDeath}
-                    <span class="diffnum ${(totalLastDeath != 0 ? 'hasdiff' : "")}">(${(totalLastDeath > 0 ? '+' : "") + totalLastDeath})</span>
-                    </h4>
-                </td>
-               
-                <td class="percentage">
-                    (${(totalDeath/totalCases * 100).toFixed(1)}%)
-                </td>
-            </tr>
-            <tr> 
-                <th>
-                    <h4 style='font-weight: bold'>Recovered:</h4>
-                </th> 
-                <td>
-                    <h4 style='font-weight: bold'>${zAccumAll['recovered'][zAccumAll['recovered'].length-1]}
-                    <span class="diffnum" >(${(recov > 0 ? '+' : "") + recov})</span>
-                    </h4>
-                </td>
-            </tr>
-            
-            `
-        );
+                zoneHtml += 
+                `<tr>
+                    <th scope="row"><h4>${th} : </h4></th>
+                    <td>
+                        <h4>
+                            ${caseNum} 
+                            <span class="diffnum ${(lastAdditionalConfirmed != 0 ? 'hasdiff' : "")}" >(${(lastAdditionalConfirmed > 0 ? '+' : "") + lastAdditionalConfirmed})</span>
+                        </h4>
+                        
+                    </td>
+                    <td>
+                        <h4>
+                            ${caseDeath}
+                            <span class="diffnum ${(lastAdditionalDeath != 0 ? 'hasdiff' : "")}" >(${(lastAdditionalDeath > 0 ? '+' : "") + lastAdditionalDeath})</span>
+                        </h4>
+                        
+                    </td>
+                    <td class="percentage"> (${(caseDeath/caseNum * 100).toFixed(1)}%)</td>
+                </tr>`
 
-        $('#list_cases').append( data['html_daily_cases']);
+                // }
+    
+            }
 
-        
-        generateChart(data);
+            $('#tblstat thead').append(
+                `
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Cases</th>
+                    <th scope="col">Death</th>
+                </tr>
+                `
+            );
 
-    });
+            let recov = zAccumAll['recovered_per_day'][zAccumAll['recovered_per_day'].length-1]
+            $('#tblstat tbody').append(zoneHtml).append(
+                `<tr> 
+                    <th>
+                        <h4 style='font-weight: bold'>ALBERTA Total:</h4>
+                    </th> 
+                    <td>
+                        <h4 style='font-weight: bold'>${totalCases}
+                        <span class="diffnum ${(totalLastAdditional != 0 ? 'hasdiff' : "")}" >(${(totalLastAdditional > 0 ? '+' : "") + totalLastAdditional})</span>
+                        </h4>
+                    </td>
+                
+                    <td>
+                        <h4 style='font-weight: bold'>${totalDeath}
+                        <span class="diffnum ${(totalLastDeath != 0 ? 'hasdiff' : "")}">(${(totalLastDeath > 0 ? '+' : "") + totalLastDeath})</span>
+                        </h4>
+                    </td>
+                
+                    <td class="percentage">
+                        (${(totalDeath/totalCases * 100).toFixed(1)}%)
+                    </td>
+                </tr>
+                <tr> 
+                    <th>
+                        <h4 style='font-weight: bold'>Recovered:</h4>
+                    </th> 
+                    <td>
+                        <h4 style='font-weight: bold'>${zAccumAll['recovered'][zAccumAll['recovered'].length-1]}
+                        <span class="diffnum" >(${(recov > 0 ? '+' : "") + recov})</span>
+                        </h4>
+                    </td>
+                </tr>
+                
+                `
+            );
+
+            $('#list_cases').append( data['html_daily_cases']);
+            generateChart(data);
+        });
+    }
 
 
     function generateChart(data){
@@ -286,4 +311,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         });
 
     }
+
+
+
 });
