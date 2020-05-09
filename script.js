@@ -136,8 +136,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 generateChart(data);
 
             }
-
-            console.log("fetch done");
         });
     }
 
