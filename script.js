@@ -32,6 +32,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
                     request.onload = () =>{
                         if (request.status != 200){
                             alert("Failed to retrieve data");
+                        }else{
+                            tries = 0;
+                            setTimeout(fetchData, 1200);
                         }
                     }
                 }
