@@ -1,17 +1,14 @@
-
-
+let jsonUrl = "https://abcase-serv.now.sh/";
 let tries = 0;
 
 document.addEventListener("DOMContentLoaded", (e) => { 
     
-    let jsonUrl = "https://abcase-serv.now.sh/";
-
-    
     fetchData();
 
     async function fetchData(){
-        $.getJSON(jsonUrl, (data) => {
 
+        axios.get(jsonUrl).then(function(resp){
+            let data = resp['data'];
             let zoneHtml = ""
 
             let zone_list = data['zone_list'];
@@ -26,17 +23,25 @@ document.addEventListener("DOMContentLoaded", (e) => {
             if (totalCases <= -2){
                 console.log("retry..." + tries);
                 if (tries >= 4){    
-                    let request = new XMLHttpRequest();
-                    request.open('GET', "https://abcase-serv.now.sh/update")
-                    request.send();
-                    request.onload = () =>{
-                        if (request.status != 200){
-                            alert("Failed to retrieve data");
-                        }else{
-                            tries = 0;
-                            setTimeout(fetchData, 1200);
+                    axios.get('https://abcase-serv.now.sh/update').then(function(resp){
+                        if(resp.status != 200){
+                            throw resp.status + resp.statusText
                         }
-                    }
+                        setTimeout(fetchData, 1200);
+                    }).catch(function(err){
+                        alert("Failed to retrieve data " + err);
+                    })
+                    // let request = new XMLHttpRequest();
+                    // request.open('GET', "https://abcase-serv.now.sh/update")
+                    // request.send();
+                    // request.onload = () =>{
+                    //     if (request.status != 200){
+                    //         alert("Failed to retrieve data");
+                    //     }else{
+                    //         tries = 0;
+                    //         setTimeout(fetchData, 1200);
+                    //     }
+                    // }
                 }
                 else{
                     setTimeout(fetchData, 1000);     
@@ -139,7 +144,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 generateChart(data);
 
             }
-        });
+
+        }).catch(function(resp){console.log(resp)}).then();
     }
 
 

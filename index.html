@@ -9,14 +9,12 @@
   <meta http-equiv="Pragma" content="no-cache"/>
   <meta http-equiv="Expires" content="0"/>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-  <!-- <link href="font-awesome.min.css" rel="stylesheet"> -->
-  <!-- <link href="bootstrap.min.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
+  <div id="app">
     <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
         <div class="container-lg">
             <span class="navbar-brand">AB COVID19 Cases</span>
@@ -25,17 +23,11 @@
                 <li class=" nav-item">
                     <a class="btn btn-social-icon btn-github" href="https://github.com/chhuang215/ABCases" target="_blank"><span class="fa fa-github " aria-hidden="true"></span></a>
                 </li>
-
                 <li class=" nav-item">
                     <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/chihhsuanhuang/" target="_blank"><span class="fa fa-linkedin " aria-hidden="true"></span></a>
                 </li>
-                
-                
             </ul>
-
-            
         </div>
-        
     </nav>
     <div id="loading"  style="width:100%; margin: auto; text-align: center;">
         <div class="lds-ripple" style="margin: 20px auto">
@@ -76,10 +68,12 @@
         </div>
     </div>
     
-
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+  <script src="axios.min.js"></script>
+  <script src="vue.js"></script>
   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
