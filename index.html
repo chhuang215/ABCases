@@ -29,24 +29,77 @@
             </ul>
         </div>
     </nav>
-    <div id="loading"  style="width:100%; margin: auto; text-align: center;">
+    <div id="loading"  style="width:100%; margin: auto; text-align: center;" v-if="loading">
         <div class="lds-ripple" style="margin: 20px auto">
             <div></div><div></div>
         </div>
     </div>
-    <div class="container-lg">
-        
+    <div class="container-lg" v-show="!loading" v-cloak>
         <div class="row">
             <div class="col-md col-sm-7" style="padding:0">
                 <div class="table-responsive-sm">
                     <table id="tblstat" class="table table-borderless">
-                        <thead></thead>
-                        <tbody></tbody>
+                        <thead><tr>
+                            <th scope="col"></th>
+                            <th scope="col">Cases</th>
+                            <th scope="col">Death</th>
+                        </tr></thead>
+                        <tbody>
+                            <tr v-for="{zoneName, caseNum, caseDeath, lastAdditionalConfirmed, lastAdditionalDeath} in zone_list">
+                                <th scope="row"><h4>{{zoneName}} : </h4></th>
+                                <td>
+                                    <h4>
+                                        {{caseNum}}
+                                        <span class="diffnum" :class="{hasdiff : (lastAdditionalConfirmed != 0)}">
+                                            ({{(lastAdditionalConfirmed > 0 ? '+' : '') + lastAdditionalConfirmed}})</span>
+                                    </h4>
+                                
+                                </td>
+                                <td>
+                                    <h4>
+                                        {{caseDeath}}
+                                        <span class="diffnum" :class="{hasdiff: (lastAdditionalDeath != 0)}">
+                                            ({{(lastAdditionalDeath > 0 ? '+' : '') + lastAdditionalDeath}})
+                                        </span>
+                                    </h4>
+                                </td>
+                                <td class="percentage"> ({{(caseDeath / caseNum * 100).toFixed(1)}}%)</td>
+                            </tr>
+                            <tr> 
+                                <th>
+                                    <h4 style='font-weight: bold'>ALBERTA Total:</h4>
+                                </th> 
+                                <td>
+                                    <h4 style='font-weight: bold'>{{ztotal.totalCases}}
+                                    <span class="diffnum" :class="{hasdiff : ztotal.totalLastAdditional != 0}" >({{(ztotal.totalLastAdditional > 0 ? '+' : "") + ztotal.totalLastAdditional}})</span>
+                                    </h4>
+                                </td>
+                            
+                                <td>
+                                    <h4 style='font-weight: bold'>{{ztotal.totalDeath}}
+                                    <span class="diffnum" :class="{hasdiff : ztotal.totalLastDeath != 0}">({{(ztotal.totalLastDeath > 0 ? '+' : "") + ztotal.totalLastDeath}})</span>
+                                    </h4>
+                                </td>
+                            
+                                <td class="percentage">
+                                    ({{(ztotal.totalDeath / ztotal.totalCases * 100).toFixed(1)}}%)
+                                </td>
+                            </tr>
+                            <tr> 
+                                <th>
+                                    <h4 style='font-weight: bold'>Recovered:</h4>
+                                </th> 
+                                <td>
+                                    <h4 style='font-weight: bold'>{{ztotal.recovered_total}}
+                                    <span class="diffnum" >({{(ztotal.recovered_day > 0 ? '+' : "") + ztotal.recovered_day}})</span>
+                                    </h4>
+                                </td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
-            <div id="svgmap"  style="padding:0; margin-top: 1.5rem;" class="col-md col-sm-5 text-sm-left text-center"></div>
-            
+            <div id="svgmap"  style="padding:0; margin-top: 1.5rem;" class="col-md col-sm-5 text-sm-left text-center" v-html="svgmaphtml"></div>
         </div>
         <div class="row">
             <div class="col-12" style="height:26rem">
@@ -63,9 +116,7 @@
             <a href="https://www.alberta.ca/covid-19-alberta-data.aspx" target="_blank">Stats now at alberta.ca/covid19statistics</a>
         </div>
         
-        <div id="list_cases">
-
-        </div>
+        <div id="list_cases" v-html="html_daily_cases"></div>
     </div>
     
   </div>
