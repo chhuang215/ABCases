@@ -36,7 +36,7 @@
     </div>
     <div class="container-lg" v-show="!loading" v-cloak>
         <div class="row">
-            <div class="col-md col-sm-7" style="padding:0">
+            <div class="col-md-8 col-sm-12" style="padding:0">
                 <div class="table-responsive-sm">
                     <table id="tblstat" class="table table-borderless">
                         <thead><tr>
@@ -70,13 +70,13 @@
                                     <h4 style='font-weight: bold'>ALBERTA Total:</h4>
                                 </th> 
                                 <td>
-                                    <h4 style='font-weight: bold'>{{ztotal.totalCases}}
+                                    <h4 style='font-weight: bold'>{{ztotal.totalCases?.toLocaleString('en-US')}}
                                     <span class="diffnum" :class="{hasdiff : ztotal.totalLastAdditional != 0}" >({{(ztotal.totalLastAdditional > 0 ? '+' : "") + ztotal.totalLastAdditional}})</span>
                                     </h4>
                                 </td>
                             
                                 <td>
-                                    <h4 style='font-weight: bold'>{{ztotal.totalDeath}}
+                                    <h4 style='font-weight: bold'>{{ztotal.totalDeath?.toLocaleString('en-US')}}
                                     <span class="diffnum" :class="{hasdiff : ztotal.totalLastDeath != 0}">({{(ztotal.totalLastDeath > 0 ? '+' : "") + ztotal.totalLastDeath}})</span>
                                     </h4>
                                 </td>
@@ -90,8 +90,18 @@
                                     <h4 style='font-weight: bold'>Recovered:</h4>
                                 </th> 
                                 <td>
-                                    <h4 style='font-weight: bold'>{{ztotal.recovered_total}}
+                                    <h4 style='font-weight: bold'>{{ztotal.recovered_total?.toLocaleString('en-US')}}
                                     <span class="diffnum" >({{(ztotal.recovered_day > 0 ? '+' : "") + ztotal.recovered_day}})</span>
+                                    </h4>
+                                </td>
+                            </tr>
+                            <tr> 
+                                <th>
+                                    <h4 style='font-weight: bold'>Current Active Cases:</h4>
+                                </th> 
+                                <td>
+                                    <h4 style='font-weight: bold'>{{ztotal.totalActiveCases?.toLocaleString('en-US')}}
+                                    <span class="diffnum" :class="{hasdiff : ztotal.totalActiveCases - ztotal.totalLastActiveCount > 0}" >({{ztotal.totalActiveCases - ztotal.totalLastActiveCount}})</span>
                                     </h4>
                                 </td>
                             </tr>
@@ -99,7 +109,7 @@
                     </table>
                 </div>
             </div>
-            <div id="svgmap"  style="padding:0; margin-top: 1.5rem;" class="col-md col-sm-5 text-sm-left text-center" v-html="svgmaphtml"></div>
+            <div id="svgmap"  style="padding:0; margin-top: 1.5rem;" class="col-md-3 col-sm-12 text-md-left text-center" v-html="svgmaphtml"></div>
         </div>
         <div class="row">
             <div class="col-12" style="height:26rem">
@@ -123,8 +133,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
-  <script src="axios.min.js"></script>
-  <script src="vue.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+  <!-- <script src="axios.min.js"></script> -->
+  <script src="vue.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

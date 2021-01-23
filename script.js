@@ -1,4 +1,5 @@
-let jsonUrl = "https://abcase-serv.now.sh/";
+// let jsonUrl = "https://abcase-serv.now.sh/";
+let jsonUrl = "http://localhost:3000";
 let tries = 0;
 
 //document.addEventListener("DOMContentLoaded", (e) => {
@@ -239,6 +240,8 @@ var app = new Vue({
           self.ztotal = {
             recovered_total: zAccumAll['recovered'][zAccumAll['recovered'].length - 1],
             recovered_day : zAccumAll['recovered_per_day'][zAccumAll['recovered_per_day'].length - 1],
+            totalActiveCases : zAccumAll['active'][zAccumAll['active'].length - 1],
+            totalLastActiveCount : zAccumAll['active'][zAccumAll['active'].length - 2] ?? 0,
             totalCases : totalCases,
             totalLastAdditional : totalLastAdditional,
             totalDeath : totalDeath,
