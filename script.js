@@ -1,5 +1,4 @@
-// let jsonUrl = "https://abcase-serv.now.sh/";
-let jsonUrl = "http://localhost:3000";
+let jsonUrl = "https://abcase-serv.now.sh/";
 let tries = 0;
 
 //document.addEventListener("DOMContentLoaded", (e) => {
