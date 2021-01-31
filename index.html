@@ -36,18 +36,18 @@
     </div>
     <div class="container-lg" v-show="!loading" v-cloak>
         <div class="row">
-            <div class="col-md-8 col-sm-12" style="padding:0">
+            <div class="col-md-7 col-sm-8 col-sm-12" style="padding:0">
                 <div class="table-responsive-sm">
                     <table id="tblstat" class="table table-borderless">
                         <thead><tr>
-                            <th scope="col"></th>
-                            <th scope="col">Cases</th>
+                            <th scope="col" class="px-0"></th>
+                            <th scope="col" class="px-0">Cases</th>
                             <th scope="col">Death</th>
                         </tr></thead>
                         <tbody>
                             <tr v-for="{zoneName, caseNum, caseDeath, lastAdditionalConfirmed, lastAdditionalDeath} in zone_list">
-                                <th scope="row"><h4>{{zoneName}} : </h4></th>
-                                <td>
+                                <th scope="row" class="pr-0 pl-1"><h4>{{zoneName}}: </h4></th>
+                                <td class="px-0">
                                     <h4>
                                         {{caseNum}}
                                         <span class="diffnum" :class="{hasdiff : (lastAdditionalConfirmed != 0)}">
@@ -55,7 +55,7 @@
                                     </h4>
                                 
                                 </td>
-                                <td>
+                                <td >
                                     <h4>
                                         {{caseDeath}}
                                         <span class="diffnum" :class="{hasdiff: (lastAdditionalDeath != 0)}">
@@ -66,10 +66,10 @@
                                 <td class="percentage"> ({{(caseDeath / caseNum * 100).toFixed(1)}}%)</td>
                             </tr>
                             <tr> 
-                                <th>
+                                <th class="pr-0 pl-1">
                                     <h4 style='font-weight: bold'>ALBERTA Total:</h4>
                                 </th> 
-                                <td>
+                                <td class="px-0">
                                     <h4 style='font-weight: bold'>{{ztotal.totalCases?.toLocaleString('en-US')}}
                                     <span class="diffnum" :class="{hasdiff : ztotal.totalLastAdditional != 0}" >({{(ztotal.totalLastAdditional > 0 ? '+' : "") + ztotal.totalLastAdditional}})</span>
                                     </h4>
@@ -86,20 +86,20 @@
                                 </td>
                             </tr>
                             <tr> 
-                                <th>
+                                <th class="pr-0 pl-1">
                                     <h4 style='font-weight: bold'>Recovered:</h4>
                                 </th> 
-                                <td>
+                                <td class="px-0">
                                     <h4 style='font-weight: bold'>{{ztotal.recovered_total?.toLocaleString('en-US')}}
                                     <span class="diffnum" >({{(ztotal.recovered_day > 0 ? '+' : "") + ztotal.recovered_day}})</span>
                                     </h4>
                                 </td>
                             </tr>
                             <tr> 
-                                <th>
-                                    <h4 style='font-weight: bold'>Current Active Cases:</h4>
+                                <th class="pr-0 pl-1">
+                                    <h4 style='font-weight: bold' >Current Active Cases:</h4>
                                 </th> 
-                                <td>
+                                <td class="px-0">
                                     <h4 style='font-weight: bold'>{{ztotal.totalActiveCases?.toLocaleString('en-US')}}
                                     <span class="diffnum" :class="{hasdiff : ztotal.totalActiveCases - ztotal.totalLastActiveCount > 0}" >({{ztotal.totalActiveCases - ztotal.totalLastActiveCount}})</span>
                                     </h4>
@@ -109,7 +109,7 @@
                     </table>
                 </div>
             </div>
-            <div id="svgmap"  style="padding:0; margin-top: 1.5rem;" class="col-md-3 col-sm-12 text-md-left text-center" v-html="svgmaphtml"></div>
+            <div id="svgmap"  style="padding:0; margin-top: 1.5rem;" class="col-md-3 col-sm-12 text-md-start text-center" v-html="svgmaphtml"></div>
         </div>
         <div class="row">
             <div class="col-12" style="height:26rem">
