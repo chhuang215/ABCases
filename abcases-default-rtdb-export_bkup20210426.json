@@ -1,0 +1,9730 @@
+[ {
+  "cases" : [ {
+    "case" : 1,
+    "description" : "Female in her fifties. Calgary zone. Travel on Grand Princess in California. Officials detected case on March 5."
+  } ],
+  "date" : "2020-03-05",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : 2,
+    "description" : "Male in his forties. Edmonton zone. Visited Michigan, Illinois, and Ohio, before returning to Alberta on Feb 28"
+  } ],
+  "date" : "2020-03-06",
+  "zones" : {
+    "Edmonton" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : 3,
+    "description" : "Male in his sixties. Edmonton zone. On Grand Princess before returning to Alberta on Feb. 21."
+  }, {
+    "case" : 4,
+    "description" : "Female in her thirties. Calgary zone. Travelled in Europe, including visits to Ukraine, Turkey and the Netherlands."
+  } ],
+  "date" : "2020-03-08",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : 5,
+    "description" : "Female in her seventies. Edmonton zone. Close contact of an Edmonton zone man with COVID-19 (Case 3). On Grand Princess before returning on Feb. 21. Symptoms started after returning to Alberta."
+  }, {
+    "case" : 6,
+    "description" : "Male in his thirties. Calgary zone. Close contact of the Calgary zone woman case of COVID-19 on March 8 (Case 4). Travelled to Ukraine, Netherlands and Turkey and returned to Alberta on March 2. Symptoms started after his return."
+  }, {
+    "case" : 7,
+    "description" : "Female in her fifties. Calgary zone. On-board the MS Braemar cruise ship from Feb. 11 to March 4. Developed symptoms after return and was tested at an assessment centre on March 8."
+  } ],
+  "date" : "2020-03-09",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : 8,
+    "description" : "Male in his seventies. Edmonton zone."
+  }, {
+    "case" : 9,
+    "description" : "Female in her sixties. Edmonton zone. Travelled together with Case 8"
+  }, {
+    "case" : 10,
+    "description" : "Female in her thirties. Edmonton zone. Recently travelled outside Canada."
+  }, {
+    "case" : 11,
+    "description" : "Male in his fifties. Calgary zone."
+  }, {
+    "case" : 12,
+    "description" : "Female in their thirties. Calgary zone."
+  }, {
+    "case" : 13,
+    "description" : "Female in their thirties. Calgary zone."
+  }, {
+    "case" : 14,
+    "description" : "Female in her forties. Calgary zone."
+  } ],
+  "date" : "2020-03-10",
+  "summary" : "All travel-related. Returned from visiting a range of countries, including France, the Netherlands, Egypt, Iran, Taiwan, Germany, Malaysia, Trinidad and Tobago, Panama, the Philippines and the United States.\nSeveral cases visited more than one country.\nOne individual was also on the same MS Braemar cruise ship in the Caribbean as a case announced March 9.",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 4
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : 15,
+    "description" : "Male in his thirties. Edmonton. Recently returned from international travel and started experiencing symptoms a number of days after returning. Received previously scheduled, unrelated treatment at Misericordia Hospital on March 6 and 7, before testing positive for COVID-19 on March 9."
+  }, {
+    "case" : 16,
+    "description" : "Male in his twenties. Calgary zone. "
+  }, {
+    "case" : 17,
+    "description" : "Female in their thirties. Calgary zone. "
+  }, {
+    "case" : 18,
+    "description" : "Female in their thirties. Calgary zone. "
+  }, {
+    "case" : 19,
+    "description" : "Female in her thirties. Central zone. "
+  } ],
+  "date" : "2020-03-11",
+  "summary" : "Travel-related. One patient continues to recover in hospital, while others are in isolation at home.\nThe five newly confirmed cases had returned from visiting a range of countries: Iran, Egypt, Spain, Mexico, United States.",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : 20,
+    "description" : "Child. Two-year-old. Calgary zone. Vacation in Florida with family and developed mild symptoms once in Alberta. Attended a local daycare from March 2-6 and tested positive on March 11."
+  }, {
+    "case" : 21,
+    "description" : "Female in her thirties. Calgary zone. "
+  }, {
+    "case" : 22,
+    "description" : "Male in his fifties. Calgary zone. "
+  }, {
+    "case" : 23,
+    "description" : "Female in her seventies. Calgary zone."
+  } ],
+  "date" : "2020-03-12",
+  "summary" : "The travellers returned from travelling in Jordan, Egypt, France, Germany, United States, specifically Florida.",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 4
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : 24,
+    "description" : "Man. Edmonton zone. Recently attended a conference in Vancouver and was notified that a positive case had attended the same conference. After returnin individual visited a number of dental offices."
+  }, {
+    "case" : 25,
+    "description" : "Calgary zone. Returning traveller from Florida"
+  }, {
+    "case" : "26~29",
+    "description" : "Calgary zone. Household contacts of a previously confirmed case."
+  } ],
+  "date" : "2020-03-13",
+  "summary" : "All travel-related.",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 5
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "date" : "2020-03-14",
+  "summary" : "Two of the new cases, one in Edmonton Zone and the other in Calgary Zone, have been admitted into intensive care.\nEight new cases confirmed to be related to international travel or to a previously confirmed case. Investigations are ongoing on the remaining two cases.",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 6
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 4
+    }
+  }
+}, {
+  "date" : "2020-03-15",
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 14
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3
+    }
+  }
+}, {
+  "date" : "2020-03-16",
+  "summary" : "One Edmonton zone and one Calgary zone case have been confirmed to be the result of community transmission.",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 12
+    },
+    "Central" : {
+      "confirmed_cases" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "date" : "2020-03-17",
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 18
+    },
+    "Central" : {
+      "confirmed_cases" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 2
+    }
+  }
+}, {
+  "date" : "2020-03-18",
+  "summary" : "Multiple cases of COVID-19 have been reported from attendees at the Pacific Dental Conference held in Vancouver March 5 to 7.",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 13
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "date" : "2020-03-19",
+  "summary" : "The first COVID-19 related death in the province.\nMale in his 60’s who had been admitted to ICU in the Edmonton zone on March 12 and had pre-existing conditions.",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 18
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 2,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 6
+    },
+    "South" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "date" : "2020-03-20",
+  "recovered" : 3,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 25
+    },
+    "Central" : {
+      "confirmed_cases" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 14
+    },
+    "North" : {
+      "confirmed_cases" : 7
+    },
+    "South" : {
+      "confirmed_cases" : 2
+    }
+  }
+}, {
+  "date" : "2020-03-21",
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 13
+    },
+    "Central" : {
+      "confirmed_cases" : 3
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 14
+    },
+    "North" : {
+      "confirmed_cases" : -1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "date" : "2020-03-22",
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 25
+    },
+    "Central" : {
+      "confirmed_cases" : 3
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-03-23",
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 24
+    },
+    "Central" : {
+      "confirmed_cases" : 7
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 8
+    },
+    "North" : {
+      "confirmed_cases" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-03-24",
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 26,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 11
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 18
+    },
+    "North" : {
+      "confirmed_cases" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 0
+    }
+  }
+}, {
+  "date" : "2020-03-25",
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 36
+    },
+    "Central" : {
+      "confirmed_cases" : 7
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 14
+    },
+    "North" : {
+      "confirmed_cases" : 3
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 2
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-03-26",
+  "recovered" : 24,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 50
+    },
+    "Central" : {
+      "confirmed_cases" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 11
+    },
+    "North" : {
+      "confirmed_cases" : 3
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 2
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-03-27",
+  "recovered" : 6,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 37
+    },
+    "Central" : {
+      "confirmed_cases" : 6
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 9
+    },
+    "North" : {
+      "confirmed_cases" : 4
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-03-28",
+  "recovered" : 20,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 41
+    },
+    "Central" : {
+      "confirmed_cases" : 5
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 19
+    },
+    "North" : {
+      "confirmed_cases" : 13
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 0
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-03-29",
+  "recovered" : 20,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 30,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : -2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 10
+    },
+    "North" : {
+      "confirmed_cases" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-03-30",
+  "recovered" : 21,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 14,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 15,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-03-31",
+  "recovered" : 26,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 31,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 5
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 23
+    },
+    "North" : {
+      "confirmed_cases" : 5
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-04-01",
+  "recovered" : 22,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 74,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 6
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 32
+    },
+    "North" : {
+      "confirmed_cases" : 1,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 4
+    },
+    "South" : {
+      "confirmed_cases" : 0
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-04-02",
+  "recovered" : 32,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 62,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 28
+    },
+    "North" : {
+      "confirmed_cases" : 4,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 2
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-04-03",
+  "recovered" : 22,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 82,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 3
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 16,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 2
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-04-04",
+  "recovered" : 44,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 63,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 4
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 27
+    },
+    "North" : {
+      "confirmed_cases" : 11
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 2
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-04-05",
+  "recovered" : 39,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 40,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 19
+    },
+    "North" : {
+      "confirmed_cases" : 9,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 2
+    }
+  }
+}, {
+  "cases" : [ {
+    "case" : "",
+    "description" : ""
+  } ],
+  "date" : "2020-04-06",
+  "recovered" : 82,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 43,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 42
+    },
+    "North" : {
+      "confirmed_cases" : 12,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 2
+    }
+  }
+}, {
+  "date" : "2020-04-07",
+  "recovered" : 86,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 18,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 0
+    }
+  }
+}, {
+  "date" : "2020-04-08",
+  "recovered" : 71,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 25,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 10
+    },
+    "North" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 4
+    }
+  }
+}, {
+  "date" : "2020-04-09",
+  "recovered" : 74,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 18,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 8,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0
+    }
+  }
+}, {
+  "date" : "2020-04-10",
+  "recovered" : 121,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 39,
+      "death" : 5
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 10,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0
+    }
+  }
+}, {
+  "date" : "2020-04-11",
+  "recovered" : 61,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 59,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 4
+    }
+  }
+}, {
+  "date" : "2020-04-12",
+  "recovered" : 49,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 70,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 4,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 1
+    }
+  }
+}, {
+  "date" : "2020-04-13",
+  "recovered" : 54,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 68,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 3
+    },
+    "South" : {
+      "confirmed_cases" : 2
+    }
+  }
+}, {
+  "date" : "2020-04-14",
+  "recovered" : 37,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 128,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 3
+    }
+  }
+}, {
+  "date" : "2020-04-15",
+  "recovered" : 0,
+  "summary" : "Due to a technical issue with the reporting application, only preliminary data for case numbers for the province and completed tests is available at this time.",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 126
+    },
+    "South" : {
+      "confirmed_cases" : 0
+    }
+  }
+}, {
+  "date" : "2020-04-16",
+  "recovered" : 0,
+  "summary" : "An unexpected network issue during the last 48 hours has temporarily limited data reporting, including the number of recovered cases and the breakdown of cases by zones across the province.",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 0,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 162
+    },
+    "South" : {
+      "confirmed_cases" : 0
+    }
+  }
+}, {
+  "date" : "2020-04-17",
+  "recovered" : 210,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 431,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 27,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 28,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -282
+    },
+    "South" : {
+      "confirmed_cases" : 32
+    }
+  }
+}, {
+  "date" : "2020-04-18",
+  "recovered" : 38,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 147,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 4
+    },
+    "South" : {
+      "confirmed_cases" : 9
+    }
+  }
+}, {
+  "date" : "2020-04-19",
+  "recovered" : 36,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 177,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : -4,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 3
+    },
+    "South" : {
+      "confirmed_cases" : 65
+    }
+  }
+}, {
+  "date" : "2020-04-20",
+  "recovered" : 32,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 80,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 9,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 6,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -5
+    },
+    "South" : {
+      "confirmed_cases" : 14
+    }
+  }
+}, {
+  "date" : "2020-04-21",
+  "recovered" : 43,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 127,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 5,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 3
+    },
+    "South" : {
+      "confirmed_cases" : 44
+    }
+  }
+}, {
+  "date" : "2020-04-22",
+  "recovered" : 37,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 192,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 4
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 103
+    }
+  }
+}, {
+  "date" : "2020-04-23",
+  "recovered" : 47,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 237,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 70,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2020-04-24",
+  "recovered" : 40,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 200,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 12,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 4
+    },
+    "South" : {
+      "confirmed_cases" : 71,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-04-25",
+  "recovered" : 74,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 131,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 66,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-04-26",
+  "recovered" : 78,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 140,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 6
+    },
+    "South" : {
+      "confirmed_cases" : 88,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-04-27",
+  "recovered" : 115,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 153,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 45,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-04-28",
+  "recovered" : 136,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 109,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 2,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -5
+    },
+    "South" : {
+      "confirmed_cases" : 42,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2020-04-29",
+  "recovered" : 153,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 154,
+      "death" : 7
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 7
+    },
+    "South" : {
+      "confirmed_cases" : 148,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-04-30",
+  "recovered" : 208,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 70,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 113,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-05-01",
+  "recovered" : 198,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 118,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 4,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 87,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-02",
+  "recovered" : 175,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 67,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 21,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-03",
+  "recovered" : 179,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 67,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 21,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-04",
+  "recovered" : 229,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 63,
+      "death" : 8
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -3
+    },
+    "South" : {
+      "confirmed_cases" : 10,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-05",
+  "recovered" : 277,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 52,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -3
+    },
+    "South" : {
+      "confirmed_cases" : 9,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-05-06",
+  "recovered" : 333,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 46,
+      "death" : 7
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -4
+    },
+    "South" : {
+      "confirmed_cases" : 17,
+      "death" : -1
+    }
+  }
+}, {
+  "date" : "2020-05-07",
+  "recovered" : 257,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 41,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : -3,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 13,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-05-08",
+  "recovered" : 211,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 65,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-09",
+  "recovered" : 184,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 52,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : -1,
+      "death" : -1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-10",
+  "recovered" : 185,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 83,
+      "death" : -1
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 1,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 14,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-05-11",
+  "recovered" : 270,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 34,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-12",
+  "recovered" : 207,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 47,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : -3,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-13",
+  "recovered" : 210,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 50,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 8,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-05-14",
+  "recovered" : 129,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 39,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-15",
+  "recovered" : 112,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 50,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -4
+    },
+    "South" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-16",
+  "recovered" : 60,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 55,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-17",
+  "recovered" : 76,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 49,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-18",
+  "recovered" : 66,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 35,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-19",
+  "recovered" : 65,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 31,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-20",
+  "recovered" : 53,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-21",
+  "recovered" : 73,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 26,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-22",
+  "recovered" : 91,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 23,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 0,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-23",
+  "recovered" : 68,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 12,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-24",
+  "recovered" : 55,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 37,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-25",
+  "recovered" : 55,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 17,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-26",
+  "recovered" : 69,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 21,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-27",
+  "recovered" : 58,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 19,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-28",
+  "recovered" : 54,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 26,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-05-29",
+  "recovered" : 69,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-30",
+  "recovered" : 16,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 10,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 13,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -10
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-05-31",
+  "recovered" : 38,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-01",
+  "recovered" : 218,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 22,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-02",
+  "recovered" : 36,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-03",
+  "recovered" : 50,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 8,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-04",
+  "recovered" : 24,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 11,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-05",
+  "recovered" : 13,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-06",
+  "recovered" : 32,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-08",
+  "recovered" : 42,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 40,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : -10,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 19,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : -6,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 22,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-09",
+  "recovered" : 24,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 17,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 10,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-06-10",
+  "recovered" : 32,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 23,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 22,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-11",
+  "recovered" : 34,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 22,
+      "death" : -1
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 17,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 1,
+      "death" : -1
+    }
+  }
+}, {
+  "date" : "2020-06-12",
+  "recovered" : 23,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-13",
+  "recovered" : 19,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 20,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-14",
+  "recovered" : 31,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 16,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-15",
+  "recovered" : 1,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 12,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-06-16",
+  "recovered" : 20,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-17",
+  "recovered" : 11,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 21,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-18",
+  "recovered" : 45,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 17,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 23,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-19",
+  "recovered" : 23,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 19,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 24,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-20",
+  "recovered" : 35,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 29,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-21",
+  "recovered" : 22,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 23,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-22",
+  "recovered" : 23,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 22,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-23",
+  "recovered" : 55,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 10,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 28,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-24",
+  "recovered" : 38,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 29,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-25",
+  "recovered" : 57,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 11,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-26",
+  "recovered" : 34,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 19,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-27",
+  "recovered" : 58,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 37,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 10,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-28",
+  "recovered" : 39,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 26,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-29",
+  "recovered" : 32,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 33,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 33,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-06-30",
+  "recovered" : 53,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-02",
+  "recovered" : 98,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 28,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 40,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 24,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-07-03",
+  "recovered" : 27,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 25,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-05",
+  "recovered" : 95,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 56,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 40,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 16,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-06",
+  "recovered" : 32,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 12,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 29,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-08",
+  "recovered" : 57,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 13,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 6,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-07-09",
+  "recovered" : 58,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 4,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-10",
+  "recovered" : 70,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 30,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 23,
+      "death" : -1
+    },
+    "North" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-12",
+  "recovered" : 145,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 104,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 23,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 50,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 24,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 4
+    },
+    "South" : {
+      "confirmed_cases" : 25,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-13",
+  "recovered" : 59,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 38,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 22,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -4
+    },
+    "South" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-14",
+  "recovered" : 79,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 32,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 13,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 13,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 16,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-15",
+  "recovered" : 15,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 57,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 24,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 5
+    },
+    "South" : {
+      "confirmed_cases" : 17,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-07-16",
+  "recovered" : 51,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 39,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 19,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 23,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 10,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-19",
+  "recovered" : 115,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 211,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 43,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 57,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 26,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -3
+    },
+    "South" : {
+      "confirmed_cases" : 34,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-20",
+  "recovered" : 55,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 58,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 24,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 22,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-21",
+  "recovered" : 73,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 73,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 25,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-22",
+  "recovered" : 70,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 60,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 16,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 11,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 11,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-07-23",
+  "recovered" : 61,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 55,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 22,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-26",
+  "recovered" : 207,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 136,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 23,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 84,
+      "death" : 6
+    },
+    "North" : {
+      "confirmed_cases" : 30,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 30,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2020-07-27",
+  "recovered" : 112,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 29,
+      "death" : -1
+    },
+    "Central" : {
+      "confirmed_cases" : 10,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 18,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 17,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-28",
+  "recovered" : 97,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 43,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 28,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 30,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-29",
+  "recovered" : 130,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 40,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 24,
+      "death" : 5
+    },
+    "North" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-07-30",
+  "recovered" : 148,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 29,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 67,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-03",
+  "recovered" : 493,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 112,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 17,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 105,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 47,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 23,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-08-04",
+  "recovered" : 137,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 29,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 49,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 10,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-05",
+  "recovered" : 93,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 4,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 34,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-06",
+  "recovered" : 113,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 35,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 41,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 39,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 14,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 7,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-08-09",
+  "recovered" : 287,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 86,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 118,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 28,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 10,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2020-08-10",
+  "recovered" : 168,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 9,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 49,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 12,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-11",
+  "recovered" : 80,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 95,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 10,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-12",
+  "recovered" : 81,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 34,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 30,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 9,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-13",
+  "recovered" : 83,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 52,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-08-16",
+  "recovered" : 260,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 104,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 195,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 24,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 6
+    },
+    "South" : {
+      "confirmed_cases" : 15,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-08-17",
+  "recovered" : -31,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : -23,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 34,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -5
+    },
+    "South" : {
+      "confirmed_cases" : -8,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-08-18",
+  "recovered" : 142,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 21,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 52,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-19",
+  "recovered" : 125,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 33,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 52,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 15,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-20",
+  "recovered" : 82,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 38,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 86,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 16,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-23",
+  "recovered" : 226,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 112,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 101,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 41,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 1,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-08-24",
+  "recovered" : 114,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 38,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 17,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-25",
+  "recovered" : 85,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 49,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 61,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 13,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-26",
+  "recovered" : 124,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 38,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 52,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 17,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-27",
+  "recovered" : 131,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 91,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 33,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 21,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 5
+    },
+    "South" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-30",
+  "recovered" : 239,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 191,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 12,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 171,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 48,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -4
+    },
+    "South" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-08-31",
+  "recovered" : 134,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 71,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 66,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 19,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-01",
+  "recovered" : 108,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 33,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 51,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 19,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-09-02",
+  "recovered" : 118,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 50,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 10,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 45,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-03",
+  "recovered" : 146,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 53,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 85,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 19,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-07",
+  "recovered" : 355,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 209,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 266,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 111,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 6
+    },
+    "South" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-08",
+  "recovered" : 204,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 22,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 53,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-09",
+  "recovered" : 199,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 25,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 63,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 24,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-10",
+  "recovered" : 161,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 30,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 50,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 25,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-13",
+  "recovered" : 323,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 146,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 190,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 61,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-14",
+  "recovered" : 171,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 34,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 64,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 21,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-15",
+  "recovered" : 167,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 44,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 119,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -3
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-16",
+  "recovered" : 158,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 33,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 90,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 16,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-17",
+  "recovered" : 165,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 40,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 39,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 22,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-20",
+  "recovered" : 322,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 106,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 210,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 24,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 12,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-21",
+  "recovered" : 42,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 39,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 88,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 13,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 3
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-22",
+  "recovered" : 186,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 53,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 77,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 16,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-23",
+  "recovered" : 215,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 63,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 78,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-24",
+  "recovered" : 118,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 61,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 81,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-27",
+  "recovered" : 350,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 144,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 4,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 212,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 36,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-28",
+  "recovered" : 137,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 64,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 84,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -5
+    },
+    "South" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-29",
+  "recovered" : 141,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 64,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 0,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 83,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-09-30",
+  "recovered" : 157,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 42,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 3,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 113,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 12,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 4
+    },
+    "South" : {
+      "confirmed_cases" : -1,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-01",
+  "recovered" : 157,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 22,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 1,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 89,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 12,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -4
+    },
+    "South" : {
+      "confirmed_cases" : 2,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-04",
+  "recovered" : 345,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 172,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 339,
+      "death" : 6
+    },
+    "North" : {
+      "confirmed_cases" : 24,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 3
+    },
+    "South" : {
+      "confirmed_cases" : 29,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-10-05",
+  "recovered" : 158,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 78,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 158,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 23,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-07",
+  "recovered" : 308,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 80,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 17,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 354,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 17,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 8
+    },
+    "South" : {
+      "confirmed_cases" : 31,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-08",
+  "recovered" : 150,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 82,
+      "death" : -1
+    },
+    "Central" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 157,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 17,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -3
+    },
+    "South" : {
+      "confirmed_cases" : 13,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-12",
+  "recovered" : 567,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 287,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 67,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 480,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 52,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 11
+    },
+    "South" : {
+      "confirmed_cases" : 64,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-13",
+  "recovered" : 168,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 79,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 131,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -5
+    },
+    "South" : {
+      "confirmed_cases" : 28,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-14",
+  "recovered" : 194,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 79,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 10,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 120,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-15",
+  "recovered" : 234,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 94,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 21,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 177,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 22,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-18",
+  "recovered" : 592,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 326,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 29,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 431,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 62,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 6
+    },
+    "South" : {
+      "confirmed_cases" : 44,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-10-19",
+  "recovered" : 257,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 129,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 147,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 27,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -5
+    },
+    "South" : {
+      "confirmed_cases" : 17,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-20",
+  "recovered" : 234,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 187,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 6,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 180,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 7,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 6
+    },
+    "South" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-21",
+  "recovered" : 280,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 157,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 9,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 220,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 28,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-22",
+  "recovered" : 296,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 148,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 191,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 35,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -3
+    },
+    "South" : {
+      "confirmed_cases" : 41,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-25",
+  "recovered" : 639,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 474,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 61,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 736,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 116,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 12
+    },
+    "South" : {
+      "confirmed_cases" : 73,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-26",
+  "recovered" : 159,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 209,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 8,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 155,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 26,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 22,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-10-27",
+  "recovered" : 351,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 213,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 144,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 22,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-10-28",
+  "recovered" : 344,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 209,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 197,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 32,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 3
+    },
+    "South" : {
+      "confirmed_cases" : 22,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-10-29",
+  "recovered" : 366,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 281,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 35,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 218,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 44,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -3
+    },
+    "South" : {
+      "confirmed_cases" : 47,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-11-02",
+  "recovered" : 1315,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 943,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 91,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 937,
+      "death" : 10
+    },
+    "North" : {
+      "confirmed_cases" : 151,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 17
+    },
+    "South" : {
+      "confirmed_cases" : 129,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-11-03",
+  "recovered" : 390,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 211,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 249,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 25,
+      "death" : -1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -11
+    },
+    "South" : {
+      "confirmed_cases" : 30,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-11-05",
+  "recovered" : 810,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 593,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 54,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 548,
+      "death" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 96,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 13
+    },
+    "South" : {
+      "confirmed_cases" : 107,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-11-08",
+  "recovered" : 1142,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 896,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 112,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 931,
+      "death" : 12
+    },
+    "North" : {
+      "confirmed_cases" : 163,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 49
+    },
+    "South" : {
+      "confirmed_cases" : 151,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-11-09",
+  "recovered" : 581,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 309,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 5,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 366,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 39,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -22
+    },
+    "South" : {
+      "confirmed_cases" : 16,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-11-11",
+  "recovered" : 1300,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 626,
+      "death" : 7
+    },
+    "Central" : {
+      "confirmed_cases" : 81,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 635,
+      "death" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 92,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -12
+    },
+    "South" : {
+      "confirmed_cases" : 110,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-11-12",
+  "recovered" : 614,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 337,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 40,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 403,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 77,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 13
+    },
+    "South" : {
+      "confirmed_cases" : 37,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-11-16",
+  "recovered" : 2141,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1565,
+      "death" : 9
+    },
+    "Central" : {
+      "confirmed_cases" : 160,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1450,
+      "death" : 19
+    },
+    "North" : {
+      "confirmed_cases" : 243,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 42
+    },
+    "South" : {
+      "confirmed_cases" : 190,
+      "death" : 4
+    }
+  }
+}, {
+  "date" : "2020-11-17",
+  "recovered" : 730,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 298,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 41,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 328,
+      "death" : 6
+    },
+    "North" : {
+      "confirmed_cases" : 27,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 37,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-11-18",
+  "recovered" : 772,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 365,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 90,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 531,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 67,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -15
+    },
+    "South" : {
+      "confirmed_cases" : 67,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-11-19",
+  "recovered" : 871,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 401,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 94,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 499,
+      "death" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 57,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 11
+    },
+    "South" : {
+      "confirmed_cases" : 93,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-11-21",
+  "recovered" : 1371,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 918,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 199,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1554,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 120,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 16
+    },
+    "South" : {
+      "confirmed_cases" : 113,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2020-11-22",
+  "recovered" : 573,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 464,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 111,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 796,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 92,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 17
+    },
+    "South" : {
+      "confirmed_cases" : 69,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-11-23",
+  "recovered" : 916,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 426,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 65,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 541,
+      "death" : 14
+    },
+    "North" : {
+      "confirmed_cases" : 79,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -27
+    },
+    "South" : {
+      "confirmed_cases" : 31,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-11-24",
+  "recovered" : 887,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 444,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 87,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 560,
+      "death" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 103,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 16
+    },
+    "South" : {
+      "confirmed_cases" : 55,
+      "death" : -1
+    }
+  }
+}, {
+  "date" : "2020-11-25",
+  "recovered" : 734,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 421,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 117,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 459,
+      "death" : 6
+    },
+    "North" : {
+      "confirmed_cases" : 39,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -3
+    },
+    "South" : {
+      "confirmed_cases" : 44,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-11-27",
+  "recovered" : 2065,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1070,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 168,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1452,
+      "death" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 151,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 32
+    },
+    "South" : {
+      "confirmed_cases" : 85,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2020-11-28",
+  "recovered" : 838,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 646,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 131,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 665,
+      "death" : 6
+    },
+    "North" : {
+      "confirmed_cases" : 93,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 20
+    },
+    "South" : {
+      "confirmed_cases" : 53,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-11-29",
+  "recovered" : 963,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 739,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 190,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 605,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 81,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 24
+    },
+    "South" : {
+      "confirmed_cases" : 94,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-11-30",
+  "recovered" : 1123,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 431,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 97,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 660,
+      "death" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 96,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -19
+    },
+    "South" : {
+      "confirmed_cases" : 42,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-12-01",
+  "recovered" : 1159,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 623,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 63,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 802,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 139,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 3
+    },
+    "South" : {
+      "confirmed_cases" : 55,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-12-02",
+  "recovered" : 1241,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 608,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 117,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1003,
+      "death" : 10
+    },
+    "North" : {
+      "confirmed_cases" : 91,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -7
+    },
+    "South" : {
+      "confirmed_cases" : 42,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-12-03",
+  "recovered" : 1313,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 680,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 120,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 827,
+      "death" : 12
+    },
+    "North" : {
+      "confirmed_cases" : 126,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 16
+    },
+    "South" : {
+      "confirmed_cases" : 59,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-12-04",
+  "recovered" : 1310,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 749,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 181,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 818,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 93,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -6
+    },
+    "South" : {
+      "confirmed_cases" : 44,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-12-05",
+  "recovered" : 1139,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 759,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 115,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 753,
+      "death" : 13
+    },
+    "North" : {
+      "confirmed_cases" : 123,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 24
+    },
+    "South" : {
+      "confirmed_cases" : 62,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-12-05",
+  "recovered" : 1139,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 759,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 115,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 753,
+      "death" : 13
+    },
+    "North" : {
+      "confirmed_cases" : 123,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 24
+    },
+    "South" : {
+      "confirmed_cases" : 62,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-12-06",
+  "recovered" : -3,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : -175,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 29,
+      "death" : -1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 61,
+      "death" : -1
+    },
+    "North" : {
+      "confirmed_cases" : -9,
+      "death" : -2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : -6,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-12-07",
+  "recovered" : 1397,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 583,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 176,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 791,
+      "death" : 5
+    },
+    "North" : {
+      "confirmed_cases" : 165,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -45
+    },
+    "South" : {
+      "confirmed_cases" : 57,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-12-08",
+  "recovered" : 1636,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 548,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 99,
+      "death" : 3
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 706,
+      "death" : 6
+    },
+    "North" : {
+      "confirmed_cases" : 107,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -32
+    },
+    "South" : {
+      "confirmed_cases" : 32,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-12-12",
+  "recovered" : 4977,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1431,
+      "death" : 12
+    },
+    "Central" : {
+      "confirmed_cases" : 397,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 2606,
+      "death" : 26
+    },
+    "North" : {
+      "confirmed_cases" : 333,
+      "death" : 4
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -25
+    },
+    "South" : {
+      "confirmed_cases" : 152,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-12-13",
+  "recovered" : 1205,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 619,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 141,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 801,
+      "death" : 16
+    },
+    "North" : {
+      "confirmed_cases" : 115,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 20
+    },
+    "South" : {
+      "confirmed_cases" : 21,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-12-14",
+  "recovered" : 1312,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 622,
+      "death" : 6
+    },
+    "Central" : {
+      "confirmed_cases" : 106,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 997,
+      "death" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 103,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 22
+    },
+    "South" : {
+      "confirmed_cases" : 37,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-12-15",
+  "recovered" : 1804,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 502,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 87,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 592,
+      "death" : 10
+    },
+    "North" : {
+      "confirmed_cases" : 123,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -8
+    },
+    "South" : {
+      "confirmed_cases" : 45,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-12-16",
+  "recovered" : 1734,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 452,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 102,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 562,
+      "death" : 10
+    },
+    "North" : {
+      "confirmed_cases" : 101,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 7
+    },
+    "South" : {
+      "confirmed_cases" : 46,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-12-17",
+  "recovered" : 1845,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 552,
+      "death" : 12
+    },
+    "Central" : {
+      "confirmed_cases" : 127,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 760,
+      "death" : 17
+    },
+    "North" : {
+      "confirmed_cases" : 87,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 11
+    },
+    "South" : {
+      "confirmed_cases" : 34,
+      "death" : 5
+    }
+  }
+}, {
+  "date" : "2020-12-18",
+  "recovered" : 2006,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 546,
+      "death" : 11
+    },
+    "Central" : {
+      "confirmed_cases" : 132,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 650,
+      "death" : 9
+    },
+    "North" : {
+      "confirmed_cases" : 74,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -18
+    },
+    "South" : {
+      "confirmed_cases" : 29,
+      "death" : -4
+    }
+  }
+}, {
+  "date" : "2020-12-19",
+  "recovered" : 1313,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 539,
+      "death" : 6
+    },
+    "Central" : {
+      "confirmed_cases" : 132,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 566,
+      "death" : 18
+    },
+    "North" : {
+      "confirmed_cases" : 71,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 18
+    },
+    "South" : {
+      "confirmed_cases" : 26,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-12-20",
+  "recovered" : 1335,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 444,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 126,
+      "death" : 3
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 583,
+      "death" : 5
+    },
+    "North" : {
+      "confirmed_cases" : 79,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 12
+    },
+    "South" : {
+      "confirmed_cases" : 42,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-12-21",
+  "recovered" : 1267,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 448,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 140,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 525,
+      "death" : 8
+    },
+    "North" : {
+      "confirmed_cases" : 85,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 23
+    },
+    "South" : {
+      "confirmed_cases" : 19,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2020-12-23",
+  "recovered" : 3636,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 826,
+      "death" : 8
+    },
+    "Central" : {
+      "confirmed_cases" : 199,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1105,
+      "death" : 16
+    },
+    "North" : {
+      "confirmed_cases" : 209,
+      "death" : 3
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -64
+    },
+    "South" : {
+      "confirmed_cases" : 47,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-12-28",
+  "recovered" : 6710,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1419,
+      "death" : 30
+    },
+    "Central" : {
+      "confirmed_cases" : 562,
+      "death" : 3
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1974,
+      "death" : 77
+    },
+    "North" : {
+      "confirmed_cases" : 407,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 24
+    },
+    "South" : {
+      "confirmed_cases" : 102,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-12-29",
+  "recovered" : 1548,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 317,
+      "death" : 10
+    },
+    "Central" : {
+      "confirmed_cases" : 128,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 356,
+      "death" : 15
+    },
+    "North" : {
+      "confirmed_cases" : 105,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -49
+    },
+    "South" : {
+      "confirmed_cases" : 15,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2020-12-30",
+  "recovered" : 1499,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 399,
+      "death" : 6
+    },
+    "Central" : {
+      "confirmed_cases" : 107,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 657,
+      "death" : 8
+    },
+    "North" : {
+      "confirmed_cases" : 93,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 29,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-01-04",
+  "recovered" : 5727,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1769,
+      "death" : 28
+    },
+    "Central" : {
+      "confirmed_cases" : 603,
+      "death" : 6
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1971,
+      "death" : 55
+    },
+    "North" : {
+      "confirmed_cases" : 610,
+      "death" : 3
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 40
+    },
+    "South" : {
+      "confirmed_cases" : 114,
+      "death" : 4
+    }
+  }
+}, {
+  "date" : "2021-01-05",
+  "recovered" : 1245,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 291,
+      "death" : 11
+    },
+    "Central" : {
+      "confirmed_cases" : 73,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 340,
+      "death" : 10
+    },
+    "North" : {
+      "confirmed_cases" : 125,
+      "death" : 3
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -8
+    },
+    "South" : {
+      "confirmed_cases" : 22,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-01-06",
+  "recovered" : 1059,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 424,
+      "death" : 7
+    },
+    "Central" : {
+      "confirmed_cases" : 124,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 421,
+      "death" : 16
+    },
+    "North" : {
+      "confirmed_cases" : 117,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 27,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-07",
+  "recovered" : 1096,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 406,
+      "death" : 9
+    },
+    "Central" : {
+      "confirmed_cases" : 98,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 313,
+      "death" : 13
+    },
+    "North" : {
+      "confirmed_cases" : 133,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 7
+    },
+    "South" : {
+      "confirmed_cases" : 21,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-08",
+  "recovered" : 829,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 405,
+      "death" : 9
+    },
+    "Central" : {
+      "confirmed_cases" : 143,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 407,
+      "death" : 12
+    },
+    "North" : {
+      "confirmed_cases" : 202,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -3
+    },
+    "South" : {
+      "confirmed_cases" : 29,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-01-09",
+  "recovered" : 149,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 373,
+      "death" : 11
+    },
+    "Central" : {
+      "confirmed_cases" : 129,
+      "death" : 3
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 314,
+      "death" : 16
+    },
+    "North" : {
+      "confirmed_cases" : 160,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -28
+    },
+    "South" : {
+      "confirmed_cases" : 41,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-10",
+  "recovered" : 1120,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 336,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 88,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 242,
+      "death" : 6
+    },
+    "North" : {
+      "confirmed_cases" : 109,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 11
+    },
+    "South" : {
+      "confirmed_cases" : 25,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-11",
+  "recovered" : 815,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 274,
+      "death" : 11
+    },
+    "Central" : {
+      "confirmed_cases" : 70,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 194,
+      "death" : 11
+    },
+    "North" : {
+      "confirmed_cases" : 82,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -4
+    },
+    "South" : {
+      "confirmed_cases" : 20,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-01-12",
+  "recovered" : 1311,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 252,
+      "death" : 7
+    },
+    "Central" : {
+      "confirmed_cases" : 40,
+      "death" : 6
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 255,
+      "death" : 23
+    },
+    "North" : {
+      "confirmed_cases" : 107,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -17
+    },
+    "South" : {
+      "confirmed_cases" : 18,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-13",
+  "recovered" : 1234,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 366,
+      "death" : 11
+    },
+    "Central" : {
+      "confirmed_cases" : 62,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 302,
+      "death" : 9
+    },
+    "North" : {
+      "confirmed_cases" : 125,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -30
+    },
+    "South" : {
+      "confirmed_cases" : 50,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-16",
+  "recovered" : 2545,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 894,
+      "death" : 15
+    },
+    "Central" : {
+      "confirmed_cases" : 237,
+      "death" : 4
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 775,
+      "death" : 24
+    },
+    "North" : {
+      "confirmed_cases" : 451,
+      "death" : 5
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -18
+    },
+    "South" : {
+      "confirmed_cases" : 130,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-01-17",
+  "recovered" : 1210,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 262,
+      "death" : 7
+    },
+    "Central" : {
+      "confirmed_cases" : 76,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 255,
+      "death" : 8
+    },
+    "North" : {
+      "confirmed_cases" : 109,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 3
+    },
+    "South" : {
+      "confirmed_cases" : 45,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-18",
+  "recovered" : 774,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 185,
+      "death" : 5
+    },
+    "Central" : {
+      "confirmed_cases" : 33,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 177,
+      "death" : 5
+    },
+    "North" : {
+      "confirmed_cases" : 58,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 5
+    },
+    "South" : {
+      "confirmed_cases" : 16,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-19",
+  "recovered" : 1267,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 238,
+      "death" : 7
+    },
+    "Central" : {
+      "confirmed_cases" : 40,
+      "death" : 5
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 104,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 66,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -9
+    },
+    "South" : {
+      "confirmed_cases" : 17,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-20",
+  "recovered" : 1179,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 255,
+      "death" : 7
+    },
+    "Central" : {
+      "confirmed_cases" : 48,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 253,
+      "death" : 10
+    },
+    "North" : {
+      "confirmed_cases" : 78,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 33,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2021-01-21",
+  "recovered" : 971,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 221,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 87,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 230,
+      "death" : 11
+    },
+    "North" : {
+      "confirmed_cases" : 115,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 25,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-22",
+  "recovered" : 900,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 274,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 32,
+      "death" : 3
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 194,
+      "death" : 5
+    },
+    "North" : {
+      "confirmed_cases" : 105,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 39,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-23",
+  "recovered" : 820,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 273,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 37,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 176,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 66,
+      "death" : 4
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 5
+    },
+    "South" : {
+      "confirmed_cases" : 16,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-24",
+  "recovered" : 655,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 165,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 58,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 138,
+      "death" : 16
+    },
+    "North" : {
+      "confirmed_cases" : 75,
+      "death" : 5
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 5
+    },
+    "South" : {
+      "confirmed_cases" : 22,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-25",
+  "recovered" : 889,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 279,
+      "death" : 6
+    },
+    "Central" : {
+      "confirmed_cases" : 41,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 335,
+      "death" : 17
+    },
+    "North" : {
+      "confirmed_cases" : 74,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -7
+    },
+    "South" : {
+      "confirmed_cases" : 20,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-01-26",
+  "recovered" : 1040,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 173,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 26,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 119,
+      "death" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 37,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 12,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-27",
+  "recovered" : 896,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 181,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 61,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 134,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 60,
+      "death" : 3
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -3
+    },
+    "South" : {
+      "confirmed_cases" : 26,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2021-01-28",
+  "recovered" : 616,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 191,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 38,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 121,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 78,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 32,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-29",
+  "recovered" : 765,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 223,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 67,
+      "death" : 3
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 155,
+      "death" : 9
+    },
+    "North" : {
+      "confirmed_cases" : 58,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 39,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-30",
+  "recovered" : 647,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 174,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 37,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 90,
+      "death" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 57,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 24,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-01-31",
+  "recovered" : 478,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 153,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 62,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 108,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 74,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 10
+    },
+    "South" : {
+      "confirmed_cases" : 27,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-01",
+  "recovered" : 463,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 155,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 63,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 106,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 49,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -4
+    },
+    "South" : {
+      "confirmed_cases" : 13,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-02",
+  "recovered" : 732,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 125,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 31,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 73,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 36,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -5
+    },
+    "South" : {
+      "confirmed_cases" : 8,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-02-03",
+  "recovered" : 561,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 143,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 31,
+      "death" : 3
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 63,
+      "death" : 5
+    },
+    "North" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -5
+    },
+    "South" : {
+      "confirmed_cases" : 12,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-02-04",
+  "recovered" : 580,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 242,
+      "death" : 5
+    },
+    "Central" : {
+      "confirmed_cases" : 51,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 181,
+      "death" : 5
+    },
+    "North" : {
+      "confirmed_cases" : 82,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 28,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-02-05",
+  "recovered" : 568,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 158,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 34,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 105,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 69,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -4
+    },
+    "South" : {
+      "confirmed_cases" : 34,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-06",
+  "recovered" : 477,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 143,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 62,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 74,
+      "death" : 6
+    },
+    "North" : {
+      "confirmed_cases" : 51,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 20,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-07",
+  "recovered" : 371,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 115,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 66,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 73,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 62,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 6
+    },
+    "South" : {
+      "confirmed_cases" : 29,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-08",
+  "recovered" : 314,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 108,
+      "death" : -1
+    },
+    "Central" : {
+      "confirmed_cases" : 33,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 72,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 43,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 11,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-09",
+  "recovered" : 548,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 85,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 33,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 60,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 3,
+      "death" : 3
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -9
+    },
+    "South" : {
+      "confirmed_cases" : 23,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-02-10",
+  "recovered" : 458,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 121,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 49,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 106,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 38,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 27,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-11",
+  "recovered" : 540,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 139,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 52,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 94,
+      "death" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 53,
+      "death" : 3
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 15,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2021-02-12",
+  "recovered" : 392,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 115,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 41,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 63,
+      "death" : 11
+    },
+    "North" : {
+      "confirmed_cases" : 60,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 37,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-13",
+  "recovered" : 426,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 109,
+      "death" : 6
+    },
+    "Central" : {
+      "confirmed_cases" : 43,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 89,
+      "death" : 6
+    },
+    "North" : {
+      "confirmed_cases" : 37,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 27,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2021-02-14",
+  "recovered" : 335,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 103,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 54,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 46,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 59,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 24,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-15",
+  "recovered" : 242,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 91,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 47,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 40,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 51,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 3
+    },
+    "South" : {
+      "confirmed_cases" : 19,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-16",
+  "recovered" : 483,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 89,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 25,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 58,
+      "death" : 5
+    },
+    "North" : {
+      "confirmed_cases" : 51,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 4
+    },
+    "South" : {
+      "confirmed_cases" : 36,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2021-02-17",
+  "recovered" : 406,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 103,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 51,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 80,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 33,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -4
+    },
+    "South" : {
+      "confirmed_cases" : 14,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-02-18",
+  "recovered" : 378,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 95,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 72,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 119,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 107,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -8
+    },
+    "South" : {
+      "confirmed_cases" : 30,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2021-02-19",
+  "recovered" : 365,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 98,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 75,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 78,
+      "death" : 5
+    },
+    "North" : {
+      "confirmed_cases" : 50,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 5
+    },
+    "South" : {
+      "confirmed_cases" : 19,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-02-20",
+  "recovered" : 411,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 142,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 69,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 46,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 100,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 24,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-21",
+  "recovered" : 364,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 130,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 39,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 49,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 94,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 14,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-22",
+  "recovered" : 340,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 144,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 29,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 41,
+      "death" : 9
+    },
+    "North" : {
+      "confirmed_cases" : 28,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 30,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-02-23",
+  "recovered" : 416,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 100,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 32,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 60,
+      "death" : 5
+    },
+    "North" : {
+      "confirmed_cases" : 64,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -14
+    },
+    "South" : {
+      "confirmed_cases" : 25,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2021-02-24",
+  "recovered" : 388,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 121,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 67,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 117,
+      "death" : 7
+    },
+    "North" : {
+      "confirmed_cases" : 105,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 22,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-25",
+  "recovered" : 452,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 103,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 46,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 96,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 139,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 4
+    },
+    "South" : {
+      "confirmed_cases" : 11,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-02-26",
+  "recovered" : 332,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 120,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 46,
+      "death" : 5
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 109,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 54,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 25,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-02-27",
+  "recovered" : 368,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 146,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 33,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 88,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 110,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 6
+    },
+    "South" : {
+      "confirmed_cases" : 32,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-02-28",
+  "recovered" : 260,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 108,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 17,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 87,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 61,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 27,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-01",
+  "recovered" : 199,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 91,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 31,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 70,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 68,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 32,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-02",
+  "recovered" : 298,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 107,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 21,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 75,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 40,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -3
+    },
+    "South" : {
+      "confirmed_cases" : 17,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-03",
+  "recovered" : 372,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 150,
+      "death" : 6
+    },
+    "Central" : {
+      "confirmed_cases" : 35,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 103,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 81,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 31,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2021-03-04",
+  "recovered" : 358,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 131,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 23,
+      "death" : 3
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 101,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 60,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -7
+    },
+    "South" : {
+      "confirmed_cases" : 23,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-05",
+  "recovered" : 383,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 145,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 56,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 87,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 93,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 4
+    },
+    "South" : {
+      "confirmed_cases" : 26,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-06",
+  "recovered" : 330,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 120,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 32,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 93,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 54,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 3
+    },
+    "South" : {
+      "confirmed_cases" : 39,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-08",
+  "recovered" : 592,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 193,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 41,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 144,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 135,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 67,
+      "death" : 3
+    }
+  }
+}, {
+  "date" : "2021-03-09",
+  "recovered" : 412,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 94,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 22,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 86,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 27,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -5
+    },
+    "South" : {
+      "confirmed_cases" : 31,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2021-03-10",
+  "recovered" : 404,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 143,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 55,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 85,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 67,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 47,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-11",
+  "recovered" : 334,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 135,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 43,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 73,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 57,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -8
+    },
+    "South" : {
+      "confirmed_cases" : 64,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-03-12",
+  "recovered" : 365,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 157,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 37,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 90,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 82,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 6
+    },
+    "South" : {
+      "confirmed_cases" : 55,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-13",
+  "recovered" : 421,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 180,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 62,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 92,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 61,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 10
+    },
+    "South" : {
+      "confirmed_cases" : 67,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-14",
+  "recovered" : 279,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 148,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 37,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 80,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 54,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 1
+    },
+    "South" : {
+      "confirmed_cases" : 68,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-15",
+  "recovered" : 247,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 136,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 25,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 76,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 74,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -4
+    },
+    "South" : {
+      "confirmed_cases" : 57,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-03-16",
+  "recovered" : 387,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 175,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 15,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 80,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 30,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 2
+    },
+    "South" : {
+      "confirmed_cases" : 53,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-03-17",
+  "recovered" : 333,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 198,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 50,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 114,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 71,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -5
+    },
+    "South" : {
+      "confirmed_cases" : 51,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-03-18",
+  "recovered" : 338,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 220,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 48,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 141,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 49,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 5
+    },
+    "South" : {
+      "confirmed_cases" : 42,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-03-19",
+  "recovered" : 351,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 307,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 94,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 163,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 72,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 3
+    },
+    "South" : {
+      "confirmed_cases" : 57,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-20",
+  "recovered" : 363,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 238,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 49,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 97,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 67,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 15
+    },
+    "South" : {
+      "confirmed_cases" : 90,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-03-21",
+  "recovered" : 200,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 243,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 58,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 111,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 71,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 74,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-22",
+  "recovered" : 246,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 241,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 33,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 88,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 51,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 43,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-03-23",
+  "recovered" : 407,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 256,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 37,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 79,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 37,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -6
+    },
+    "South" : {
+      "confirmed_cases" : 62,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-24",
+  "recovered" : 387,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 318,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 48,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 167,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 105,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 6
+    },
+    "South" : {
+      "confirmed_cases" : 48,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-25",
+  "recovered" : 460,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 347,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 91,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 142,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 99,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 9
+    },
+    "South" : {
+      "confirmed_cases" : 76,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-03-27",
+  "recovered" : 850,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 659,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 131,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 283,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 159,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 5
+    },
+    "South" : {
+      "confirmed_cases" : 148,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-28",
+  "recovered" : 309,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 284,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 55,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 176,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 64,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -1
+    },
+    "South" : {
+      "confirmed_cases" : 66,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-29",
+  "recovered" : 321,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 294,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 45,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 90,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 64,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 5
+    },
+    "South" : {
+      "confirmed_cases" : 47,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-03-31",
+  "recovered" : 1012,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 632,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 107,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 347,
+      "death" : 3
+    },
+    "North" : {
+      "confirmed_cases" : 220,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -5
+    },
+    "South" : {
+      "confirmed_cases" : 146,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-04-01",
+  "recovered" : 568,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 398,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 81,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 180,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 127,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 18
+    },
+    "South" : {
+      "confirmed_cases" : 71,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-04-05",
+  "recovered" : 2054,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1914,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 303,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 894,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 553,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 52
+    },
+    "South" : {
+      "confirmed_cases" : 271,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-04-07",
+  "recovered" : 1396,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1071,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 201,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 587,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 321,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 4
+    },
+    "South" : {
+      "confirmed_cases" : 98,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-04-08",
+  "recovered" : 703,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 639,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 92,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 390,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 184,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 0
+    },
+    "South" : {
+      "confirmed_cases" : 124,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-04-09",
+  "recovered" : 647,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 677,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 161,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 395,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 185,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 14
+    },
+    "South" : {
+      "confirmed_cases" : 89,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-04-10",
+  "recovered" : 660,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 585,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 135,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 306,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 193,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 3
+    },
+    "South" : {
+      "confirmed_cases" : 71,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-04-11",
+  "recovered" : 576,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 520,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 139,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 320,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 142,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 8
+    },
+    "South" : {
+      "confirmed_cases" : 54,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-04-12",
+  "recovered" : 575,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 497,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 114,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 284,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 172,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 11
+    },
+    "South" : {
+      "confirmed_cases" : 58,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-04-13",
+  "recovered" : 840,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 493,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 116,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 253,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 147,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 17
+    },
+    "South" : {
+      "confirmed_cases" : 55,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-04-14",
+  "recovered" : 922,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 678,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 157,
+      "death" : 3
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 468,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 235,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -184
+    },
+    "South" : {
+      "confirmed_cases" : 58,
+      "death" : 1
+    }
+  }
+}, {
+  "date" : "2021-04-17",
+  "recovered" : 3002,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1940,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 565,
+      "death" : 2
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1291,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 743,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -7
+    },
+    "South" : {
+      "confirmed_cases" : 216,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2021-04-18",
+  "recovered" : 885,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 689,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 192,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 396,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 167,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 20
+    },
+    "South" : {
+      "confirmed_cases" : 52,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2021-04-19",
+  "recovered" : 899,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 594,
+      "death" : 1
+    },
+    "Central" : {
+      "confirmed_cases" : 141,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 307,
+      "death" : 0
+    },
+    "North" : {
+      "confirmed_cases" : 267,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -3
+    },
+    "South" : {
+      "confirmed_cases" : 85,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-04-20",
+  "recovered" : 1283,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 647,
+      "death" : 0
+    },
+    "Central" : {
+      "confirmed_cases" : 111,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 360,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 144,
+      "death" : 1
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -2
+    },
+    "South" : {
+      "confirmed_cases" : 85,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-04-22",
+  "recovered" : 2849,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1541,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 352,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 1008,
+      "death" : 2
+    },
+    "North" : {
+      "confirmed_cases" : 529,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : -48
+    },
+    "South" : {
+      "confirmed_cases" : 174,
+      "death" : 2
+    }
+  }
+}, {
+  "date" : "2021-04-23",
+  "recovered" : 1421,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 691,
+      "death" : 3
+    },
+    "Central" : {
+      "confirmed_cases" : 166,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 541,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 208,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 11
+    },
+    "South" : {
+      "confirmed_cases" : 74,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-04-24",
+  "recovered" : 1331,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 480,
+      "death" : 4
+    },
+    "Central" : {
+      "confirmed_cases" : 210,
+      "death" : 0
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 570,
+      "death" : 1
+    },
+    "North" : {
+      "confirmed_cases" : 248,
+      "death" : 0
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 19
+    },
+    "South" : {
+      "confirmed_cases" : 64,
+      "death" : 0
+    }
+  }
+}, {
+  "date" : "2021-04-26",
+  "recovered" : 2014,
+  "summary" : "",
+  "zones" : {
+    "Calgary" : {
+      "confirmed_cases" : 1099,
+      "death" : 2
+    },
+    "Central" : {
+      "confirmed_cases" : 450,
+      "death" : 1
+    },
+    "Edmonton" : {
+      "confirmed_cases" : 815,
+      "death" : 4
+    },
+    "North" : {
+      "confirmed_cases" : 405,
+      "death" : 2
+    },
+    "Not yet identified" : {
+      "confirmed_cases" : 5
+    },
+    "South" : {
+      "confirmed_cases" : 158,
+      "death" : 1
+    }
+  }
+} ]
